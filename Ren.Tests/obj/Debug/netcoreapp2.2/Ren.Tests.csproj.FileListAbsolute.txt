@@ -1,0 +1,14 @@
+C:\dev\EstagioRen\Ren.Tests\bin\Debug\netcoreapp2.2\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\dev\EstagioRen\Ren.Tests\bin\Debug\netcoreapp2.2\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\dev\EstagioRen\Ren.Tests\bin\Debug\netcoreapp2.2\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\dev\EstagioRen\Ren.Tests\bin\Debug\netcoreapp2.2\Ren.Tests.deps.json
+C:\dev\EstagioRen\Ren.Tests\bin\Debug\netcoreapp2.2\Ren.Tests.runtimeconfig.json
+C:\dev\EstagioRen\Ren.Tests\bin\Debug\netcoreapp2.2\Ren.Tests.runtimeconfig.dev.json
+C:\dev\EstagioRen\Ren.Tests\bin\Debug\netcoreapp2.2\Ren.Tests.dll
+C:\dev\EstagioRen\Ren.Tests\bin\Debug\netcoreapp2.2\Ren.Tests.pdb
+C:\dev\EstagioRen\Ren.Tests\obj\Debug\netcoreapp2.2\Ren.Tests.csprojAssemblyReference.cache
+C:\dev\EstagioRen\Ren.Tests\obj\Debug\netcoreapp2.2\Ren.Tests.csproj.CoreCompileInputs.cache
+C:\dev\EstagioRen\Ren.Tests\obj\Debug\netcoreapp2.2\Ren.Tests.AssemblyInfoInputs.cache
+C:\dev\EstagioRen\Ren.Tests\obj\Debug\netcoreapp2.2\Ren.Tests.AssemblyInfo.cs
+C:\dev\EstagioRen\Ren.Tests\obj\Debug\netcoreapp2.2\Ren.Tests.dll
+C:\dev\EstagioRen\Ren.Tests\obj\Debug\netcoreapp2.2\Ren.Tests.pdb

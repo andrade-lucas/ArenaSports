@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\dev\\EstagioRen\\Ren.Tests\\Ren.Tests.csproj": {}
+    "C:\\dev\\EstagioRen\\Ren.Tests\\Ren.Tests.csproj": {}
   },
   "projects": {
-    "c:\\dev\\EstagioRen\\Ren.Tests\\Ren.Tests.csproj": {
+    "C:\\dev\\EstagioRen\\Ren.Tests\\Ren.Tests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\dev\\EstagioRen\\Ren.Tests\\Ren.Tests.csproj",
+        "projectUniqueName": "C:\\dev\\EstagioRen\\Ren.Tests\\Ren.Tests.csproj",
         "projectName": "Ren.Tests",
-        "projectPath": "c:\\dev\\EstagioRen\\Ren.Tests\\Ren.Tests.csproj",
+        "projectPath": "C:\\dev\\EstagioRen\\Ren.Tests\\Ren.Tests.csproj",
         "packagesPath": "C:\\Users\\LUCAS\\.nuget\\packages\\",
-        "outputPath": "c:\\dev\\EstagioRen\\Ren.Tests\\obj\\",
+        "outputPath": "C:\\dev\\EstagioRen\\Ren.Tests\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

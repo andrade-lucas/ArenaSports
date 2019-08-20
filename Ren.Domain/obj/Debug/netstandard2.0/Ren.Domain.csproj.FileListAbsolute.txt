@@ -1,0 +1,9 @@
+C:\dev\EstagioRen\Ren.Domain\bin\Debug\netstandard2.0\Ren.Domain.deps.json
+C:\dev\EstagioRen\Ren.Domain\bin\Debug\netstandard2.0\Ren.Domain.dll
+C:\dev\EstagioRen\Ren.Domain\bin\Debug\netstandard2.0\Ren.Domain.pdb
+C:\dev\EstagioRen\Ren.Domain\obj\Debug\netstandard2.0\Ren.Domain.csprojAssemblyReference.cache
+C:\dev\EstagioRen\Ren.Domain\obj\Debug\netstandard2.0\Ren.Domain.csproj.CoreCompileInputs.cache
+C:\dev\EstagioRen\Ren.Domain\obj\Debug\netstandard2.0\Ren.Domain.AssemblyInfoInputs.cache
+C:\dev\EstagioRen\Ren.Domain\obj\Debug\netstandard2.0\Ren.Domain.AssemblyInfo.cs
+C:\dev\EstagioRen\Ren.Domain\obj\Debug\netstandard2.0\Ren.Domain.dll
+C:\dev\EstagioRen\Ren.Domain\obj\Debug\netstandard2.0\Ren.Domain.pdb
