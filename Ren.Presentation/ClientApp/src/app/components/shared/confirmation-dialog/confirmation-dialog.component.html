@@ -1,0 +1,20 @@
+<div class="modal fade" id="confirmDelete" tabindex="-1" role="dialog" aria-labelledby="confirmation"
+    aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-body">
+                <div class="text-center">
+                    <h1 class="text-danger"><i class="fa fa-exclamation-circle delete-icon-size"></i></h1>
+                    <h4>Tem certeza que deseja deletar este registro?</h4>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <div class="text-center">
+                    <button (click)="confirm()" type="button" class="btn btn-danger"
+                        data-dismiss="modal">Deletar</button>
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancelar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

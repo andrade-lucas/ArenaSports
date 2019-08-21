@@ -28,8 +28,7 @@ namespace Ren.Presentation.Controllers
             _tokenConfigurations = tokenConfigurations;
         }
 
-                [HttpPost]
-        [AllowAnonymous]
+        [HttpPost]
         [Route("v1/auth/login")]
         public object Login([FromBody] AuthCommand command)
         {

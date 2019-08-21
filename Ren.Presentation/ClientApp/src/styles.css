@@ -1,1 +1,36 @@
-/* You can add global styles to this file, and also import other style files */
+.btn-new {
+    margin-top: 20px;
+}
+.margin-top-20 {
+    margin-top: 20px;
+}
+.margin-bottom-20 {
+    margin-bottom: 20px;
+}
+.margin-bottom-10 {
+    margin-bottom: 10px;
+}
+.uk-form-danger {
+    border-color: #f55549;
+    color: #f55549;
+}
+.uk-form-danger:focus {
+    border-color: #f55549;
+    color: #f55549;
+}
+.delete-icon-size {
+  font-size: 60px;
+}
+
+/* image */
+.shower-selected-image {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 100px;
+  max-height: 170px;
+  margin: auto;
+  text-align: center;
+}
+.image-full {
+  width: 100%;
+  height: 100%;
+}
