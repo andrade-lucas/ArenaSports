@@ -1,6 +1,7 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { ReactiveFormsModule } from '@angular/forms'
+import { HttpClientModule } from '@angular/common/http';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -11,6 +12,7 @@ import { DashboardPageComponent } from './pages/Environment/dashboard-page/dashb
 import { LoginPageComponent } from './pages/account/login-page/login-page.component';
 import { ConfirmationDialogComponent } from './components/shared/confirmation-dialog/confirmation-dialog.component';
 import { LoadingComponent } from './components/shared/loading/loading.component';
+import { RegisterPageComponent } from './pages/account/register-page/register-page.component';
 
 @NgModule({
   declarations: [
@@ -21,12 +23,14 @@ import { LoadingComponent } from './components/shared/loading/loading.component'
     DashboardPageComponent,
     LoginPageComponent,
     ConfirmationDialogComponent,
-    LoadingComponent
+    LoadingComponent,
+    RegisterPageComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]

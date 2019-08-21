@@ -1,5 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { FormGroup, FormBuilder, Validators } from '@angular/forms';
+import { AuthService } from 'src/app/services/auth.service';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-login-page',
@@ -10,7 +12,7 @@ export class LoginPageComponent implements OnInit {
   public busy: Boolean = false;
   public form: FormGroup;
 
-  constructor(private fb: FormBuilder) {
+  constructor(private service: AuthService, private router: Router, private fb: FormBuilder) {
     this.form = this.fb.group({
       email: ['', Validators.compose([
         Validators.required,
@@ -22,12 +24,24 @@ export class LoginPageComponent implements OnInit {
         Validators.maxLength(20)
       ])]
     })
-   }
+  }
 
   ngOnInit() {
   }
 
   submit() {
     this.busy = true;
+    this.service.register(this.form.value).subscribe(
+      (data: any) => {
+        if (data.status) {
+          //this.toastr.success(data.message, 'Sucesso');
+          this.router.navigate(['login']);
+        }
+        else
+          console.log('Erro');
+        //this.toastr.error(data.message, 'Erro');
+      }
+    )
+    this.busy = false;
   }
 }

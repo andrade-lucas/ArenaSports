@@ -5,7 +5,7 @@ namespace Ren.Domain.Queries.Users
 {
     public class GetUserByIdQuery
     {
-        public Guid ID { get; set; }
+        public Guid Id { get; set; }
         public string FirstName { get; set; }
         public string LastName { get; set; }
         public string Document { get; set; }

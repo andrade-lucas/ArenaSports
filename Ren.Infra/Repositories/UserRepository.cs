@@ -62,6 +62,7 @@ namespace Ren.Infra.Repositories
                     firstName = command.FirstName,
                     lastName = command.LastName,
                     phone = command.Phone,
+                    status = command.Status,
                     email = command.Email,
                     password = command.Password,
                     image = command.Image
@@ -94,7 +95,7 @@ namespace Ren.Infra.Repositories
         public AuthQuery Login(AuthCommand command)
         {
             return _db.Connection().Query<AuthQuery>(
-                "AuthQuery",
+                "spAuthUser",
                 new
                 {
                     email = command.Email,
