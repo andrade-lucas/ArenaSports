@@ -7,3 +7,8 @@ C:\dev\EstagioRen\Ren.Infra\obj\Debug\netstandard2.0\Ren.Infra.AssemblyInfoInput
 C:\dev\EstagioRen\Ren.Infra\obj\Debug\netstandard2.0\Ren.Infra.AssemblyInfo.cs
 C:\dev\EstagioRen\Ren.Infra\obj\Debug\netstandard2.0\Ren.Infra.dll
 C:\dev\EstagioRen\Ren.Infra\obj\Debug\netstandard2.0\Ren.Infra.pdb
+C:\dev\EstagioRen\Ren.Infra\bin\Debug\netstandard2.0\Ren.Domain.dll
+C:\dev\EstagioRen\Ren.Infra\bin\Debug\netstandard2.0\Ren.Shared.dll
+C:\dev\EstagioRen\Ren.Infra\bin\Debug\netstandard2.0\Ren.Domain.pdb
+C:\dev\EstagioRen\Ren.Infra\bin\Debug\netstandard2.0\Ren.Shared.pdb
+C:\dev\EstagioRen\Ren.Infra\obj\Debug\netstandard2.0\Ren.Infra.csproj.CopyComplete

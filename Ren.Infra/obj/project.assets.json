@@ -1639,7 +1639,7 @@
   },
   "projectFileDependencyGroups": {
     ".NETStandard,Version=v2.0": [
-      "Dapper",
+      "Dapper >= 1.60.9",
       "NETStandard.Library >= 2.0.3",
       "Ren.Domain >= 1.0.0",
       "System.Data.SqlClient >= 4.6.1"
@@ -1692,7 +1692,7 @@
         "dependencies": {
           "Dapper": {
             "target": "Package",
-            "version": "(, )"
+            "version": "[1.60.9, )"
           },
           "NETStandard.Library": {
             "suppressParent": "All",

@@ -107,7 +107,7 @@
           "dependencies": {
             "Dapper": {
               "target": "Package",
-              "version": "(, )"
+              "version": "[1.60.9, )"
             },
             "NETStandard.Library": {
               "suppressParent": "All",

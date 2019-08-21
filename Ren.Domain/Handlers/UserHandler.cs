@@ -67,7 +67,7 @@ namespace Ren.Domain.Handlers
             if (Invalid)
                 return new CommandResult("Verifique se todos os campos estão corretos", false, Notifications);
 
-            var user = _repository.Login(command);
+            var user = _repository.Login(new AuthCommand(email.Address, password.Value));
             if (user == null)
                 return new CommandResult("Usuário não encontrado", false, null);
 

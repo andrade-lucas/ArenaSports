@@ -6,5 +6,11 @@ namespace Ren.Domain.Commands.Inputs.Users
     {
         public string Email { get; set; }
         public string Password { get; set; }
+
+        public AuthCommand(string email, string password)
+        {
+            Email = email;
+            Password = password;
+        }
     }
 }

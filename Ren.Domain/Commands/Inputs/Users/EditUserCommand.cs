@@ -5,7 +5,7 @@ namespace Ren.Domain.Commands.Inputs.Users
 {
     public class EditUserCommand : ICommand
     {
-        public Guid ID = Guid.NewGuid();
+        public Guid Id = Guid.NewGuid();
         public string FirstName { get; set; }
         public string LastName { get; set; }
         public string Phone { get; set; }
