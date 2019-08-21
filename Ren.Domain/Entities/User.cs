@@ -1,9 +1,10 @@
 using Ren.Domain.Enums;
 using Ren.Domain.ValueObjects;
+using Ren.Shared.Entities;
 
 namespace Ren.Domain.Entities
 {
-    public class User
+    public class User : Entity
     {
         public Name Name { get; private set; }
         public Document Document { get; private set; }

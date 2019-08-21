@@ -37,6 +37,19 @@
         "build": {
           "build/netstandard2.0/NETStandard.Library.targets": {}
         }
+      },
+      "Ren.Shared/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "FluentValidator": "2.0.4"
+        },
+        "compile": {
+          "bin/placeholder/Ren.Shared.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Ren.Shared.dll": {}
+        }
       }
     }
   },
@@ -195,12 +208,18 @@
         "netstandard.library.2.0.3.nupkg.sha512",
         "netstandard.library.nuspec"
       ]
+    },
+    "Ren.Shared/1.0.0": {
+      "type": "project",
+      "path": "../Ren.Shared/Ren.Shared.csproj",
+      "msbuildProject": "../Ren.Shared/Ren.Shared.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETStandard,Version=v2.0": [
       "FluentValidator >= 2.0.4",
-      "NETStandard.Library >= 2.0.3"
+      "NETStandard.Library >= 2.0.3",
+      "Ren.Shared >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -210,11 +229,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\dev\\EstagioRen\\Ren.Domain\\Ren.Domain.csproj",
+      "projectUniqueName": "C:\\dev\\EstagioRen\\Ren.Domain\\Ren.Domain.csproj",
       "projectName": "Ren.Domain",
-      "projectPath": "c:\\dev\\EstagioRen\\Ren.Domain\\Ren.Domain.csproj",
+      "projectPath": "C:\\dev\\EstagioRen\\Ren.Domain\\Ren.Domain.csproj",
       "packagesPath": "C:\\Users\\LUCAS\\.nuget\\packages\\",
-      "outputPath": "c:\\dev\\EstagioRen\\Ren.Domain\\obj\\",
+      "outputPath": "C:\\dev\\EstagioRen\\Ren.Domain\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -232,7 +251,11 @@
       },
       "frameworks": {
         "netstandard2.0": {
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\dev\\EstagioRen\\Ren.Shared\\Ren.Shared.csproj": {
+              "projectPath": "C:\\dev\\EstagioRen\\Ren.Shared\\Ren.Shared.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
