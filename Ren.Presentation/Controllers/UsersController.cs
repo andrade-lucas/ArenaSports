@@ -10,7 +10,7 @@ using Microsoft.AspNetCore.Authorization;
 
 namespace Ren.Presentation.Controllers
 {
-    [Authorize]
+    // [Authorize]
     public class UsersController : Controller
     {
         private readonly IUserRepository _repository;

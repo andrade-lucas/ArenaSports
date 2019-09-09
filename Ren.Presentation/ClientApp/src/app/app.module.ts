@@ -2,6 +2,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { ReactiveFormsModule } from '@angular/forms'
 import { HttpClientModule } from '@angular/common/http';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -13,6 +14,8 @@ import { LoginPageComponent } from './pages/account/login-page/login-page.compon
 import { ConfirmationDialogComponent } from './components/shared/confirmation-dialog/confirmation-dialog.component';
 import { LoadingComponent } from './components/shared/loading/loading.component';
 import { RegisterPageComponent } from './pages/account/register-page/register-page.component';
+import { ToastrModule } from 'ngx-toastr';
+import { UsersPageComponent } from './pages/Environment/users-page/users-page.component';
 
 @NgModule({
   declarations: [
@@ -24,13 +27,16 @@ import { RegisterPageComponent } from './pages/account/register-page/register-pa
     LoginPageComponent,
     ConfirmationDialogComponent,
     LoadingComponent,
-    RegisterPageComponent
+    RegisterPageComponent,
+    UsersPageComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     ReactiveFormsModule,
-    HttpClientModule
+    HttpClientModule,
+    BrowserAnimationsModule,
+    ToastrModule.forRoot()
   ],
   providers: [],
   bootstrap: [AppComponent]

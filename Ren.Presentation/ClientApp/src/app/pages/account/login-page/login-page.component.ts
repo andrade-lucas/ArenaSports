@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { FormGroup, FormBuilder, Validators } from '@angular/forms';
 import { AuthService } from 'src/app/services/auth.service';
 import { Router } from '@angular/router';
+import { ToastrService } from 'ngx-toastr';
 
 @Component({
   selector: 'app-login-page',
@@ -12,7 +13,7 @@ export class LoginPageComponent implements OnInit {
   public busy: Boolean = false;
   public form: FormGroup;
 
-  constructor(private service: AuthService, private router: Router, private fb: FormBuilder) {
+  constructor(private service: AuthService, private toastr: ToastrService, private router: Router, private fb: FormBuilder) {
     this.form = this.fb.group({
       email: ['', Validators.compose([
         Validators.required,
@@ -34,12 +35,12 @@ export class LoginPageComponent implements OnInit {
     this.service.register(this.form.value).subscribe(
       (data: any) => {
         if (data.status) {
-          //this.toastr.success(data.message, 'Sucesso');
+          this.toastr.success(data.message, 'Sucesso');
           this.router.navigate(['login']);
         }
         else
           console.log('Erro');
-        //this.toastr.error(data.message, 'Erro');
+        this.toastr.error(data.message, 'Erro');
       }
     )
     this.busy = false;

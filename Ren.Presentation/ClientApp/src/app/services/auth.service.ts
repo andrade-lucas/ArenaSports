@@ -13,11 +13,11 @@ export class AuthService {
     }
     
     canActivate() {
-      const token = Security.hasToken();
-      if (!token) {
-        this.router.navigate(['account/login']);
-        return false;
-      }
+      // const token = Security.hasToken();
+      // if (!token) {
+      //   this.router.navigate(['account/login']);
+      //   return false;
+      // }
       return true;
     }
   
