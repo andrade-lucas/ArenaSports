@@ -1,14 +1,14 @@
-import { UserAuth } from '../models/authUser.model';
+import { UserAuthModel } from '../models/authUser.model';
 
 export class Security {
-    public static set(user: UserAuth, token: string) {
+    public static set(user: UserAuthModel, token: string) {
         const data = JSON.stringify(user);
 
         localStorage.setItem('ren.user', btoa(data));
         localStorage.setItem('ren.token', token);
     }
 
-    public static setUser(user: UserAuth) {
+    public static setUser(user: UserAuthModel) {
         const data = JSON.stringify(user);
         localStorage.setItem('ren.user', btoa(data));
     }

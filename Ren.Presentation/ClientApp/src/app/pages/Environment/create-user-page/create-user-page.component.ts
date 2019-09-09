@@ -1,19 +1,20 @@
 import { Component, OnInit } from '@angular/core';
 import { FormGroup, FormBuilder, Validators } from '@angular/forms';
-import { AuthService } from 'src/app/services/auth.service';
 import { Router } from '@angular/router';
+import { UserService } from 'src/app/services/user.service';
+import { ToastrService } from 'ngx-toastr';
 
 @Component({
-  selector: 'app-register-page',
-  templateUrl: './register-page.component.html',
-  styleUrls: ['./register-page.component.css']
+  selector: 'app-create-user-page',
+  templateUrl: './create-user-page.component.html',
+  styleUrls: ['./create-user-page.component.css']
 })
-export class RegisterPageComponent implements OnInit {
+export class CreateUserPageComponent implements OnInit {
   public form: FormGroup;
-  public imageSrc = 'assets/img/user-medium.png';
+  public imageSrc = 'https://kprofiles.com/wp-content/uploads/2019/04/Jungah-Marriage.png';
   imgURL: any;
 
-  constructor(private service: AuthService, private router: Router, private fb: FormBuilder) { 
+  constructor(private router: Router, private service: UserService, private fb: FormBuilder, private toastr: ToastrService) {
     this.form = this.fb.group({
       firstName: ['', Validators.compose([
         Validators.minLength(2),
@@ -41,9 +42,10 @@ export class RegisterPageComponent implements OnInit {
         Validators.required
       ])],
       phone: [''],
+      status: ['', Validators.required],
       image: ['']
     });
-  }
+   }
 
   ngOnInit() {
   }
@@ -52,7 +54,7 @@ export class RegisterPageComponent implements OnInit {
     const file = event.target.files[0];
     var mimeType = file.type;
     if (mimeType.match(/image\/*/) == null) {
-      //this.toastr.error('Por favor, selecione um arquivo de imagem', 'Formato Incorreto');
+      this.toastr.error('Por favor, selecione um arquivo de imagem', 'Formato Incorreto');
       return;
     }
     var reader = new FileReader();
@@ -62,17 +64,16 @@ export class RegisterPageComponent implements OnInit {
     }
   }
 
-  // submit() {
-  //   this.service.register(this.form.value).subscribe(
-  //     (data: any) => {
-  //       if (data.status) {
-  //         this.toastr.success(data.message, 'Sucesso');
-  //         this.router.navigate(['account/login']);
-  //       }
-  //       else
-  //         console.log('Erro');
-  //         this.toastr.error(data.message, 'Erro');
-  //     }
-  //   )
-  // }
+  submit() {
+    this.service.post(this.form.value).subscribe(
+      (data: any) => {
+        if (data.status) {
+          this.toastr.success(data.message, 'Sucesso');
+          this.router.navigate(['/users']);
+        }
+        else
+          this.toastr.error(data.message, 'Erro');
+      }
+    )
+  }
 }

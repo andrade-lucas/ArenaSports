@@ -3,6 +3,7 @@ import { Security } from '../utils/security.util';
 import { AppHeader } from '../utils/header.util';
 import { Router } from '@angular/router';
 import { Injectable } from '@angular/core';
+import { UserAuthModel } from '../models/authUser.model';
 
 @Injectable({
   providedIn: 'root'
@@ -13,23 +14,15 @@ export class AuthService {
     }
     
     canActivate() {
-      // const token = Security.hasToken();
-      // if (!token) {
-      //   this.router.navigate(['account/login']);
-      //   return false;
-      // }
+      const token = Security.hasToken();
+      if (!token) {
+        this.router.navigate(['account/login']);
+        return false;
+      }
       return true;
     }
   
-    public login(data: any) {
+    public login(data: UserAuthModel) {
       return this.http.post(`${AppHeader.url}/account/login`, data);
-    }
-  
-    public refreshToken() {
-      return this.http.post(`${AppHeader.url}/account/refreshToken`, null, { headers: AppHeader.composeHeader() });
-    }
-
-    public register(data: any) {
-      return this.http.post(`${AppHeader.url}/account/register`, data, { headers: AppHeader.composeHeader() });
     }
 }

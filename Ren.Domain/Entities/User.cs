@@ -18,7 +18,7 @@ namespace Ren.Domain.Entities
         {
             Name = name;
             Document = document;
-            Phone = phone.Trim().Replace("(", "").Replace(")", "").Replace("-", "").Replace(" ", "");
+            Phone = phone;
             Status = EUserStatus.Active;
             Email = email;
             Password = password;

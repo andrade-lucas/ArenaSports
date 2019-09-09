@@ -94,7 +94,7 @@ namespace Ren.Infra.Repositories
 
         public AuthQuery Login(AuthCommand command)
         {
-            return _db.Connection().Query<AuthQuery>(
+            var a = _db.Connection().Query<AuthQuery>(
                 "spAuthUser",
                 new
                 {
@@ -103,6 +103,7 @@ namespace Ren.Infra.Repositories
                 },
                 commandType: CommandType.StoredProcedure
             ).FirstOrDefault();
+            return a;
         }
     }
 }

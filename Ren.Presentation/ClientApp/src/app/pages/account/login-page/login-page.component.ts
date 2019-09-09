@@ -3,6 +3,7 @@ import { FormGroup, FormBuilder, Validators } from '@angular/forms';
 import { AuthService } from 'src/app/services/auth.service';
 import { Router } from '@angular/router';
 import { ToastrService } from 'ngx-toastr';
+import { Security } from 'src/app/utils/security.util';
 
 @Component({
   selector: 'app-login-page',
@@ -32,17 +33,21 @@ export class LoginPageComponent implements OnInit {
 
   submit() {
     this.busy = true;
-    this.service.register(this.form.value).subscribe(
+    this.service.login(this.form.value).subscribe(
       (data: any) => {
         if (data.status) {
           this.toastr.success(data.message, 'Sucesso');
-          this.router.navigate(['login']);
+          this.setUser(data.user.data, data.accessToken);
         }
         else
-          console.log('Erro');
-        this.toastr.error(data.message, 'Erro');
+          this.toastr.error(data.message, 'Erro');
       }
     )
     this.busy = false;
+  }
+
+  setUser(user, token) {
+    Security.set(user, token);
+    this.router.navigate(['/']);
   }
 }

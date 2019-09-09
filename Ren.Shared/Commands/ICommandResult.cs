@@ -2,8 +2,8 @@ namespace Ren.Shared.Commands
 {
     public interface ICommandResult
     {
-        string message { get; set; }
-        bool status { get; set; }
-        object data { get; set; }
+        string Message { get; set; }
+        bool Status { get; set; }
+        object Data { get; set; }
     }
 }

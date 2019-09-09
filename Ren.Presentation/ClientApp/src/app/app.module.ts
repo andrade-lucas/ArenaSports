@@ -16,6 +16,7 @@ import { LoadingComponent } from './components/shared/loading/loading.component'
 import { RegisterPageComponent } from './pages/account/register-page/register-page.component';
 import { ToastrModule } from 'ngx-toastr';
 import { UsersPageComponent } from './pages/Environment/users-page/users-page.component';
+import { CreateUserPageComponent } from './pages/Environment/create-user-page/create-user-page.component';
 
 @NgModule({
   declarations: [
@@ -28,7 +29,8 @@ import { UsersPageComponent } from './pages/Environment/users-page/users-page.co
     ConfirmationDialogComponent,
     LoadingComponent,
     RegisterPageComponent,
-    UsersPageComponent
+    UsersPageComponent,
+    CreateUserPageComponent
   ],
   imports: [
     BrowserModule,

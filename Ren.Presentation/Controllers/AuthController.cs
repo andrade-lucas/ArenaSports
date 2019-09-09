@@ -9,7 +9,6 @@ using Ren.Domain.Commands.Inputs.Users;
 using Ren.Domain.Handlers;
 using Ren.Domain.Repositories;
 using Ren.Presentation.Configurations;
-using Ren.Shared.Commands;
 
 namespace Ren.Presentation.Controllers
 {
@@ -21,7 +20,7 @@ namespace Ren.Presentation.Controllers
         private readonly SigningConfigurations _signingConfigurations;
         private readonly TokenConfigurations _tokenConfigurations;
 
-        public AuthController(IUserRepository repository, UserHandler handler, SigningConfigurations signingConfigurations, TokenConfigurations tokenConfigurations)
+        public AuthController(IUserRepository repository, SigningConfigurations signingConfigurations, TokenConfigurations tokenConfigurations)
         {
             _repository = repository;
             _handler = new UserHandler(_repository);
@@ -79,13 +78,6 @@ namespace Ren.Presentation.Controllers
                     message = "Usuário não encontrado, por favor verifique se os dados estão corretos"
                 };
             }
-        }
-
-        [HttpPost]
-        [Route("v1/account/register")]
-        public ICommandResult Post([FromBody]CreateUserCommand command)
-        {
-            return _handler.Handle(command);
         }
     }
 }

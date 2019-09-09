@@ -1,4 +1,7 @@
 import { Component, OnInit } from '@angular/core';
+import { Security } from 'src/app/utils/security.util';
+import { ToastrService } from 'ngx-toastr';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-navbar',
@@ -7,9 +10,14 @@ import { Component, OnInit } from '@angular/core';
 })
 export class NavbarComponent implements OnInit {
 
-  constructor() { }
+  constructor(private toastr: ToastrService, private router: Router) { }
 
   ngOnInit() {
   }
 
+  logout() {
+    Security.clear();
+    this.toastr.info('Volte sempre', 'Sessão Encerrada');
+    this.router.navigate(['account/login']);
+  }
 }

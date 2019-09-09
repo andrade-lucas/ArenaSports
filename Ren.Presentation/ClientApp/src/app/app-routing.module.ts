@@ -4,6 +4,8 @@ import { FramePageComponent } from './pages/master/frame-page/frame-page.compone
 import { DashboardPageComponent } from './pages/Environment/dashboard-page/dashboard-page.component';
 import { LoginPageComponent } from './pages/account/login-page/login-page.component';
 import { AuthService } from './services/auth.service';
+import { UsersPageComponent } from './pages/Environment/users-page/users-page.component';
+import { CreateUserPageComponent } from './pages/Environment/create-user-page/create-user-page.component';
 
 const routes: Routes = [
   {
@@ -11,7 +13,16 @@ const routes: Routes = [
     canActivate: [AuthService],
     component: FramePageComponent,
     children: [
-      {path: '', component: DashboardPageComponent}
+      { path: '', component: DashboardPageComponent }
+    ]
+  },
+  {
+    path: '',
+    canActivate: [AuthService],
+    component: FramePageComponent,
+    children: [
+      { path: 'users', component: UsersPageComponent },
+      { path: 'users/create', component: CreateUserPageComponent }
     ]
   },
   { path: 'account/login', component: LoginPageComponent }
