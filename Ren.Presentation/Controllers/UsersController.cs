@@ -16,7 +16,7 @@ namespace Ren.Presentation.Controllers
         private readonly IUserRepository _repository;
         private readonly UserHandler _handler;
 
-        public UsersController(IUserRepository repository, UserHandler handler)
+        public UsersController(IUserRepository repository)
         {
             _repository = repository;
             _handler = new UserHandler(_repository);

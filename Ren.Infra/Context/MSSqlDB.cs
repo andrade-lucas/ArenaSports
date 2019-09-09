@@ -5,18 +5,18 @@ namespace Ren.Infra.Context
 {
     public class MSSqlDB : IDB
     {
-        private SqlConnection _db;
+        private SqlConnection db;
 
         public IDbConnection Connection()
         {
-            _db = new SqlConnection(Settings.ConnectionString);
-            return _db;
+            db = new SqlConnection(Settings.ConnectionString);
+            return db;
         }
 
         public void Dispose()
         {
-            if (_db.State != ConnectionState.Closed)
-                _db.Close();
+            if (db.State != ConnectionState.Closed)
+                db.Close();
         }
     }
 }

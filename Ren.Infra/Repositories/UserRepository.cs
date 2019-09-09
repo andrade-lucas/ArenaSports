@@ -11,11 +11,11 @@ using Ren.Infra.Context;
 
 namespace Ren.Infra.Repositories
 {
-    public class userRepository : IUserRepository
+    public class UserRepository : IUserRepository
     {
         private readonly IDB _db;
 
-        public userRepository(IDB db)
+        public UserRepository(IDB db)
         {
             _db = db;
         }
