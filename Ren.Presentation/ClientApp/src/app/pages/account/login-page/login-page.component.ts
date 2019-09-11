@@ -37,7 +37,7 @@ export class LoginPageComponent implements OnInit {
       (data: any) => {
         if (data.status) {
           this.toastr.success(data.message, 'Sucesso');
-          this.setUser(data.user.data, data.accessToken);
+          this.setUser(data.user.data, data.accessToken, data.expiration);
         }
         else
           this.toastr.error(data.message, 'Erro');
@@ -46,8 +46,8 @@ export class LoginPageComponent implements OnInit {
     this.busy = false;
   }
 
-  setUser(user, token) {
-    Security.set(user, token);
+  setUser(user, token, expiration) {
+    Security.set(user, token, expiration);
     this.router.navigate(['/']);
   }
 }

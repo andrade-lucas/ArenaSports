@@ -43,11 +43,9 @@ namespace Ren.Domain.Handlers
         {
             var name = new Name(command.FirstName, command.LastName);
             var email = new Email(command.Email);
-            var password = new Password(command.Password);
 
             AddNotifications(name.Notifications);
             AddNotifications(email.Notifications);
-            AddNotifications(password.Notifications);
 
             if (Invalid)
                 return new CommandResult("Erro ao editar registro", false, Notifications);

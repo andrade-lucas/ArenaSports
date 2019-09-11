@@ -10,13 +10,20 @@ import { ConfirmDialogService } from 'src/app/services/confirmDialog.service';
   styleUrls: ['./users-page.component.css']
 })
 export class UsersPageComponent implements OnInit {
+  public busy: Boolean = false;
   public users$: Observable<GetUsersModel[]>;
 
-  constructor(private service: UserService, private dialog: ConfirmDialogService) { 
-    this.users$ = this.service.get();
+  constructor(private service: UserService, private dialog: ConfirmDialogService) {
   }
 
   ngOnInit() {
+    this.loadUsers();
+  }
+
+  public loadUsers() {
+    this.busy = true;
+    this.users$ = this.service.get();
+    this.busy = false;
   }
 
   delete(id: string) {

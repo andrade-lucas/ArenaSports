@@ -10,6 +10,7 @@ import { ToastrService } from 'ngx-toastr';
   styleUrls: ['./create-user-page.component.css']
 })
 export class CreateUserPageComponent implements OnInit {
+  public busy: Boolean = false;
   public form: FormGroup;
   public imageSrc = 'https://kprofiles.com/wp-content/uploads/2019/04/Jungah-Marriage.png';
   imgURL: any;
@@ -34,6 +35,7 @@ export class CreateUserPageComponent implements OnInit {
       email: ['', Validators.compose([
         Validators.minLength(4),
         Validators.maxLength(160),
+        Validators.email,
         Validators.required
       ])],
       password:['', Validators.compose([
@@ -65,6 +67,7 @@ export class CreateUserPageComponent implements OnInit {
   }
 
   submit() {
+    this.busy = true;
     this.service.post(this.form.value).subscribe(
       (data: any) => {
         if (data.status) {
@@ -75,5 +78,6 @@ export class CreateUserPageComponent implements OnInit {
           this.toastr.error(data.message, 'Erro');
       }
     )
+    this.busy = false;
   }
 }

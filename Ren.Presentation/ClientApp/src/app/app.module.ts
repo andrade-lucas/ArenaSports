@@ -15,8 +15,10 @@ import { ConfirmationDialogComponent } from './components/shared/confirmation-di
 import { LoadingComponent } from './components/shared/loading/loading.component';
 import { RegisterPageComponent } from './pages/account/register-page/register-page.component';
 import { ToastrModule } from 'ngx-toastr';
+import {NgxMaskModule} from 'ngx-mask'
 import { UsersPageComponent } from './pages/Environment/users-page/users-page.component';
 import { CreateUserPageComponent } from './pages/Environment/create-user-page/create-user-page.component';
+import { EditUserPageComponent } from './pages/Environment/edit-user-page/edit-user-page.component';
 
 @NgModule({
   declarations: [
@@ -30,7 +32,8 @@ import { CreateUserPageComponent } from './pages/Environment/create-user-page/cr
     LoadingComponent,
     RegisterPageComponent,
     UsersPageComponent,
-    CreateUserPageComponent
+    CreateUserPageComponent,
+    EditUserPageComponent
   ],
   imports: [
     BrowserModule,
@@ -38,7 +41,8 @@ import { CreateUserPageComponent } from './pages/Environment/create-user-page/cr
     ReactiveFormsModule,
     HttpClientModule,
     BrowserAnimationsModule,
-    ToastrModule.forRoot()
+    ToastrModule.forRoot(),
+    NgxMaskModule.forRoot()
   ],
   providers: [],
   bootstrap: [AppComponent]

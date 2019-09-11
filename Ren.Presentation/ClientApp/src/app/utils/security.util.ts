@@ -1,11 +1,12 @@
 import { UserAuthModel } from '../models/authUser.model';
 
 export class Security {
-    public static set(user: UserAuthModel, token: string) {
+    public static set(user: UserAuthModel, token: string, expiration: string) {
         const data = JSON.stringify(user);
 
         localStorage.setItem('ren.user', btoa(data));
         localStorage.setItem('ren.token', token);
+        localStorage.setItem('ren.expiration', expiration);
     }
 
     public static setUser(user: UserAuthModel) {
@@ -37,8 +38,16 @@ export class Security {
         return false;
     }
 
+    public static getExpiration(): string {
+        const expiration = localStorage.getItem('ren.expiration');
+        if (expiration)
+            return expiration;
+        return null;
+    }
+
     public static clear() {
         localStorage.removeItem('ren.user');
         localStorage.removeItem('ren.token');
+        localStorage.removeItem('ren.expiration');
     }
 }

@@ -15,7 +15,14 @@ export class AuthService {
     
     canActivate() {
       const token = Security.hasToken();
+      const expiration = Security.getExpiration();
+      const now = new Date();
       if (!token) {
+        this.router.navigate(['account/login']);
+        return false;
+      }
+      else if (now > new Date(expiration)) {
+        Security.clear();
         this.router.navigate(['account/login']);
         return false;
       }

@@ -61,10 +61,9 @@ namespace Ren.Infra.Repositories
                     id = command.Id,
                     firstName = command.FirstName,
                     lastName = command.LastName,
+                    email = command.Email,
                     phone = command.Phone,
                     status = command.Status,
-                    email = command.Email,
-                    password = command.Password,
                     image = command.Image
                 },
                 commandType: CommandType.StoredProcedure
