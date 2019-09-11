@@ -2,7 +2,7 @@ import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { AppHeader } from '../utils/header.util';
 import { UserModel } from '../models/user.model';
-import { GetusersModel } from '../models/getUsers.model';
+import { GetUsersModel } from '../models/getUsers.model';
 
 @Injectable({
     providedIn: 'root'
@@ -13,7 +13,7 @@ export class UserService {
     }
 
     public get() {
-        return this.http.get<GetusersModel[]>(`${AppHeader.url}/users`, { headers: AppHeader.composeHeader() });
+        return this.http.get<GetUsersModel[]>(`${AppHeader.url}/users`, { headers: AppHeader.composeHeader() });
     }
 
     public getById(id: String) {
@@ -21,7 +21,7 @@ export class UserService {
     }
 
     public post(data: UserModel) {
-        return this.http.post(`${AppHeader}/users`, data);
+        return this.http.post(`${AppHeader.url}/users`, data, { headers: AppHeader.composeHeader() });
     }
 
     public put(data: UserModel) {

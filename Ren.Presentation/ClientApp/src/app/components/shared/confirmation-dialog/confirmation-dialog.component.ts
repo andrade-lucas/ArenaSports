@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { ConfirmDialogService } from 'src/app/services/confirmDialog.service';
 
 @Component({
   selector: 'app-confirmation-dialog',
@@ -6,10 +7,14 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./confirmation-dialog.component.css']
 })
 export class ConfirmationDialogComponent implements OnInit {
+  public message: any;
 
-  constructor() { }
+  constructor(private service: ConfirmDialogService) { }
 
   ngOnInit() {
   }
 
+  confirm() {
+    this.service.confirm();
+  }
 }

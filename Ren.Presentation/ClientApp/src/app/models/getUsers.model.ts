@@ -1,4 +1,4 @@
-export class GetusersModel {
+export class GetUsersModel {
     public id: String;
     public name: String;
     public document: String;

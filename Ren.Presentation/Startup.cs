@@ -27,8 +27,8 @@ namespace Ren.Presentation
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddCors();
             services.AddResponseCompression();
-            services.AddAuthentication();
 
             services.AddScoped<IDB, MSSqlDB>();
             services.AddTransient<IUserRepository, UserRepository>();
@@ -88,11 +88,14 @@ namespace Ren.Presentation
             app.UseHttpsRedirection();
             app.UseStaticFiles();
             app.UseSpaStaticFiles();
+            app.UseCors(x => {
+                x.AllowAnyHeader()
+                    .AllowAnyMethod()
+                    .AllowCredentials()
+                    .AllowAnyOrigin();
+            });
             app.UseResponseCompression();
-            app.UseAuthentication();
-
             app.UseMvc();
-
             app.UseSpa(spa =>
             {
                 // To learn more about options for serving an Angular SPA from ASP.NET Core,
