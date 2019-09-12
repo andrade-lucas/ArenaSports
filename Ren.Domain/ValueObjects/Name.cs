@@ -21,5 +21,10 @@ namespace Ren.Domain.ValueObjects
                 .HasMaxLen(LastName, 60, "FirstName", "Este campo deve conter no máximo 60 caracteres")
             );
         }
+
+        public override string ToString()
+        {
+            return $"{FirstName} {LastName}";
+        }
     }
 }

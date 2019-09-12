@@ -11,5 +11,10 @@ namespace Ren.Shared.Entities
         {
             Id = Guid.NewGuid();
         }
+
+        public Entity(Guid id)
+        {
+            Id = id;
+        }
     }
 }

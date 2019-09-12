@@ -1,3 +1,4 @@
+using System;
 using Ren.Domain.Enums;
 using Ren.Domain.ValueObjects;
 using Ren.Shared.Entities;
@@ -14,6 +15,12 @@ namespace Ren.Domain.Entities
         public Password Password { get; private set; }
         public string Image { get; private set; }
 
+        public User(Guid id, Name name, EUserStatus status) : base(id)
+        {
+            Name = name;
+            Status = status;
+        }
+
         public User(Name name, Document document, string phone, Email email, Password password, string image)
         {
             Name = name;
@@ -28,6 +35,11 @@ namespace Ren.Domain.Entities
         public void ChangeStatus(EUserStatus status)
         {
             Status = status;
+        }
+
+        public override string ToString()
+        {
+            return Name.ToString();
         }
     }
 }

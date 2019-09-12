@@ -8,7 +8,7 @@ namespace Ren.Domain.Commands.Results
         public bool Status { get; set; }
         public object Data { get; set; }
 
-        public CommandResult(string message, bool status, object data)
+        public CommandResult(string message, bool status, object data = null)
         {
             this.Message = message;
             this.Status = status;
