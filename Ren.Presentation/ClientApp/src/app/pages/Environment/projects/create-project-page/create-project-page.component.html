@@ -21,22 +21,31 @@
 
                     <form [formGroup]="form" *ngIf="!busy">
                         <div class="col-md-12">
-                            <div class="form-group col-md-12 margin-bottom-10">
-                                <label for="FirstName">Título</label>
+                            <div class="form-group col-md-8 margin-bottom-10">
+                                <label for="Title">Título</label>
                                 <input type="text"
-                                    [ngClass]="{'uk-form-danger': (!form.controls.firstName.valid && !form.controls.firstName.pristine)}"
-                                    id="FirstName" class="form-control" formControlName="firstName"
-                                    placeholder="Título...">
+                                    [ngClass]="{'uk-form-danger': (!form.controls.title.valid && !form.controls.title.pristine)}"
+                                    id="Title" class="form-control" formControlName="title" placeholder="Título...">
+                            </div>
+                            <div class="col-md-4">
+                                <label for="OwnerId">Responsável</label>
+                                <select class="form-control" formControlName="ownerId" name="OwnerId" id="OwnerId"
+                                    [ngClass]="{'uk-form-danger': (!form.controls.ownerId.valid && !form.controls.ownerId.pristine)}">
+                                    <option *ngFor="let user of users$ | async" value="user.id">{{ user.name }}</option>
+                                </select>
                             </div>
                             <div class="form-group col-md-12">
                                 <label for="Description">Descrição</label>
-                                <textarea class="form-control" formControlName="Description" placeholder="Descrição"
+                                <textarea class="form-control" formControlName="description" placeholder="Descrição"
+                                    rows="7"
                                     [ngClass]="{'uk-form-danger': (!form.controls.description.valid && !form.controls.description.pristine)}"></textarea>
                             </div>
-                        </div>
-                        <div class="form-group text-right col-md-12">
-                            <button [disabled]="form.invalid" (click)="submit()"
-                                class="btn btn-success">Cadastrar</button>
+
+
+                            <div class="form-group text-right col-md-12">
+                                <button [disabled]="form.invalid" (click)="submit()"
+                                    class="btn btn-success">Cadastrar</button>
+                            </div>
                         </div>
                     </form>
                 </div>

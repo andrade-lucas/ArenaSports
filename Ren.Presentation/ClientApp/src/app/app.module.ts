@@ -22,6 +22,7 @@ import { EditUserPageComponent } from './pages/Environment/users/edit-user-page/
 import { ProjectsPageComponent } from './pages/Environment/projects/projects-page/projects-page.component';
 import { CreateProjectPageComponent } from './pages/Environment/projects/create-project-page/create-project-page.component';
 import { EditProjectPageComponent } from './pages/Environment/projects/edit-project-page/edit-project-page.component';
+import { UserProfilePageComponent } from './pages/account/user-profile-page/user-profile-page.component';
 
 @NgModule({
   declarations: [
@@ -39,7 +40,8 @@ import { EditProjectPageComponent } from './pages/Environment/projects/edit-proj
     EditUserPageComponent,
     ProjectsPageComponent,
     CreateProjectPageComponent,
-    EditProjectPageComponent
+    EditProjectPageComponent,
+    UserProfilePageComponent
   ],
   imports: [
     BrowserModule,

@@ -14,6 +14,8 @@ export class EditUserPageComponent implements OnInit {
   public form: FormGroup;
   public id: String;
   public busy: Boolean = false;
+  public imageSrc = 'https://kprofiles.com/wp-content/uploads/2019/04/Jungah-Marriage.png';
+  imgURL: any;
 
   constructor(private activatedRoute: ActivatedRoute, private router: Router, private service: UserService, private fb: FormBuilder, private toastr: ToastrService) { 
     this.form = this.fb.group({
@@ -53,6 +55,20 @@ export class EditUserPageComponent implements OnInit {
         this.form.controls['image'].setValue(data.image);
       }
     )
+  }
+
+  onImageSelected(event) {
+    const file = event.target.files[0];
+    var mimeType = file.type;
+    if (mimeType.match(/image\/*/) == null) {
+      this.toastr.error('Por favor, selecione um arquivo de imagem', 'Formato Incorreto');
+      return;
+    }
+    var reader = new FileReader();
+    reader.readAsDataURL(file);
+    reader.onload = (_event) => {
+      this.imgURL = reader.result;
+    }
   }
 
   submit() {

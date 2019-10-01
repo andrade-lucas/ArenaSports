@@ -1,1 +1,65 @@
-<p>edit-project-page works!</p>
+<div class="main">
+    <div class="main-content">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-6 text-left">
+                    <h3>Ambiente Rensoftware</h3>
+                    <p><small><a [routerLink]="['/']">Início</a> > Projetos > Editar</small></p>
+                </div>
+                <div class="col-md-6 text-right">
+                    <a [routerLink]="['/projects']" class="btn btn-primary btn-new"><i class="fa fa-chevron-left"></i>
+                        Voltar para
+                        Lista</a>
+                </div>
+            </div>
+            <div class="panel panel-headline">
+                <div class="panel-heading">
+                    <h3>Novo Projeto</h3>
+                </div>
+                <div class="panel-body">
+                    <app-loading *ngIf="busy"></app-loading>
+
+                    <form [formGroup]="form" *ngIf="!busy">
+                        <div class="col-md-12">
+                            <input type="hidden" name="Id" formControlName="id">
+                            <div class="form-group col-md-12 margin-bottom-12">
+                                <label for="Title">Título</label>
+                                <input type="text"
+                                    [ngClass]="{'uk-form-danger': (!form.controls.title.valid && !form.controls.title.pristine)}"
+                                    id="Title" class="form-control" formControlName="title" placeholder="Título...">
+                            </div>
+                            <div class="col-md-8">
+                                <label for="OwnerId">Responsável</label>
+                                <select class="form-control" formControlName="ownerId" name="OwnerId" id="OwnerId"
+                                    [ngClass]="{'uk-form-danger': (!form.controls.ownerId.valid && !form.controls.ownerId.pristine)}">
+                                    <option *ngFor="let user of users$ | async" [(selected)]="form.controls.ownerId" value="user.id">{{ user.name }}</option>
+                                </select>
+                            </div>
+                            <div class="col-md-4">
+                                <label for="Status">Status</label>
+                                <select name="Status" id="Status" class="form-control" formControlName="status">
+                                    <option [(selected)]="form.controls.status" value="0">Inactive</option>
+                                    <option [(selected)]="form.controls.status" value="1">Criado</option>
+                                    <option [(selected)]="form.controls.status" value="2">Ativo</option>
+                                    <option [(selected)]="form.controls.status" value="3">Cancelado</option>
+                                    <option [(selected)]="form.controls.status" value="4">Finalizado</option>
+                                </select>
+                            </div>
+                            <div class="form-group col-md-12">
+                                <label for="Description">Descrição</label>
+                                <textarea class="form-control" formControlName="description" placeholder="Descrição"
+                                    rows="7"
+                                    [ngClass]="{'uk-form-danger': (!form.controls.description.valid && !form.controls.description.pristine)}"></textarea>
+                            </div>
+
+                            <div class="form-group text-right col-md-12">
+                                <button [disabled]="form.invalid" (click)="submit()"
+                                    class="btn btn-success">Cadastrar</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

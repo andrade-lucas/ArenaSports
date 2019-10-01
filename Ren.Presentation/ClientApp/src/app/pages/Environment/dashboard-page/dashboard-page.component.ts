@@ -7,11 +7,8 @@ import { Security } from 'src/app/utils/security.util';
   styleUrls: ['./dashboard-page.component.css']
 })
 export class DashboardPageComponent implements OnInit {
-  public user: any;
 
   constructor() { 
-    this.user = Security.getToken();
-    console.log(this.user);
   }
 
   ngOnInit() {

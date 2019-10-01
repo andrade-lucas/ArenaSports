@@ -10,9 +10,18 @@ import { EditUserPageComponent } from './pages/Environment/users/edit-user-page/
 import { ProjectsPageComponent } from './pages/Environment/projects/projects-page/projects-page.component';
 import { CreateProjectPageComponent } from './pages/Environment/projects/create-project-page/create-project-page.component';
 import { EditProjectPageComponent } from './pages/Environment/projects/edit-project-page/edit-project-page.component';
+import { UserProfilePageComponent } from './pages/account/user-profile-page/user-profile-page.component';
 
 const routes: Routes = [
   { path: 'account/login', component: LoginPageComponent },
+  {
+    path: 'account',
+    canActivate: [AuthService],
+    component: FramePageComponent,
+    children: [
+      { path: 'profile', component: UserProfilePageComponent }
+    ]
+  },
   {
     path: '',
     canActivate: [AuthService],

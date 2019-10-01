@@ -4,5 +4,5 @@ export class ProjectModel {
     public description: String;
     public ownerId: String;
     public owner: String;
-    public status: Boolean;
+    public status: Number;
 }
