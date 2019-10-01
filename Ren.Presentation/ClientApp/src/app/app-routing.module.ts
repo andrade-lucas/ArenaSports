@@ -4,11 +4,15 @@ import { FramePageComponent } from './pages/master/frame-page/frame-page.compone
 import { DashboardPageComponent } from './pages/Environment/dashboard-page/dashboard-page.component';
 import { LoginPageComponent } from './pages/account/login-page/login-page.component';
 import { AuthService } from './services/auth.service';
-import { UsersPageComponent } from './pages/Environment/users-page/users-page.component';
-import { CreateUserPageComponent } from './pages/Environment/create-user-page/create-user-page.component';
-import { EditUserPageComponent } from './pages/Environment/edit-user-page/edit-user-page.component';
+import { UsersPageComponent } from './pages/Environment/users/users-page/users-page.component';
+import { CreateUserPageComponent } from './pages/Environment/users/create-user-page/create-user-page.component';
+import { EditUserPageComponent } from './pages/Environment/users/edit-user-page/edit-user-page.component';
+import { ProjectsPageComponent } from './pages/Environment/projects/projects-page/projects-page.component';
+import { CreateProjectPageComponent } from './pages/Environment/projects/create-project-page/create-project-page.component';
+import { EditProjectPageComponent } from './pages/Environment/projects/edit-project-page/edit-project-page.component';
 
 const routes: Routes = [
+  { path: 'account/login', component: LoginPageComponent },
   {
     path: '',
     canActivate: [AuthService],
@@ -18,16 +22,25 @@ const routes: Routes = [
     ]
   },
   {
-    path: '',
+    path: 'users',
     canActivate: [AuthService],
     component: FramePageComponent,
     children: [
-      { path: 'users', component: UsersPageComponent },
-      { path: 'users/create', component: CreateUserPageComponent },
-      { path: 'users/edit/:id', component: EditUserPageComponent }
+      { path: '', component: UsersPageComponent },
+      { path: 'create', component: CreateUserPageComponent },
+      { path: 'edit/:id', component: EditUserPageComponent }
     ]
   },
-  { path: 'account/login', component: LoginPageComponent }
+  {
+    path: 'projects',
+    canActivate: [AuthService],
+    component: FramePageComponent,
+    children: [
+      { path: '', component: ProjectsPageComponent },
+      { path: 'create', component: CreateProjectPageComponent },
+      { path: 'edit/:id', component: EditProjectPageComponent }
+    ]
+  }
 ];
 
 @NgModule({

@@ -15,10 +15,13 @@ import { ConfirmationDialogComponent } from './components/shared/confirmation-di
 import { LoadingComponent } from './components/shared/loading/loading.component';
 import { RegisterPageComponent } from './pages/account/register-page/register-page.component';
 import { ToastrModule } from 'ngx-toastr';
-import {NgxMaskModule} from 'ngx-mask'
-import { UsersPageComponent } from './pages/Environment/users-page/users-page.component';
-import { CreateUserPageComponent } from './pages/Environment/create-user-page/create-user-page.component';
-import { EditUserPageComponent } from './pages/Environment/edit-user-page/edit-user-page.component';
+import { NgxMaskModule } from 'ngx-mask'
+import { UsersPageComponent } from './pages/Environment/users/users-page/users-page.component';
+import { CreateUserPageComponent } from './pages/Environment/users/create-user-page/create-user-page.component';
+import { EditUserPageComponent } from './pages/Environment/users/edit-user-page/edit-user-page.component';
+import { ProjectsPageComponent } from './pages/Environment/projects/projects-page/projects-page.component';
+import { CreateProjectPageComponent } from './pages/Environment/projects/create-project-page/create-project-page.component';
+import { EditProjectPageComponent } from './pages/Environment/projects/edit-project-page/edit-project-page.component';
 
 @NgModule({
   declarations: [
@@ -33,7 +36,10 @@ import { EditUserPageComponent } from './pages/Environment/edit-user-page/edit-u
     RegisterPageComponent,
     UsersPageComponent,
     CreateUserPageComponent,
-    EditUserPageComponent
+    EditUserPageComponent,
+    ProjectsPageComponent,
+    CreateProjectPageComponent,
+    EditProjectPageComponent
   ],
   imports: [
     BrowserModule,

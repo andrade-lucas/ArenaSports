@@ -1,7 +1,7 @@
 <!-- NAVBAR -->
 <nav class="navbar navbar-default navbar-fixed-top">
 	<div class="brand">
-		<a [routerLink]><img src="assets/img/rensoftware-logo.png" width="125" alt="Klorofil Logo" class="img-responsive logo"></a>
+		<a [routerLink]="['/']"><img src="assets/img/rensoftware-logo.png" width="125" alt="Klorofil Logo" class="img-responsive logo"></a>
 	</div>
 	<div class="container-fluid">
 		<div id="navbar-menu">
@@ -38,6 +38,7 @@
 						</ul>
 					</div>
 				</li>
+				<li><a [routerLink]="['/projects']" routerLinkActive="active"><i class="fa fa-tasks"></i> <span>Projetos</span></a>
 			</ul>
 		</nav>
 	</div>
