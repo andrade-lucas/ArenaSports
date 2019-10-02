@@ -33,12 +33,12 @@ namespace Ren.Domain.Handlers
             AddNotifications(project.Notifications);
 
             if (Invalid)
-                return new CommandResult(MessageUtil.CreatedError, false, Notifications);
+                return new CommandResult(MessagesUtil.CreatedError, false, Notifications);
             if (user.Status == EUserStatus.Inactive)
-                return new CommandResult(MessageUtil.UserInactive, false);
+                return new CommandResult(MessagesUtil.UserInactive, false);
             
             _repository.Create(project);
-            return new CommandResult(MessageUtil.CreatedSuccess, true);
+            return new CommandResult(MessagesUtil.CreatedSuccess, true);
         }
 
         public ICommandResult Handle(EditProjectCommand command)
@@ -53,28 +53,28 @@ namespace Ren.Domain.Handlers
             AddNotifications(project.Notifications);
 
             if (Invalid)
-                return new CommandResult(MessageUtil.EditedError, false, Notifications);
+                return new CommandResult(MessagesUtil.EditedError, false, Notifications);
             if (user.Status == EUserStatus.Inactive)
-                return new CommandResult(MessageUtil.UserInactive, false);
+                return new CommandResult(MessagesUtil.UserInactive, false);
 
             _repository.Edit(command);
-            return new CommandResult(MessageUtil.EditedSuccess, true);
+            return new CommandResult(MessagesUtil.EditedSuccess, true);
         }
 
         public ICommandResult Handle(DeleteProjectCommand command)
         {
             string id = command.Id.ToString();
             if (string.IsNullOrEmpty(id))
-                return new CommandResult(MessageUtil.InvalidIdentifier, false);
+                return new CommandResult(MessagesUtil.InvalidIdentifier, false);
             
             try 
             {
                 _repository.Delete(command);
-                return new CommandResult(MessageUtil.DeletedSuccess, true);
+                return new CommandResult(MessagesUtil.DeletedSuccess, true);
             }
             catch
             {
-                return new CommandResult(MessageUtil.DeleteError, false);
+                return new CommandResult(MessagesUtil.DeleteError, false);
             }
         }
     }

@@ -1,6 +1,6 @@
 using System;
 using System.Collections.Generic;
-using Ren.Domain.Commands.Inputs.Heritage;
+using Ren.Domain.Commands.Inputs.Heritages;
 using Ren.Domain.Entities;
 using Ren.Domain.Queries.Heritages;
 

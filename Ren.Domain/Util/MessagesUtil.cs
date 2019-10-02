@@ -1,8 +1,8 @@
 namespace Ren.Domain.Util
 {
-    public static class MessageUtil
+    public static class MessagesUtil
     {
-        // Genaric messages.
+        // Generic messages.
         public static string CreatedSuccess = "Cadastro realizado com sucesso";
         public static string CreatedError = "Erro ao cadastrar registro";
         public static string EditedSuccess = "Registro modificado com sucesso";
@@ -14,5 +14,8 @@ namespace Ren.Domain.Util
 
         // User messages.
         public static string UserInactive = "O usuário está inativo";
+
+        // Value Objects.
+        // public static string Tama
     }
 }
