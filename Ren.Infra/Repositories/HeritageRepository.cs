@@ -23,7 +23,7 @@ namespace Ren.Infra.Repositories
         public void Book(Guid id)
         {
             _db.Connection().Execute(
-                "spBookHerigate",
+                "spBookHeritage",
                 new
                 {
                     id = id

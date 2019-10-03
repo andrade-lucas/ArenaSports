@@ -11,7 +11,6 @@ namespace Ren.Domain.Queries.Projects
         public DateTime CreatedAt { get; set; }
         public DateTime UpdatedAt { get; set; }
         public Guid OwnerId { get; set; }
-        public string OwnerName { get; set; }
         public EProjectStatus Status { get; set; }
     }
 }

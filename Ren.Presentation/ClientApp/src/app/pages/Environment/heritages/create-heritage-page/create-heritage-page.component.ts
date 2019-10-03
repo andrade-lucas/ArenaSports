@@ -33,11 +33,11 @@ export class CreateHeritagePageComponent implements OnInit {
     this.service.post(this.form.value).subscribe(
       (data: any) => {
         if (data.status) {
-          this.toastr.success('Sucesso', data.message);
+          this.toastr.success(data.message, 'Sucesso');
           this.router.navigate(['/heritages']);
         }
         else
-          this.toastr.error('Erro', data.message);
+          this.toastr.error(data.message, 'Erro');
       }
     )
     this.busy = false;

@@ -29,7 +29,10 @@ namespace Ren.Infra.Repositories
                     id = project.Id,
                     title = project.Title,
                     description = project.Description,
-                    ownerId = project.Owner.Id
+                    createdAt = project.CreatedAt,
+                    updatedAt = project.UpdatedAt,
+                    ownerId = project.Owner.Id,
+                    status = project.Status
                 },
                 commandType: CommandType.StoredProcedure
             );
@@ -56,6 +59,7 @@ namespace Ren.Infra.Repositories
                     id = command.Id,
                     title = command.Title,
                     description = command.Description,
+                    updatedAt = command.UpdatedAt,
                     ownerId = command.OwnerId,
                     status = command.Status
                 },
@@ -90,7 +94,7 @@ namespace Ren.Infra.Repositories
                 "spGetProjectOwner",
                 new
                 {
-                    id = ownerId
+                    ownerId = ownerId
                 },
                 commandType: CommandType.StoredProcedure
             ).FirstOrDefault();

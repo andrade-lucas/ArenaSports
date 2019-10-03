@@ -2,8 +2,8 @@ namespace Ren.Domain.Enums
 {
     public enum EHeritageStatus
     {
-        Unaviable = 0,
-        Avaiable = 1,
-        Broken = 3
+        Aviable = 0,
+        Unvaiable = 1,
+        Broken = 2
     }
 }
