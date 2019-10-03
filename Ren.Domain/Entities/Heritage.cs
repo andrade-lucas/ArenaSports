@@ -1,6 +1,7 @@
 using System;
 using FluentValidator.Validation;
 using Ren.Domain.Enums;
+using Ren.Domain.Util;
 using Ren.Shared.Entities;
 
 namespace Ren.Domain.Entities
@@ -31,10 +32,10 @@ namespace Ren.Domain.Entities
 
         private void Validate()
         {
-            // AddNotifications(new ValidationContract()
-            //     .Requires()
-            //     .HasMinLen(Description, 2, "Description", )
-            // );
+            AddNotifications(new ValidationContract()
+                .Requires()
+                .HasMinLen(Description, 2, "Description", MessagesUtil.StringMinLength)
+            );
         }
     }
 }

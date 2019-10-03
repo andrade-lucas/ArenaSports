@@ -16,6 +16,7 @@ namespace Ren.Domain.Util
         public static string UserInactive = "O usuário está inativo";
 
         // Value Objects.
-        // public static string Tama
+        public static string StringMinLength = "A propriedade {0} deve ter no mínimo {1} caracteres";
+        public static string StringMaxLength = "A propriedade {0} deve ter no máximo {1} caracteres";
     }
 }

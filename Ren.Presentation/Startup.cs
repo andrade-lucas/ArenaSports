@@ -33,6 +33,7 @@ namespace Ren.Presentation
             services.AddScoped<IDB, MSSqlDB>();
             services.AddTransient<IUserRepository, UserRepository>();
             services.AddTransient<IProjectRepository, ProjectRepository>();
+            services.AddTransient<IHeritageRepository, HeritageRepository>();
             services.AddMvc(); //.SetCompatibilityVersion(CompatibilityVersion.Version_2_2)
 
             // In production, the Angular files will be served from this directory
