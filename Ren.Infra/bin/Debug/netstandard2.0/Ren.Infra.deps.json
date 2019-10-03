@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETStandard,Version=v2.0/",
-    "signature": "6556ea056071cef0855a7daf45f83285565d3046"
+    "signature": "1d9e51c0bb2f99e19cdb1edce4bb784965579c5a"
   },
   "compilationOptions": {},
   "targets": {
@@ -10,6 +10,7 @@
       "Ren.Infra/1.0.0": {
         "dependencies": {
           "Dapper": "1.60.9",
+          "Microsoft.CSharp": "4.6.0",
           "NETStandard.Library": "2.0.3",
           "Ren.Domain": "1.0.0"
         },
@@ -38,6 +39,14 @@
           "lib/netstandard1.3/FluentValidator.dll": {
             "assemblyVersion": "2.0.4.0",
             "fileVersion": "2.0.4.0"
+          }
+        }
+      },
+      "Microsoft.CSharp/4.6.0": {
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.CSharp.dll": {
+            "assemblyVersion": "4.0.4.0",
+            "fileVersion": "4.700.19.46214"
           }
         }
       },
@@ -282,6 +291,13 @@
       "sha512": "sha512-px1HWHYBD20PuCUgz/mEl/QcBsikW5nbdtR5whllwMIyJ4FJs03nGXe5ocHEre/x3CX72hJBnX7bteqkZwlcfA==",
       "path": "fluentvalidator/2.0.4",
       "hashPath": "fluentvalidator.2.0.4.nupkg.sha512"
+    },
+    "Microsoft.CSharp/4.6.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-kxn3M2rnAGy5N5DgcIwcE8QTePWU/XiYcQVzn9HqTls2NKluVzVSmVWRjK7OUPWbljCXuZxHyhEz9kPRIQeXow==",
+      "path": "microsoft.csharp/4.6.0",
+      "hashPath": "microsoft.csharp.4.6.0.nupkg.sha512"
     },
     "Microsoft.NETCore.Platforms/1.1.0": {
       "type": "package",

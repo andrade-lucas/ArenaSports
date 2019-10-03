@@ -1,7 +1,8 @@
 <!-- NAVBAR -->
 <nav class="navbar navbar-default navbar-fixed-top">
 	<div class="brand">
-		<a [routerLink]="['/']"><img src="assets/img/rensoftware-logo.png" width="125" alt="Klorofil Logo" class="img-responsive logo"></a>
+		<a [routerLink]="['/']"><img src="assets/img/rensoftware-logo.png" width="125" alt="Klorofil Logo"
+				class="img-responsive logo"></a>
 	</div>
 	<div class="container-fluid">
 		<div id="navbar-menu">
@@ -11,7 +12,8 @@
 							class="img-circle" alt="Avatar"><span>Seja bem-vindo(a), {{ $user?.name }} </span> <i
 							class="icon-submenu lnr lnr-chevron-down"></i></a>
 					<ul class="dropdown-menu">
-						<li><a [routerLink]="['/account/profile']"><i class="lnr lnr-user"></i> <span>Meu Perfil</span></a></li>
+						<li><a [routerLink]="['/account/profile']"><i class="lnr lnr-user"></i> <span>Meu
+									Perfil</span></a></li>
 						<li><a [routerLink]><i class="lnr lnr-cog"></i> <span>Configurações</span></a></li>
 						<li><a [routerLink] (click)="logout()"><i class="lnr lnr-exit"></i> <span>Logout</span></a></li>
 					</ul>
@@ -38,7 +40,10 @@
 						</ul>
 					</div>
 				</li>
-				<li><a [routerLink]="['/projects']" routerLinkActive="active"><i class="fa fa-tasks"></i> <span>Projetos</span></a>
+				<li><a [routerLink]="['/projects']" routerLinkActive="active"><i class="fa fa-tasks"></i>
+						<span>Projetos</span></a>
+				<li><a [routerLink]="['/heritages']" routerLinkActive="active"><i class="fa fa-inbox"></i>
+						<span>Patrimônio</span></a>
 			</ul>
 		</nav>
 	</div>

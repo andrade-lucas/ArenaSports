@@ -1,0 +1,59 @@
+<div class="main">
+        <div class="main-content">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-6 text-left">
+                        <h3>Ambiente Rensoftware</h3>
+                        <p><small><a [routerLink]="['']">Início</a> > Patrimônio</small></p>
+                    </div>
+                    <div class="col-md-6 text-right">
+                        <a [routerLink]="['/heritages/create']" class="btn btn-success btn-new"><i class="fa fa-plus"></i> Novo
+                            Cadastro</a>
+                    </div>
+                </div>
+                <div class="panel panel-headline">
+                    <div class="panel-heading">
+                        <div class="col-md-6">
+                            <h3>Lista de Patrimônios</h3>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="input-group margin-top-20">
+                                <input type="text" value="" class="form-control" placeholder="Descrição...">
+                                <span class="input-group-btn"><a type="button" class="btn btn-primary"><i
+                                            class="fa fa-search"></i> Filtrar</a></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="panel-body">
+                        <table class="table table-striped table-responsive table-hover">
+                            <thead>
+                                <tr>
+                                    <th>Descrição</th>
+                                    <th>Status</th>
+                                    <th></th>
+                                </tr>
+                            </thead>
+                            <tr *ngIf="busy">
+                                <td colspan="3">
+                                    <br>
+                                    <app-loading></app-loading>
+                                </td>
+                            </tr>
+                            <tbody *ngIf="!busy">
+                                <tr *ngFor="let heritage of heritages$ | async">
+                                    <td>{{ heritage.description }}</td>
+                                    <td>{{ heritage.status }}</td>
+                                    <td class="text-right">
+                                        <a [routerLink]="['/heritages/edit/', heritage.id]" class="btn btn-info"><i
+                                                class="fa fa-edit"></i></a> &nbsp;
+                                        <button (click)="delete(heritage.id)" data-toggle="modal" data-target="#confirmDelete"
+                                            class="btn btn-danger"><i class="fa fa-trash"></i></button>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>

@@ -5,7 +5,8 @@
     <div class="main-content">
         <div class="container-fluid">
             <div class="panel panel-profile">
-                <div class="clearfix">
+                <app-loading *ngIf="busy"></app-loading>
+                <div class="clearfix" *ngIf="!busy">
                     <!-- LEFT COLUMN -->
                     <div class="profile-left">
 
@@ -58,7 +59,7 @@
                                 <h4 class="heading">Sobre</h4>
                                 <p>Interactively fashion excellent information after distinctive outsourcing.</p>
                             </div>
-                            <div class="text-center"><a [routerLink]="['/users/edit/', user?.id]" class="btn btn-primary">Editar Perfil</a></div>
+                            <!-- <div class="text-center"><a [routerLink]="['/users/edit/', user?.id]" class="btn btn-primary">Editar Perfil</a></div> -->
                         </div>
                         <!-- END PROFILE DETAIL -->
                     </div>

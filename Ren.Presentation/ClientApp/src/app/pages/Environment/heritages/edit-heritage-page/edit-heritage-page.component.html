@@ -1,0 +1,60 @@
+<div class="main">
+        <div class="main-content">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-6 text-left">
+                        <h3>Ambiente Rensoftware</h3>
+                        <p><small><a [routerLink]="['/']">Início</a> > Patrimônios > Novo</small></p>
+                    </div>
+                    <div class="col-md-6 text-right">
+                        <a [routerLink]="['/heritages']" class="btn btn-primary btn-new"><i class="fa fa-chevron-left"></i>
+                            Voltar para
+                            Lista</a>
+                    </div>
+                </div>
+                <div class="panel panel-headline">
+                    <div class="panel-heading">
+                        <h3>Novo Patrimônio</h3>
+                    </div>
+                    <div class="panel-body">
+                        <app-loading *ngIf="busy"></app-loading>
+    
+                        <form [formGroup]="form" *ngIf="!busy">
+                            <input type="hidden" name="Id" formControlsName="id">
+                            <div class="col-md-12">
+                                <div class="form-group col-md-6 margin-bottom-10">
+                                    <label for="Description">Descrição</label>
+                                    <input type="text"
+                                        [ngClass]="{'uk-form-danger': (!form.controls.description.valid && !form.controls.description.pristine)}"
+                                        id="Description" name="Description" class="form-control" formControlName="description" placeholder="Descrição...">
+                                </div>
+                                <div class="form-group col-md-6">
+                                    <label for="PurchaseDate">Data de Compra</label>
+                                    <input type="date" name="PurchaseDate" id="PurchaseDate" formControlName="purchaseDate" class="form-control"
+                                        [ngClass]="{'uk-form-danger': (!form.controls.purchaseDate.valid && !form.controls.purchaseDate.pristine)}">
+                                </div>
+                                <div class="form-group col-md-6">
+                                    <label for="Status">Status</label>
+                                    <select name="Status" id="Status" class="form-control" formControlName="status">
+                                        <option ([selected])="form.controls.status" value="0">Indisponível</option>
+                                        <option ([selected])="form.controls.status" value="1">Disponível</option>
+                                        <option ([selected])="form.controls.status" value="2">Com Defeito</option>
+                                    </select>
+                                </div>
+                                <div class="form-group col-md-6">
+                                    <label for="BarCode">Código de Barra</label>
+                                    <input type="text" name="BarCode" id="BarCode" class="form-control" formControlName="barCode" placeholder="Código de Barra"
+                                        [ngClass]="{'uk-form-danger': (!form.controls.barCode.valid && !form.controls.barCode.pristine)}">
+                                </div>
+    
+                                <div class="form-group text-right col-md-12">
+                                    <button [disabled]="form.invalid" (click)="submit()"
+                                        class="btn btn-success">Cadastrar</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
