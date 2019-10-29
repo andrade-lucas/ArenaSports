@@ -1,3 +1,6 @@
+C:\dev\EstagioRen\Ren.Presentation\bin\Debug\netcoreapp2.2\appsettings.Development.json
+C:\dev\EstagioRen\Ren.Presentation\bin\Debug\netcoreapp2.2\appsettings.json
+C:\dev\EstagioRen\Ren.Presentation\bin\Debug\netcoreapp2.2\Properties\launchSettings.json
 C:\dev\EstagioRen\Ren.Presentation\bin\Debug\netcoreapp2.2\Ren.Presentation.deps.json
 C:\dev\EstagioRen\Ren.Presentation\bin\Debug\netcoreapp2.2\Ren.Presentation.runtimeconfig.json
 C:\dev\EstagioRen\Ren.Presentation\bin\Debug\netcoreapp2.2\Ren.Presentation.runtimeconfig.dev.json
@@ -19,14 +22,11 @@ C:\dev\EstagioRen\Ren.Presentation\obj\Debug\netcoreapp2.2\Ren.Presentation.Asse
 C:\dev\EstagioRen\Ren.Presentation\obj\Debug\netcoreapp2.2\Ren.Presentation.TagHelpers.input.cache
 C:\dev\EstagioRen\Ren.Presentation\obj\Debug\netcoreapp2.2\Ren.Presentation.TagHelpers.output.cache
 C:\dev\EstagioRen\Ren.Presentation\obj\Debug\netcoreapp2.2\Ren.Presentation.RazorCoreGenerate.cache
+C:\dev\EstagioRen\Ren.Presentation\obj\Debug\netcoreapp2.2\Razor\Pages\Error.cshtml.g.cs
+C:\dev\EstagioRen\Ren.Presentation\obj\Debug\netcoreapp2.2\Razor\Pages\_ViewImports.cshtml.g.cs
 C:\dev\EstagioRen\Ren.Presentation\obj\Debug\netcoreapp2.2\Ren.Presentation.RazorTargetAssemblyInfo.cache
 C:\dev\EstagioRen\Ren.Presentation\obj\Debug\netcoreapp2.2\Ren.Presentation.RazorTargetAssemblyInfo.cs
 C:\dev\EstagioRen\Ren.Presentation\obj\Debug\netcoreapp2.2\Ren.Presentation.Views.pdb
 C:\dev\EstagioRen\Ren.Presentation\obj\Debug\netcoreapp2.2\Ren.Presentation.csproj.CopyComplete
 C:\dev\EstagioRen\Ren.Presentation\obj\Debug\netcoreapp2.2\Ren.Presentation.dll
 C:\dev\EstagioRen\Ren.Presentation\obj\Debug\netcoreapp2.2\Ren.Presentation.pdb
-C:\dev\EstagioRen\Ren.Presentation\bin\Debug\netcoreapp2.2\appsettings.Development.json
-C:\dev\EstagioRen\Ren.Presentation\bin\Debug\netcoreapp2.2\appsettings.json
-C:\dev\EstagioRen\Ren.Presentation\bin\Debug\netcoreapp2.2\Properties\launchSettings.json
-C:\dev\EstagioRen\Ren.Presentation\obj\Debug\netcoreapp2.2\Razor\Pages\Error.cshtml.g.cs
-C:\dev\EstagioRen\Ren.Presentation\obj\Debug\netcoreapp2.2\Razor\Pages\_ViewImports.cshtml.g.cs

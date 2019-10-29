@@ -1112,6 +1112,7 @@
       "path": "system.reflection.emit.ilgeneration/4.3.0",
       "files": [
         ".nupkg.metadata",
+        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -1724,7 +1725,7 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\lucas\\.nuget\\packages\\": {},
+    "C:\\Users\\LUCAS\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
@@ -1733,14 +1734,14 @@
       "projectUniqueName": "C:\\dev\\EstagioRen\\Ren.Infra\\Ren.Infra.csproj",
       "projectName": "Ren.Infra",
       "projectPath": "C:\\dev\\EstagioRen\\Ren.Infra\\Ren.Infra.csproj",
-      "packagesPath": "C:\\Users\\lucas\\.nuget\\packages\\",
+      "packagesPath": "C:\\Users\\LUCAS\\.nuget\\packages\\",
       "outputPath": "C:\\dev\\EstagioRen\\Ren.Infra\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\lucas\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\LUCAS\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
