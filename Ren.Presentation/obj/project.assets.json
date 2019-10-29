@@ -12239,7 +12239,7 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\LUCAS\\.nuget\\packages\\": {},
+    "C:\\Users\\lucas\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
@@ -12248,14 +12248,14 @@
       "projectUniqueName": "C:\\dev\\EstagioRen\\Ren.Presentation\\Ren.Presentation.csproj",
       "projectName": "Ren.Presentation",
       "projectPath": "C:\\dev\\EstagioRen\\Ren.Presentation\\Ren.Presentation.csproj",
-      "packagesPath": "C:\\Users\\LUCAS\\.nuget\\packages\\",
+      "packagesPath": "C:\\Users\\lucas\\.nuget\\packages\\",
       "outputPath": "C:\\dev\\EstagioRen\\Ren.Presentation\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\LUCAS\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\lucas\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -12312,10 +12312,16 @@
           }
         },
         "imports": [
-          "net461"
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
         ],
         "assetTargetFallback": true,
-        "warn": true
+        "warn": true,
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
       }
     }
   }
