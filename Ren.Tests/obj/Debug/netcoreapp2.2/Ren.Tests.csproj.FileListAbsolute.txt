@@ -7,7 +7,6 @@ C:\dev\EstagioRen\Ren.Tests\bin\Debug\netcoreapp2.2\Ren.Tests.runtimeconfig.dev.
 C:\dev\EstagioRen\Ren.Tests\bin\Debug\netcoreapp2.2\Ren.Tests.dll
 C:\dev\EstagioRen\Ren.Tests\bin\Debug\netcoreapp2.2\Ren.Tests.pdb
 C:\dev\EstagioRen\Ren.Tests\obj\Debug\netcoreapp2.2\Ren.Tests.csprojAssemblyReference.cache
-C:\dev\EstagioRen\Ren.Tests\obj\Debug\netcoreapp2.2\Ren.Tests.csproj.CoreCompileInputs.cache
 C:\dev\EstagioRen\Ren.Tests\obj\Debug\netcoreapp2.2\Ren.Tests.AssemblyInfoInputs.cache
 C:\dev\EstagioRen\Ren.Tests\obj\Debug\netcoreapp2.2\Ren.Tests.AssemblyInfo.cs
 C:\dev\EstagioRen\Ren.Tests\obj\Debug\netcoreapp2.2\Ren.Tests.dll
