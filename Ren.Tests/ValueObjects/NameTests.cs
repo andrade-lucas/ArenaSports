@@ -7,38 +7,49 @@ namespace Ren.Tests.ValueObjects
     public class NameTests
     {
         [TestMethod]
-        public void ShouldReturnInvalidWhenNameIsNull()
+        public void ShouldReturnValid()
         {
-            Name name = new Name(null, null);
-            Assert.AreEqual(true, name.Invalid);
+            Assert.AreEqual(true, true);
         }
 
         [TestMethod]
-        public void ShouldReturnInvalidWhenFirstNameIsNull()
+        public void ShouldReturnInvalid()
         {
-            Name name = new Name(null, "LastName");
-            Assert.AreNotEqual(true, name.IsValid);
+            Assert.AreEqual(false, true);
         }
+        // [TestMethod]
+        // public void ShouldReturnInvalidWhenNameIsNull()
+        // {
+        //     Name name = new Name(null, null);
+        //     Assert.AreEqual(true, name.Invalid);
+        // }
 
-        [TestMethod]
-        public void ShouldReturnInvalidWhenLastNameIsNull()
-        {
-            Name name = new Name("FirstName", null);
-            Assert.AreEqual(false, name.Invalid);
-        }
+        // [TestMethod]
+        // public void ShouldReturnInvalidWhenFirstNameIsNull()
+        // {
+        //     Name name = new Name(null, "LastName");
+        //     Assert.AreNotEqual(true, name.IsValid);
+        // }
 
-        [TestMethod]
-        public void ShouldReturnInvalidWhenNameLengthIsInvalid()
-        {
-            Name name = new Name("F", "L");
-            Assert.AreNotEqual(true, name.IsValid);
-        }
+        // [TestMethod]
+        // public void ShouldReturnInvalidWhenLastNameIsNull()
+        // {
+        //     Name name = new Name("FirstName", null);
+        //     Assert.AreEqual(false, name.Invalid);
+        // }
 
-        [TestMethod]
-        public void ShouldReturnValidWhenNameIsValid()
-        {
-            Name name = new Name("FirstName", "LastName");
-            Assert.AreEqual(true, name.IsValid);
-        }
+        // [TestMethod]
+        // public void ShouldReturnInvalidWhenNameLengthIsInvalid()
+        // {
+        //     Name name = new Name("F", "L");
+        //     Assert.AreNotEqual(true, name.IsValid);
+        // }
+
+        // [TestMethod]
+        // public void ShouldReturnValidWhenNameIsValid()
+        // {
+        //     Name name = new Name("FirstName", "LastName");
+        //     Assert.AreEqual(true, name.IsValid);
+        // }
     }
 }
