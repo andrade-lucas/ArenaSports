@@ -5,6 +5,7 @@ using Ren.Domain.Entities;
 using Ren.Domain.Repositories;
 using Ren.Domain.ValueObjects;
 using Ren.Shared.Commands;
+using Ren.Domain.Util;
 
 namespace Ren.Domain.Handlers
 {
@@ -33,10 +34,10 @@ namespace Ren.Domain.Handlers
             AddNotifications(password.Notifications);
 
             if (Invalid)
-                return new CommandResult("Verifique se todos os campos estão corretos", false, Notifications);
+                return new CommandResult(MessagesUtil.InvalidInputs, false, Notifications);
             
             _repository.Create(user);
-            return new CommandResult("Usuário cadastrado com sucesso", true, null);
+            return new CommandResult(MessagesUtil.CreatedSuccess, true, null);
         }
 
         public ICommandResult Handle(EditUserCommand command)
@@ -48,10 +49,10 @@ namespace Ren.Domain.Handlers
             AddNotifications(email.Notifications);
 
             if (Invalid)
-                return new CommandResult("Erro ao editar registro", false, Notifications);
+                return new CommandResult(MessagesUtil.EditedError, false, Notifications);
             
             _repository.Edit(command);
-            return new CommandResult("Registro editado com sucesso", true, null);
+            return new CommandResult(MessagesUtil.EditedSuccess, true, null);
         }
 
         public ICommandResult Handle(AuthCommand command)
@@ -63,22 +64,22 @@ namespace Ren.Domain.Handlers
             AddNotifications(password.Notifications);
 
             if (Invalid)
-                return new CommandResult("Verifique se todos os campos estão corretos", false, Notifications);
+                return new CommandResult(MessagesUtil.CreatedError, false, Notifications);
 
             var user = _repository.Login(new AuthCommand(email.Address, password.Value));
             if (user == null)
-                return new CommandResult("Usuário não encontrado", false, null);
+                return new CommandResult(MessagesUtil.NotFound.Replace("{0}", "Usuário"), false, null);
 
-            return new CommandResult("Seja bem-vindo", true, user);
+            return new CommandResult(MessagesUtil.SuccessAuth, true, user);
         }
 
         public ICommandResult Handle(DeleteUserCommand command)
         {
             if (command.ID == null)
-                return new CommandResult("Erro ao deletar registro", false, null);
+                return new CommandResult(MessagesUtil.DeleteError, false, null);
             
             _repository.Delete(command.ID);
-            return new CommandResult("Registro deletado com sucesso", true, null);
+            return new CommandResult(MessagesUtil.DeletedSuccess, true, null);
         }
     }
 }

@@ -11,9 +11,13 @@ namespace Ren.Domain.Util
         public static string DeleteError = "Erro ao deletar registro";
         public static string InvalidDocument = "Número de documento inválido";
         public static string InvalidIdentifier = "O identificador informado é inválido";
+        public static string NotFound = "{0} não encontrado(a)";
+        public static string InvalidInputs = "Verifique se todos os campos estão corretos";
 
         // User messages.
         public static string UserInactive = "O usuário está inativo";
+        public static string SuccessAuth = "Seja bem-vindo";
+        public static string NotAllowed = "Ação não permitida para seu nível de acesso";
 
         // Value Objects.
         public static string StringMinLength = "A propriedade {0} deve ter no mínimo {1} caracteres";

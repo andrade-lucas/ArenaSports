@@ -223,7 +223,7 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\lucas\\.nuget\\packages\\": {},
+    "C:\\Users\\LUCAS\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
@@ -232,24 +232,21 @@
       "projectUniqueName": "C:\\dev\\EstagioRen\\Ren.Domain\\Ren.Domain.csproj",
       "projectName": "Ren.Domain",
       "projectPath": "C:\\dev\\EstagioRen\\Ren.Domain\\Ren.Domain.csproj",
-      "packagesPath": "C:\\Users\\lucas\\.nuget\\packages\\",
+      "packagesPath": "C:\\Users\\LUCAS\\.nuget\\packages\\",
       "outputPath": "C:\\dev\\EstagioRen\\Ren.Domain\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-<<<<<<< HEAD
-        "C:\\Users\\LUCAS\\AppData\\Roaming\\NuGet\\NuGet.Config"
-=======
-        "C:\\Users\\lucas\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\LUCAS\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
->>>>>>> refs/remotes/origin/master
       ],
       "originalTargetFrameworks": [
         "netstandard2.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
