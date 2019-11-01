@@ -2959,17 +2959,6 @@
     "CSharpLanguageVersion": 800
   },
   "RootNamespace": "Ren.Presentation",
-  "Documents": [
-    {
-      "FilePath": "Pages\\_ViewImports.cshtml",
-      "TargetPath": "Pages\\_ViewImports.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "Pages\\Error.cshtml",
-      "TargetPath": "Pages\\Error.cshtml",
-      "FileKind": "mvc"
-    }
-  ],
+  "Documents": [],
   "SerializationFormat": "0.2"
 }
