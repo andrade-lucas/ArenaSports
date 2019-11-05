@@ -15,7 +15,7 @@ namespace Ren.Domain.Entities
         public DateTime CreatedAt { get; private set; }
         public DateTime UpdatedAt { get; private set; }
         public User Owner { get; private set; }
-        public IEnumerable<User> Members { get => _members.ToArray(); }
+        public IEnumerable<User> Members => _members.ToArray();
         public EProjectStatus Status { get; private set; }
 
         public Project(string title, string description, DateTime updatedAt, User owner, EProjectStatus status)
@@ -50,9 +50,11 @@ namespace Ren.Domain.Entities
             _members.Remove(user);
         }
 
-        public override string ToString()
+        public void ChangeStatus(EProjectStatus status)
         {
-            return Title;
+            this.Status = status;
         }
+
+        public override string ToString() => Title;
     }
 }

@@ -37,9 +37,6 @@ namespace Ren.Domain.Entities
             Status = status;
         }
 
-        public override string ToString()
-        {
-            return Name.ToString();
-        }
+        public override string ToString() => Name.ToString();
     }
 }
