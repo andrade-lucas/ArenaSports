@@ -2,6 +2,7 @@ using System.Security.Cryptography;
 using System.Text;
 using FluentValidator;
 using FluentValidator.Validation;
+using Ren.Domain.Util;
 
 namespace Ren.Domain.ValueObjects
 {
@@ -11,12 +12,7 @@ namespace Ren.Domain.ValueObjects
 
         public Password(string value)
         {
-            Value = value.Trim();
-            AddNotifications(new ValidationContract()
-                .Requires()
-                .HasMinLen(Value, 6, "Password", "A senha deve conter pelo menos 6 caracteres")
-                .HasMaxLen(Value, 20, "Password", "A senha deve conter no máximo 20 caracteres")
-            );
+            Value = !string.IsNullOrEmpty(value) ? Value = value.Trim() : "";
 
             Validate();
         }
@@ -36,18 +32,24 @@ namespace Ren.Domain.ValueObjects
             Value = sb.ToString();
         }
 
-        public void Change(string newValue)
+        public void Change(string oldPassword, string newPassword)
         {
-            Value = newValue;
+            if (this.Value != oldPassword)
+                AddNotification("Password", MessagesUtil.InvalidProperty.Replace("{0}", "Senha Antiga"));
+            
+            this.Value = !string.IsNullOrEmpty(newPassword) ? newPassword : "";
             Validate();
         }
+
+        public override string ToString() => this.Value;
 
         private void Validate()
         {
             AddNotifications(new ValidationContract()
                 .Requires()
-                .HasMinLen(Value, 6, "Password", "A senha deve conter pelo menos 6 caracteres")
-                .HasMaxLen(Value, 20, "Password", "A senha deve conter no máximo 20 caracteres")
+                .IsNotNull(Value, "Password", MessagesUtil.InvalidProperty.Replace("{0}", "Senha"))
+                .HasMinLen(Value, 6, "Password", MessagesUtil.StringMinLength.Replace("{0}", "Senha").Replace("{1}", "6"))
+                .HasMaxLen(Value, 20, "Password", MessagesUtil.StringMaxLength.Replace("{0}", "Senha").Replace("{1}", "20"))
             );
             Encrypt();
         }

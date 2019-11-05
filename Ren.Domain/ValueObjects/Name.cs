@@ -1,5 +1,6 @@
 using FluentValidator;
 using FluentValidator.Validation;
+using Ren.Domain.Util;
 
 namespace Ren.Domain.ValueObjects
 {
@@ -10,15 +11,17 @@ namespace Ren.Domain.ValueObjects
 
         public Name(string firstName, string lastName)
         {
-            FirstName = firstName;
-            LastName = lastName;
+            FirstName = firstName ?? "";
+            LastName = lastName ?? "";
 
             AddNotifications(new ValidationContract()
                 .Requires()
-                .HasMinLen(FirstName, 2, "FirstName", "Este campo de conter pelo menos 2 caracteres")
-                .HasMaxLen(FirstName, 60, "FirstName", "Este campo deve conter no máximo 60 caracteres")
-                .HasMinLen(LastName, 2, "FirstName", "Este campo de conter pelo menos 2 caracteres")
-                .HasMaxLen(LastName, 60, "FirstName", "Este campo deve conter no máximo 60 caracteres")
+                .IsNotNull(FirstName, "FirstName", MessagesUtil.InvalidProperty.Replace("{0}", "Nome"))
+                .HasMinLen(FirstName, 2, "FirstName", MessagesUtil.StringMinLength.Replace("{0}", "Nome").Replace("{1}", "2"))
+                .HasMaxLen(FirstName, 60, "FirstName", MessagesUtil.StringMaxLength.Replace("{0}", "Nome").Replace("{1}", "60"))
+                .IsNotNull(LastName, "LastName", MessagesUtil.InvalidProperty.Replace("{0}", "Sobrenome"))
+                .HasMinLen(LastName, 2, "LastName", MessagesUtil.StringMinLength.Replace("{0}", "Sobrenome").Replace("{1}", "2"))
+                .HasMaxLen(LastName, 60, "LasttName", MessagesUtil.StringMaxLength.Replace("{0}", "Sobrenome").Replace("{1}", "60"))
             );
         }
 

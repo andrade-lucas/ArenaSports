@@ -9,7 +9,7 @@ namespace Ren.Domain.Util
         public static string EditedError = "Erro ao modificar registro";
         public static string DeletedSuccess = "Registro deletado com sucesso";
         public static string DeleteError = "Erro ao deletar registro";
-        public static string InvalidDocument = "Número de documento inválido";
+        public static string InvalidProperty = "O campo {0} é inválido";
         public static string InvalidIdentifier = "O identificador informado é inválido";
         public static string NotFound = "{0} não encontrado(a)";
         public static string InvalidInputs = "Verifique se todos os campos estão corretos";
@@ -22,5 +22,6 @@ namespace Ren.Domain.Util
         // Value Objects.
         public static string StringMinLength = "A propriedade {0} deve ter no mínimo {1} caracteres";
         public static string StringMaxLength = "A propriedade {0} deve ter no máximo {1} caracteres";
+        public static string DifferentValues = "O campo {0} é diferente do campo {1}";
     }
 }

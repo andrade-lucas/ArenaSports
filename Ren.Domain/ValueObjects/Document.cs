@@ -1,4 +1,6 @@
 using FluentValidator;
+using FluentValidator.Validation;
+using Ren.Domain.Util;
 
 namespace Ren.Domain.ValueObjects
 {
@@ -8,10 +10,14 @@ namespace Ren.Domain.ValueObjects
 
         public Document(string number)
         {
-            Number = number.Trim().Replace(".", "").Replace("-", "");
+            if (number != null)
+                Number = number.Trim().Replace(".", "").Replace("-", "");
 
-            if (!IsCpf())
-                AddNotification("Document", "CPF inválido");
+            AddNotifications(new ValidationContract()
+                .Requires()
+                .IsTrue(IsCpf(), "Document", MessagesUtil.InvalidProperty.Replace("{0}", "DocumentTrue"))
+                .IsNotNull(Number, "Document", MessagesUtil.InvalidProperty.Replace("{0}", "DocumentNull"))
+            );
         }
 
         private bool IsCpf()

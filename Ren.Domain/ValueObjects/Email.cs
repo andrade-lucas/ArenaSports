@@ -1,5 +1,6 @@
 using FluentValidator;
 using FluentValidator.Validation;
+using Ren.Domain.Util;
 
 namespace Ren.Domain.ValueObjects
 {
@@ -12,7 +13,8 @@ namespace Ren.Domain.ValueObjects
             Address = address;
 
             AddNotifications(new ValidationContract()
-                .IsEmail(Address, "Email", "E-mail inválido")
+                .IsNotNull(Address, "Email", MessagesUtil.InvalidProperty.Replace("{0}", "E-mail"))
+                .IsEmail(Address, "Email", MessagesUtil.InvalidProperty.Replace("{0}", "E-mail"))
             );
         }
     }

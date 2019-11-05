@@ -10,14 +10,14 @@
         "projectUniqueName": "C:\\dev\\EstagioRen\\Ren.Domain\\Ren.Domain.csproj",
         "projectName": "Ren.Domain",
         "projectPath": "C:\\dev\\EstagioRen\\Ren.Domain\\Ren.Domain.csproj",
-        "packagesPath": "C:\\Users\\lucas\\.nuget\\packages\\",
+        "packagesPath": "C:\\Users\\LUCAS\\.nuget\\packages\\",
         "outputPath": "C:\\dev\\EstagioRen\\Ren.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\lucas\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\LUCAS\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -76,14 +76,14 @@
         "projectUniqueName": "C:\\dev\\EstagioRen\\Ren.Shared\\Ren.Shared.csproj",
         "projectName": "Ren.Shared",
         "projectPath": "C:\\dev\\EstagioRen\\Ren.Shared\\Ren.Shared.csproj",
-        "packagesPath": "C:\\Users\\lucas\\.nuget\\packages\\",
+        "packagesPath": "C:\\Users\\LUCAS\\.nuget\\packages\\",
         "outputPath": "C:\\dev\\EstagioRen\\Ren.Shared\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\lucas\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\LUCAS\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
