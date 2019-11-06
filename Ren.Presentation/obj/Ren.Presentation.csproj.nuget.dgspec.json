@@ -1,35 +1,37 @@
 {
   "format": 1,
   "restore": {
-    "/home/lucas/dev/EstagioRen/Ren.Presentation/Ren.Presentation.csproj": {}
+    "C:\\dev\\EstagioRen\\Ren.Presentation\\Ren.Presentation.csproj": {}
   },
   "projects": {
-    "/home/lucas/dev/EstagioRen/Ren.Domain/Ren.Domain.csproj": {
+    "C:\\dev\\EstagioRen\\Ren.Domain\\Ren.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/lucas/dev/EstagioRen/Ren.Domain/Ren.Domain.csproj",
+        "projectUniqueName": "C:\\dev\\EstagioRen\\Ren.Domain\\Ren.Domain.csproj",
         "projectName": "Ren.Domain",
-        "projectPath": "/home/lucas/dev/EstagioRen/Ren.Domain/Ren.Domain.csproj",
-        "packagesPath": "/home/lucas/.nuget/packages/",
-        "outputPath": "/home/lucas/dev/EstagioRen/Ren.Domain/obj/",
+        "projectPath": "C:\\dev\\EstagioRen\\Ren.Domain\\Ren.Domain.csproj",
+        "packagesPath": "C:\\Users\\LUCAS\\.nuget\\packages\\",
+        "outputPath": "C:\\dev\\EstagioRen\\Ren.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "/usr/share/dotnet/sdk/NuGetFallbackFolder"
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "/home/lucas/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\LUCAS\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netstandard2.0": {
             "projectReferences": {
-              "/home/lucas/dev/EstagioRen/Ren.Shared/Ren.Shared.csproj": {
-                "projectPath": "/home/lucas/dev/EstagioRen/Ren.Shared/Ren.Shared.csproj"
+              "C:\\dev\\EstagioRen\\Ren.Shared\\Ren.Shared.csproj": {
+                "projectPath": "C:\\dev\\EstagioRen\\Ren.Shared\\Ren.Shared.csproj"
               }
             }
           }
@@ -55,39 +57,47 @@
             }
           },
           "imports": [
-            "net461"
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
           ],
           "assetTargetFallback": true,
-          "warn": true
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "/home/lucas/dev/EstagioRen/Ren.Infra/Ren.Infra.csproj": {
+    "C:\\dev\\EstagioRen\\Ren.Infra\\Ren.Infra.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/lucas/dev/EstagioRen/Ren.Infra/Ren.Infra.csproj",
+        "projectUniqueName": "C:\\dev\\EstagioRen\\Ren.Infra\\Ren.Infra.csproj",
         "projectName": "Ren.Infra",
-        "projectPath": "/home/lucas/dev/EstagioRen/Ren.Infra/Ren.Infra.csproj",
-        "packagesPath": "/home/lucas/.nuget/packages/",
-        "outputPath": "/home/lucas/dev/EstagioRen/Ren.Infra/obj/",
+        "projectPath": "C:\\dev\\EstagioRen\\Ren.Infra\\Ren.Infra.csproj",
+        "packagesPath": "C:\\Users\\LUCAS\\.nuget\\packages\\",
+        "outputPath": "C:\\dev\\EstagioRen\\Ren.Infra\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "/usr/share/dotnet/sdk/NuGetFallbackFolder"
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "/home/lucas/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\LUCAS\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netstandard2.0": {
             "projectReferences": {
-              "/home/lucas/dev/EstagioRen/Ren.Domain/Ren.Domain.csproj": {
-                "projectPath": "/home/lucas/dev/EstagioRen/Ren.Domain/Ren.Domain.csproj"
+              "C:\\dev\\EstagioRen\\Ren.Domain\\Ren.Domain.csproj": {
+                "projectPath": "C:\\dev\\EstagioRen\\Ren.Domain\\Ren.Domain.csproj"
               }
             }
           }
@@ -117,45 +127,53 @@
             }
           },
           "imports": [
-            "net461"
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
           ],
           "assetTargetFallback": true,
-          "warn": true
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "/home/lucas/dev/EstagioRen/Ren.Presentation/Ren.Presentation.csproj": {
+    "C:\\dev\\EstagioRen\\Ren.Presentation\\Ren.Presentation.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/lucas/dev/EstagioRen/Ren.Presentation/Ren.Presentation.csproj",
+        "projectUniqueName": "C:\\dev\\EstagioRen\\Ren.Presentation\\Ren.Presentation.csproj",
         "projectName": "Ren.Presentation",
-        "projectPath": "/home/lucas/dev/EstagioRen/Ren.Presentation/Ren.Presentation.csproj",
-        "packagesPath": "/home/lucas/.nuget/packages/",
-        "outputPath": "/home/lucas/dev/EstagioRen/Ren.Presentation/obj/",
+        "projectPath": "C:\\dev\\EstagioRen\\Ren.Presentation\\Ren.Presentation.csproj",
+        "packagesPath": "C:\\Users\\LUCAS\\.nuget\\packages\\",
+        "outputPath": "C:\\dev\\EstagioRen\\Ren.Presentation\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "/usr/share/dotnet/sdk/NuGetFallbackFolder"
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "/home/lucas/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\LUCAS\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp2.2"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp2.2": {
             "projectReferences": {
-              "/home/lucas/dev/EstagioRen/Ren.Domain/Ren.Domain.csproj": {
-                "projectPath": "/home/lucas/dev/EstagioRen/Ren.Domain/Ren.Domain.csproj"
+              "C:\\dev\\EstagioRen\\Ren.Domain\\Ren.Domain.csproj": {
+                "projectPath": "C:\\dev\\EstagioRen\\Ren.Domain\\Ren.Domain.csproj"
               },
-              "/home/lucas/dev/EstagioRen/Ren.Infra/Ren.Infra.csproj": {
-                "projectPath": "/home/lucas/dev/EstagioRen/Ren.Infra/Ren.Infra.csproj"
+              "C:\\dev\\EstagioRen\\Ren.Infra\\Ren.Infra.csproj": {
+                "projectPath": "C:\\dev\\EstagioRen\\Ren.Infra\\Ren.Infra.csproj"
               },
-              "/home/lucas/dev/EstagioRen/Ren.Shared/Ren.Shared.csproj": {
-                "projectPath": "/home/lucas/dev/EstagioRen/Ren.Shared/Ren.Shared.csproj"
+              "C:\\dev\\EstagioRen\\Ren.Shared\\Ren.Shared.csproj": {
+                "projectPath": "C:\\dev\\EstagioRen\\Ren.Shared\\Ren.Shared.csproj"
               }
             }
           }
@@ -192,32 +210,40 @@
             }
           },
           "imports": [
-            "net461"
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
           ],
           "assetTargetFallback": true,
-          "warn": true
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "/home/lucas/dev/EstagioRen/Ren.Shared/Ren.Shared.csproj": {
+    "C:\\dev\\EstagioRen\\Ren.Shared\\Ren.Shared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/lucas/dev/EstagioRen/Ren.Shared/Ren.Shared.csproj",
+        "projectUniqueName": "C:\\dev\\EstagioRen\\Ren.Shared\\Ren.Shared.csproj",
         "projectName": "Ren.Shared",
-        "projectPath": "/home/lucas/dev/EstagioRen/Ren.Shared/Ren.Shared.csproj",
-        "packagesPath": "/home/lucas/.nuget/packages/",
-        "outputPath": "/home/lucas/dev/EstagioRen/Ren.Shared/obj/",
+        "projectPath": "C:\\dev\\EstagioRen\\Ren.Shared\\Ren.Shared.csproj",
+        "packagesPath": "C:\\Users\\LUCAS\\.nuget\\packages\\",
+        "outputPath": "C:\\dev\\EstagioRen\\Ren.Shared\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "/usr/share/dotnet/sdk/NuGetFallbackFolder"
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "/home/lucas/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\LUCAS\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -246,10 +272,16 @@
             }
           },
           "imports": [
-            "net461"
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
           ],
           "assetTargetFallback": true,
-          "warn": true
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -39,3 +39,5 @@ C:/dev/EstagioRen/Ren.Tests/obj/Debug/netcoreapp2.2/Ren.Tests.pdb
 /home/lucas/dev/EstagioRen/Ren.Tests/obj/Debug/netcoreapp2.2/Ren.Tests.csproj.CopyComplete
 /home/lucas/dev/EstagioRen/Ren.Tests/obj/Debug/netcoreapp2.2/Ren.Tests.dll
 /home/lucas/dev/EstagioRen/Ren.Tests/obj/Debug/netcoreapp2.2/Ren.Tests.pdb
+c:\dev\EstagioRen\Ren.Tests\obj\Debug\netcoreapp2.2\Ren.Tests.dll
+c:\dev\EstagioRen\Ren.Tests\obj\Debug\netcoreapp2.2\Ren.Tests.pdb

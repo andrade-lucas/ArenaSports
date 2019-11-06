@@ -1,11 +1,3 @@
-C:/dev/EstagioRen/Ren.Shared/obj/Debug/netstandard2.0/Ren.Shared.csprojAssemblyReference.cache
-C:/dev/EstagioRen/Ren.Shared/obj/Debug/netstandard2.0/Ren.Shared.AssemblyInfoInputs.cache
-C:/dev/EstagioRen/Ren.Shared/obj/Debug/netstandard2.0/Ren.Shared.AssemblyInfo.cs
-C:/dev/EstagioRen/Ren.Shared/obj/Debug/netstandard2.0/Ren.Shared.dll
-C:/dev/EstagioRen/Ren.Shared/obj/Debug/netstandard2.0/Ren.Shared.pdb
-C:/dev/EstagioRen/Ren.Shared/bin/Debug/netstandard2.0/Ren.Shared.deps.json
-C:/dev/EstagioRen/Ren.Shared/bin/Debug/netstandard2.0/Ren.Shared.dll
-C:/dev/EstagioRen/Ren.Shared/bin/Debug/netstandard2.0/Ren.Shared.pdb
 /home/lucas/dev/EstagioRen/Ren.Shared/bin/Debug/netstandard2.0/Ren.Shared.deps.json
 /home/lucas/dev/EstagioRen/Ren.Shared/bin/Debug/netstandard2.0/Ren.Shared.dll
 /home/lucas/dev/EstagioRen/Ren.Shared/bin/Debug/netstandard2.0/Ren.Shared.pdb
@@ -15,3 +7,11 @@ C:/dev/EstagioRen/Ren.Shared/bin/Debug/netstandard2.0/Ren.Shared.pdb
 /home/lucas/dev/EstagioRen/Ren.Shared/obj/Debug/netstandard2.0/Ren.Shared.AssemblyInfo.cs
 /home/lucas/dev/EstagioRen/Ren.Shared/obj/Debug/netstandard2.0/Ren.Shared.dll
 /home/lucas/dev/EstagioRen/Ren.Shared/obj/Debug/netstandard2.0/Ren.Shared.pdb
+c:\dev\EstagioRen\Ren.Shared\obj\Debug\netstandard2.0\Ren.Shared.AssemblyInfoInputs.cache
+c:\dev\EstagioRen\Ren.Shared\obj\Debug\netstandard2.0\Ren.Shared.AssemblyInfo.cs
+c:\dev\EstagioRen\Ren.Shared\obj\Debug\netstandard2.0\Ren.Shared.dll
+c:\dev\EstagioRen\Ren.Shared\obj\Debug\netstandard2.0\Ren.Shared.pdb
+C:\dev\EstagioRen\Ren.Shared\bin\Debug\netstandard2.0\Ren.Shared.deps.json
+C:\dev\EstagioRen\Ren.Shared\bin\Debug\netstandard2.0\Ren.Shared.dll
+C:\dev\EstagioRen\Ren.Shared\bin\Debug\netstandard2.0\Ren.Shared.pdb
+C:\dev\EstagioRen\Ren.Shared\obj\Debug\netstandard2.0\Ren.Shared.csprojAssemblyReference.cache
