@@ -39,13 +39,15 @@ namespace Ren.Tests.Entities
         [TestMethod]
         public void ShouldReturnInvalidWhenUserIsInvalid()
         {
-            Assert.Fail();
+            User user = new User(_invalidName, _invalidDocument, "", _invalidEmail, _invalidPassword, "");
+            Assert.AreEqual(false, user.Invalid);
         }
 
         [TestMethod]
         public void ShouldReturnInvalidWhenDocumentIsInvalid()
         {
-            Assert.Fail();
+            User user = new User(_validName, _invalidDocument, "", _validEmail, _validPassword, "");
+            Assert.AreNotEqual(0, user.Notifications.Count);
         }
         
         [TestMethod]
@@ -65,13 +67,17 @@ namespace Ren.Tests.Entities
         [TestMethod]
         public void ShouldReturnUserNameWhenGetUserToString()
         {
-            Assert.Fail();
+            User user = new User(_validName, _validDocument, "", _validEmail, _validPassword, "");
+            string a = user.ToString();
+            Assert.AreEqual("FirstName LastName", user.ToString());
         }
 
         [TestMethod]
         public void ShouldReturnValidWhenChangeUserStatus()
         {
-            Assert.Fail();
+            User user = new User(_validName, _validDocument, "", _validEmail, _validPassword, "");
+            user.ChangeStatus(EUserStatus.Inactive);
+            Assert.AreEqual(user.Status, EUserStatus.Inactive);
         }
     }
 }

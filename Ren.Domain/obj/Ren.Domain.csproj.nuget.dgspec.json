@@ -1,37 +1,35 @@
 {
   "format": 1,
   "restore": {
-    "C:\\dev\\EstagioRen\\Ren.Domain\\Ren.Domain.csproj": {}
+    "/home/lucas/dev/EstagioRen/Ren.Domain/Ren.Domain.csproj": {}
   },
   "projects": {
-    "C:\\dev\\EstagioRen\\Ren.Domain\\Ren.Domain.csproj": {
+    "/home/lucas/dev/EstagioRen/Ren.Domain/Ren.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\dev\\EstagioRen\\Ren.Domain\\Ren.Domain.csproj",
+        "projectUniqueName": "/home/lucas/dev/EstagioRen/Ren.Domain/Ren.Domain.csproj",
         "projectName": "Ren.Domain",
-        "projectPath": "C:\\dev\\EstagioRen\\Ren.Domain\\Ren.Domain.csproj",
-        "packagesPath": "C:\\Users\\LUCAS\\.nuget\\packages\\",
-        "outputPath": "C:\\dev\\EstagioRen\\Ren.Domain\\obj\\",
+        "projectPath": "/home/lucas/dev/EstagioRen/Ren.Domain/Ren.Domain.csproj",
+        "packagesPath": "/home/lucas/.nuget/packages/",
+        "outputPath": "/home/lucas/dev/EstagioRen/Ren.Domain/obj/",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "/usr/share/dotnet/sdk/NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\LUCAS\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/home/lucas/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netstandard2.0": {
             "projectReferences": {
-              "C:\\dev\\EstagioRen\\Ren.Shared\\Ren.Shared.csproj": {
-                "projectPath": "C:\\dev\\EstagioRen\\Ren.Shared\\Ren.Shared.csproj"
+              "/home/lucas/dev/EstagioRen/Ren.Shared/Ren.Shared.csproj": {
+                "projectPath": "/home/lucas/dev/EstagioRen/Ren.Shared/Ren.Shared.csproj"
               }
             }
           }
@@ -57,40 +55,32 @@
             }
           },
           "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48"
+            "net461"
           ],
           "assetTargetFallback": true,
-          "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+          "warn": true
         }
       }
     },
-    "C:\\dev\\EstagioRen\\Ren.Shared\\Ren.Shared.csproj": {
+    "/home/lucas/dev/EstagioRen/Ren.Shared/Ren.Shared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\dev\\EstagioRen\\Ren.Shared\\Ren.Shared.csproj",
+        "projectUniqueName": "/home/lucas/dev/EstagioRen/Ren.Shared/Ren.Shared.csproj",
         "projectName": "Ren.Shared",
-        "projectPath": "C:\\dev\\EstagioRen\\Ren.Shared\\Ren.Shared.csproj",
-        "packagesPath": "C:\\Users\\LUCAS\\.nuget\\packages\\",
-        "outputPath": "C:\\dev\\EstagioRen\\Ren.Shared\\obj\\",
+        "projectPath": "/home/lucas/dev/EstagioRen/Ren.Shared/Ren.Shared.csproj",
+        "packagesPath": "/home/lucas/.nuget/packages/",
+        "outputPath": "/home/lucas/dev/EstagioRen/Ren.Shared/obj/",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "/usr/share/dotnet/sdk/NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\LUCAS\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/home/lucas/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -119,16 +109,10 @@
             }
           },
           "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48"
+            "net461"
           ],
           "assetTargetFallback": true,
-          "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+          "warn": true
         }
       }
     }
