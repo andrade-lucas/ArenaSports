@@ -18,9 +18,6 @@ C:/dev/EstagioRen/Ren.Tests/bin/Debug/netcoreapp2.2/Ren.Infra.pdb
 C:/dev/EstagioRen/Ren.Tests/obj/Debug/netcoreapp2.2/Ren.Tests.csproj.CopyComplete
 C:/dev/EstagioRen/Ren.Tests/obj/Debug/netcoreapp2.2/Ren.Tests.dll
 C:/dev/EstagioRen/Ren.Tests/obj/Debug/netcoreapp2.2/Ren.Tests.pdb
-/home/lucas/dev/EstagioRen/Ren.Tests/bin/Debug/netcoreapp2.2/Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
-/home/lucas/dev/EstagioRen/Ren.Tests/bin/Debug/netcoreapp2.2/Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
-/home/lucas/dev/EstagioRen/Ren.Tests/bin/Debug/netcoreapp2.2/Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
 /home/lucas/dev/EstagioRen/Ren.Tests/bin/Debug/netcoreapp2.2/Ren.Tests.deps.json
 /home/lucas/dev/EstagioRen/Ren.Tests/bin/Debug/netcoreapp2.2/Ren.Tests.runtimeconfig.json
 /home/lucas/dev/EstagioRen/Ren.Tests/bin/Debug/netcoreapp2.2/Ren.Tests.runtimeconfig.dev.json
@@ -39,3 +36,6 @@ C:/dev/EstagioRen/Ren.Tests/obj/Debug/netcoreapp2.2/Ren.Tests.pdb
 /home/lucas/dev/EstagioRen/Ren.Tests/obj/Debug/netcoreapp2.2/Ren.Tests.csproj.CopyComplete
 /home/lucas/dev/EstagioRen/Ren.Tests/obj/Debug/netcoreapp2.2/Ren.Tests.dll
 /home/lucas/dev/EstagioRen/Ren.Tests/obj/Debug/netcoreapp2.2/Ren.Tests.pdb
+/home/lucas/dev/EstagioRen/Ren.Tests/bin/Debug/netcoreapp2.2/Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+/home/lucas/dev/EstagioRen/Ren.Tests/bin/Debug/netcoreapp2.2/Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+/home/lucas/dev/EstagioRen/Ren.Tests/bin/Debug/netcoreapp2.2/Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll

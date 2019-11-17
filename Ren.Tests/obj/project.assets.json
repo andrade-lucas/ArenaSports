@@ -574,7 +574,7 @@
           }
         }
       },
-      "MSTest.TestAdapter/1.3.0-beta2": {
+      "MSTest.TestAdapter/2.0.0": {
         "type": "package",
         "dependencies": {
           "NETStandard.Library": "1.6.1",
@@ -584,7 +584,7 @@
           "build/netcoreapp1.0/MSTest.TestAdapter.props": {}
         }
       },
-      "MSTest.TestFramework/1.3.0-beta2": {
+      "MSTest.TestFramework/2.0.0": {
         "type": "package",
         "compile": {
           "lib/netstandard1.0/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll": {},
@@ -2614,13 +2614,14 @@
         "version.txt"
       ]
     },
-    "MSTest.TestAdapter/1.3.0-beta2": {
-      "sha512": "vbUAVeYu6ocZp1U69Eyb87dC7cuQfFt5krXUGM9zw7/7wgRVHHr/GmD+AZbOtl7wgauHf8k48KRO/88e8GVgQA==",
+    "MSTest.TestAdapter/2.0.0": {
+      "sha512": "VoXDhx+a/44RmQYpkrYWe3D6AP6kjqibe02NOj1t8Zn9uo8e90gXW22SYj3geEwNTcEdMg2XMq0SI2P0Fl2Trw==",
       "type": "package",
-      "path": "mstest.testadapter/1.3.0-beta2",
+      "path": "mstest.testadapter/2.0.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
+        "LICENSE.txt",
         "build/_common/Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll",
         "build/_common/Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll",
         "build/_common/Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll",
@@ -2671,17 +2672,18 @@
         "build/uap10.0/MSTest.TestAdapter.props",
         "build/uap10.0/MSTest.TestAdapter.targets",
         "build/uap10.0/Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll",
-        "mstest.testadapter.1.3.0-beta2.nupkg.sha512",
+        "mstest.testadapter.2.0.0.nupkg.sha512",
         "mstest.testadapter.nuspec"
       ]
     },
-    "MSTest.TestFramework/1.3.0-beta2": {
-      "sha512": "/8dC/WBNrVH4IwCelQ39fdVhYXa+SajklYLKJs8tNOi0Qw26aR2yFrRcZyfyV0Ybuvlxl8HXfdywAN5mHAZ/fw==",
+    "MSTest.TestFramework/2.0.0": {
+      "sha512": "gDlwhzIqdhUB+tirA80c6jUnlAsWBl2RXsKwmCbeZ1XkTjufrZIrBs7cvBdxbzddAEFOZuqfeCHJK/rp0vloZg==",
       "type": "package",
-      "path": "mstest.testframework/1.3.0-beta2",
+      "path": "mstest.testframework/2.0.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
+        "LICENSE.txt",
         "lib/net45/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.XML",
         "lib/net45/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll",
         "lib/net45/Microsoft.VisualStudio.TestPlatform.TestFramework.XML",
@@ -2772,7 +2774,7 @@
         "lib/uap10.0/zh-Hans/Microsoft.VisualStudio.TestPlatform.TestFramework.xml",
         "lib/uap10.0/zh-Hant/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml",
         "lib/uap10.0/zh-Hant/Microsoft.VisualStudio.TestPlatform.TestFramework.xml",
-        "mstest.testframework.1.3.0-beta2.nupkg.sha512",
+        "mstest.testframework.2.0.0.nupkg.sha512",
         "mstest.testframework.nuspec"
       ]
     },
@@ -3063,7 +3065,6 @@
       "path": "system.collections/4.3.0",
       "files": [
         ".nupkg.metadata",
-        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -3588,7 +3589,6 @@
       "path": "system.diagnostics.debug/4.3.0",
       "files": [
         ".nupkg.metadata",
-        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -4008,7 +4008,6 @@
       "path": "system.globalization/4.3.0",
       "files": [
         ".nupkg.metadata",
-        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -4907,7 +4906,6 @@
       "path": "system.resources.resourcemanager/4.3.0",
       "files": [
         ".nupkg.metadata",
-        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -5083,7 +5081,6 @@
       "path": "system.runtime.extensions/4.3.0",
       "files": [
         ".nupkg.metadata",
-        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -5830,7 +5827,6 @@
       "path": "system.threading/4.3.0",
       "files": [
         ".nupkg.metadata",
-        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -6399,8 +6395,8 @@
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.2": [
-      "MSTest.TestAdapter >= 1.3.0-beta2",
-      "MSTest.TestFramework >= 1.3.0-beta2",
+      "MSTest.TestAdapter >= 2.0.0",
+      "MSTest.TestFramework >= 2.0.0",
       "Microsoft.NET.Test.Sdk >= 16.0.1",
       "Microsoft.NETCore.App >= 2.2.0",
       "Ren.Domain >= 1.0.0",
@@ -6459,11 +6455,11 @@
         "dependencies": {
           "MSTest.TestAdapter": {
             "target": "Package",
-            "version": "[1.3.0-beta2, )"
+            "version": "[2.0.0, )"
           },
           "MSTest.TestFramework": {
             "target": "Package",
-            "version": "[1.3.0-beta2, )"
+            "version": "[2.0.0, )"
           },
           "Microsoft.NET.Test.Sdk": {
             "target": "Package",

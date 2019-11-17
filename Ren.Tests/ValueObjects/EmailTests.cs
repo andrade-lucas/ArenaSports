@@ -7,6 +7,7 @@ namespace Ren.Tests.ValueObjects
     public class EmailTests
     {
         [TestMethod]
+        [TestCategory("ValueObjects")]
         public void ShouldReturnInvalidWhenEmailIsNull()
         {
             Email email = new Email(null);
@@ -14,6 +15,7 @@ namespace Ren.Tests.ValueObjects
         }
 
         [TestMethod]
+        [TestCategory("ValueObjects")]
         public void ShouldReturnInvalidWhenEmailIsInvalid()
         {
             Email email = new Email("invalid.email");
@@ -21,6 +23,7 @@ namespace Ren.Tests.ValueObjects
         }
 
         [TestMethod]
+        [TestCategory("ValueObjects")]
         public void ShouldReturnValidWhenEmailIsValid()
         {
             Email email = new Email("valid.email@rensoftware.com");

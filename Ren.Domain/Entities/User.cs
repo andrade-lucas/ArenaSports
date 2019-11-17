@@ -19,6 +19,8 @@ namespace Ren.Domain.Entities
         {
             Name = name;
             Status = status;
+
+            AddNotifications(Name.Notifications);
         }
 
         public User(Name name, Document document, string phone, Email email, Password password, string image)
@@ -30,6 +32,8 @@ namespace Ren.Domain.Entities
             Email = email;
             Password = password;
             Image = image;
+
+            AddNotifications(Name.Notifications);
         }
 
         public void ChangeStatus(EUserStatus status)

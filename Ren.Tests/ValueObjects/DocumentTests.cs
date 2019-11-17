@@ -7,6 +7,7 @@ namespace Ren.Tests.ValueObjects
     public class DocumentTests
     {
         [TestMethod]
+        [TestCategory("ValueObjects")]
         public void ShouldReturnInvalidWhenDocumentIsInvalid()
         {
             Document document = new Document("12345678911");
@@ -14,6 +15,7 @@ namespace Ren.Tests.ValueObjects
         }
 
         [TestMethod]
+        [TestCategory("ValueObjects")]
         public void ShouldReturnInvalidWhenDocumentIsNull()
         {
             Document document = new Document(null);
@@ -21,6 +23,7 @@ namespace Ren.Tests.ValueObjects
         }
 
         [TestMethod]
+        [TestCategory("ValueObjects")]
         public void ShouldReturnInvalidWhenDocumentLengthIsInvalid()
         {
             Document document = new Document("123");
@@ -28,6 +31,7 @@ namespace Ren.Tests.ValueObjects
         }
 
         [TestMethod]
+        [TestCategory("ValueObjects")]
         public void ShouldReturnValidWhenDocumentIsValid()
         {
             Document document = new Document("30393227022"); // Document gerenated by https://www.4devs.com.br/gerador_de_cpf

@@ -24,33 +24,28 @@ namespace Ren.Tests.Entities
         public UserTests()
         {
             // Valid Properties.
-            this._validName = new Name("FirstName", "LastName");
-            this._validDocument = new Document("636.950.730-04"); // Document gerenated by https://www.4devs.com.br/gerador_de_cpf
-            this._validEmail = new Email("valid.email@rensoftware.com");
-            this._validPassword = new Password("vAl1dP4s$");
+            _validName = new Name("FirstName", "LastName");
+            _validDocument = new Document("636.950.730-04"); // Document gerenated by https://www.4devs.com.br/gerador_de_cpf
+            _validEmail = new Email("valid.email@rensoftware.com");
+            _validPassword = new Password("vAl1dP4s$");
 
             // Invalid Properties.
-            this._validName = new Name("", "");
-            this._validDocument = new Document("12345678911");
-            this._validEmail = new Email("invalid.email");
-            this._validPassword = new Password("123");
+            _invalidName = new Name("", "");
+            _invalidDocument = new Document("12345678911");
+            _invalidEmail = new Email("invalid.email");
+            _invalidPassword = new Password("123");
         }
 
         [TestMethod]
+        [TestCategory("Entities")]
         public void ShouldReturnInvalidWhenUserIsInvalid()
         {
             User user = new User(_invalidName, _invalidDocument, "", _invalidEmail, _invalidPassword, "");
-            Assert.AreEqual(false, user.Invalid);
-        }
-
-        [TestMethod]
-        public void ShouldReturnInvalidWhenDocumentIsInvalid()
-        {
-            User user = new User(_validName, _invalidDocument, "", _validEmail, _validPassword, "");
-            Assert.AreNotEqual(0, user.Notifications.Count);
+            Assert.AreEqual(true, user.Invalid);
         }
         
         [TestMethod]
+        [TestCategory("Entities")]
         public void ShouldReturnValidWhenUserIsValid()
         {
             User user = new User(_validName, _validDocument, "", _validEmail, _validPassword, "");
@@ -58,6 +53,7 @@ namespace Ren.Tests.Entities
         }
 
         [TestMethod]
+        [TestCategory("Entities")]
         public void ShouldReturnValidWhenInstantiateAnUserById()
         {
             User user = new User(Guid.NewGuid(), _validName, EUserStatus.Active);
@@ -65,6 +61,7 @@ namespace Ren.Tests.Entities
         }
 
         [TestMethod]
+        [TestCategory("Entities")]
         public void ShouldReturnUserNameWhenGetUserToString()
         {
             User user = new User(_validName, _validDocument, "", _validEmail, _validPassword, "");
@@ -73,6 +70,7 @@ namespace Ren.Tests.Entities
         }
 
         [TestMethod]
+        [TestCategory("Entities")]
         public void ShouldReturnValidWhenChangeUserStatus()
         {
             User user = new User(_validName, _validDocument, "", _validEmail, _validPassword, "");
