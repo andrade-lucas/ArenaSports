@@ -12,6 +12,7 @@ using Ren.Domain.Repositories;
 using Ren.Infra.Context;
 using Ren.Infra.Repositories;
 using Ren.Presentation.Configurations;
+using Swashbuckle.AspNetCore.Swagger;
 
 namespace Ren.Presentation
 {
@@ -34,6 +35,12 @@ namespace Ren.Presentation
             services.AddTransient<IUserRepository, UserRepository>();
             services.AddTransient<IProjectRepository, ProjectRepository>();
             services.AddTransient<IHeritageRepository, HeritageRepository>();
+
+            services.AddSwaggerGen(x =>
+            {
+                x.SwaggerDoc("v1", new Info { Title = "Estágio Ren", Version = "v1" });
+            });
+
             services.AddMvc(); //.SetCompatibilityVersion(CompatibilityVersion.Version_2_2)
 
             // In production, the Angular files will be served from this directory
@@ -98,6 +105,10 @@ namespace Ren.Presentation
             });
             app.UseResponseCompression();
             app.UseMvc();
+            app.UseSwagger();
+            app.UseSwaggerUI(x => {
+                x.SwaggerEndpoint("/swagger/v1/swagger.json", "Estágio Rensoftware");
+            });
             app.UseSpa(spa =>
             {
                 // To learn more about options for serving an Angular SPA from ASP.NET Core,

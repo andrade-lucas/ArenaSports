@@ -574,7 +574,7 @@
           }
         }
       },
-      "MSTest.TestAdapter/1.4.0": {
+      "MSTest.TestAdapter/1.3.0-beta2": {
         "type": "package",
         "dependencies": {
           "NETStandard.Library": "1.6.1",
@@ -584,7 +584,7 @@
           "build/netcoreapp1.0/MSTest.TestAdapter.props": {}
         }
       },
-      "MSTest.TestFramework/1.4.0": {
+      "MSTest.TestFramework/1.3.0-beta2": {
         "type": "package",
         "compile": {
           "lib/netstandard1.0/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll": {},
@@ -2614,10 +2614,10 @@
         "version.txt"
       ]
     },
-    "MSTest.TestAdapter/1.4.0": {
-      "sha512": "t2/rL9DG+cVAgPs98OGm2sbZ4FTgn+MGEan5P9NRAgqMV3+nYRKG7/5R0jY7lBMq9ISms+84MSqTHWs6QnPt4A==",
+    "MSTest.TestAdapter/1.3.0-beta2": {
+      "sha512": "vbUAVeYu6ocZp1U69Eyb87dC7cuQfFt5krXUGM9zw7/7wgRVHHr/GmD+AZbOtl7wgauHf8k48KRO/88e8GVgQA==",
       "type": "package",
-      "path": "mstest.testadapter/1.4.0",
+      "path": "mstest.testadapter/1.3.0-beta2",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -2671,14 +2671,14 @@
         "build/uap10.0/MSTest.TestAdapter.props",
         "build/uap10.0/MSTest.TestAdapter.targets",
         "build/uap10.0/Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll",
-        "mstest.testadapter.1.4.0.nupkg.sha512",
+        "mstest.testadapter.1.3.0-beta2.nupkg.sha512",
         "mstest.testadapter.nuspec"
       ]
     },
-    "MSTest.TestFramework/1.4.0": {
-      "sha512": "kV/yZ0XLiOElsVeLT0GnNrsoKcPvVNOP6Cv2zkAiceJY0rpro0L+3t54bRApLwTg1mxlo4rLziBG7X6X69KcrQ==",
+    "MSTest.TestFramework/1.3.0-beta2": {
+      "sha512": "/8dC/WBNrVH4IwCelQ39fdVhYXa+SajklYLKJs8tNOi0Qw26aR2yFrRcZyfyV0Ybuvlxl8HXfdywAN5mHAZ/fw==",
       "type": "package",
-      "path": "mstest.testframework/1.4.0",
+      "path": "mstest.testframework/1.3.0-beta2",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -2772,7 +2772,7 @@
         "lib/uap10.0/zh-Hans/Microsoft.VisualStudio.TestPlatform.TestFramework.xml",
         "lib/uap10.0/zh-Hant/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml",
         "lib/uap10.0/zh-Hant/Microsoft.VisualStudio.TestPlatform.TestFramework.xml",
-        "mstest.testframework.1.4.0.nupkg.sha512",
+        "mstest.testframework.1.3.0-beta2.nupkg.sha512",
         "mstest.testframework.nuspec"
       ]
     },
@@ -6399,8 +6399,8 @@
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.2": [
-      "MSTest.TestAdapter >= 1.4.0",
-      "MSTest.TestFramework >= 1.4.0",
+      "MSTest.TestAdapter >= 1.3.0-beta2",
+      "MSTest.TestFramework >= 1.3.0-beta2",
       "Microsoft.NET.Test.Sdk >= 16.0.1",
       "Microsoft.NETCore.App >= 2.2.0",
       "Ren.Domain >= 1.0.0",
@@ -6409,43 +6409,41 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\LUCAS\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "/home/lucas/.nuget/packages/": {},
+    "/usr/share/dotnet/sdk/NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\dev\\EstagioRen\\Ren.Tests\\Ren.Tests.csproj",
+      "projectUniqueName": "/home/lucas/dev/EstagioRen/Ren.Tests/Ren.Tests.csproj",
       "projectName": "Ren.Tests",
-      "projectPath": "C:\\dev\\EstagioRen\\Ren.Tests\\Ren.Tests.csproj",
-      "packagesPath": "C:\\Users\\LUCAS\\.nuget\\packages\\",
-      "outputPath": "C:\\dev\\EstagioRen\\Ren.Tests\\obj\\",
+      "projectPath": "/home/lucas/dev/EstagioRen/Ren.Tests/Ren.Tests.csproj",
+      "packagesPath": "/home/lucas/.nuget/packages/",
+      "outputPath": "/home/lucas/dev/EstagioRen/Ren.Tests/obj/",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        "/usr/share/dotnet/sdk/NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\LUCAS\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "/home/lucas/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp2.2"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "netcoreapp2.2": {
           "projectReferences": {
-            "C:\\dev\\EstagioRen\\Ren.Domain\\Ren.Domain.csproj": {
-              "projectPath": "C:\\dev\\EstagioRen\\Ren.Domain\\Ren.Domain.csproj"
+            "/home/lucas/dev/EstagioRen/Ren.Domain/Ren.Domain.csproj": {
+              "projectPath": "/home/lucas/dev/EstagioRen/Ren.Domain/Ren.Domain.csproj"
             },
-            "C:\\dev\\EstagioRen\\Ren.Infra\\Ren.Infra.csproj": {
-              "projectPath": "C:\\dev\\EstagioRen\\Ren.Infra\\Ren.Infra.csproj"
+            "/home/lucas/dev/EstagioRen/Ren.Infra/Ren.Infra.csproj": {
+              "projectPath": "/home/lucas/dev/EstagioRen/Ren.Infra/Ren.Infra.csproj"
             },
-            "C:\\dev\\EstagioRen\\Ren.Shared\\Ren.Shared.csproj": {
-              "projectPath": "C:\\dev\\EstagioRen\\Ren.Shared\\Ren.Shared.csproj"
+            "/home/lucas/dev/EstagioRen/Ren.Shared/Ren.Shared.csproj": {
+              "projectPath": "/home/lucas/dev/EstagioRen/Ren.Shared/Ren.Shared.csproj"
             }
           }
         }
@@ -6461,11 +6459,11 @@
         "dependencies": {
           "MSTest.TestAdapter": {
             "target": "Package",
-            "version": "[1.4.0, )"
+            "version": "[1.3.0-beta2, )"
           },
           "MSTest.TestFramework": {
             "target": "Package",
-            "version": "[1.4.0, )"
+            "version": "[1.3.0-beta2, )"
           },
           "Microsoft.NET.Test.Sdk": {
             "target": "Package",
@@ -6479,16 +6477,10 @@
           }
         },
         "imports": [
-          "net461",
-          "net462",
-          "net47",
-          "net471",
-          "net472",
-          "net48"
+          "net461"
         ],
         "assetTargetFallback": true,
-        "warn": true,
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+        "warn": true
       }
     }
   }
