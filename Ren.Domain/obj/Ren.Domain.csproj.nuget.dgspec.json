@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\dev\\EstagioRen\\Ren.Domain\\Ren.Domain.csproj": {}
+    "c:\\dev\\EstagioRen\\Ren.Domain\\Ren.Domain.csproj": {}
   },
   "projects": {
-    "C:\\dev\\EstagioRen\\Ren.Domain\\Ren.Domain.csproj": {
+    "c:\\dev\\EstagioRen\\Ren.Domain\\Ren.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\dev\\EstagioRen\\Ren.Domain\\Ren.Domain.csproj",
+        "projectUniqueName": "c:\\dev\\EstagioRen\\Ren.Domain\\Ren.Domain.csproj",
         "projectName": "Ren.Domain",
-        "projectPath": "C:\\dev\\EstagioRen\\Ren.Domain\\Ren.Domain.csproj",
+        "projectPath": "c:\\dev\\EstagioRen\\Ren.Domain\\Ren.Domain.csproj",
         "packagesPath": "C:\\Users\\LUCAS\\.nuget\\packages\\",
-        "outputPath": "C:\\dev\\EstagioRen\\Ren.Domain\\obj\\",
+        "outputPath": "c:\\dev\\EstagioRen\\Ren.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -32,8 +32,8 @@
         "frameworks": {
           "netstandard2.0": {
             "projectReferences": {
-              "C:\\dev\\EstagioRen\\Ren.Shared\\Ren.Shared.csproj": {
-                "projectPath": "C:\\dev\\EstagioRen\\Ren.Shared\\Ren.Shared.csproj"
+              "c:\\dev\\EstagioRen\\Ren.Shared\\Ren.Shared.csproj": {
+                "projectPath": "c:\\dev\\EstagioRen\\Ren.Shared\\Ren.Shared.csproj"
               }
             }
           }
@@ -72,14 +72,14 @@
         }
       }
     },
-    "C:\\dev\\EstagioRen\\Ren.Shared\\Ren.Shared.csproj": {
+    "c:\\dev\\EstagioRen\\Ren.Shared\\Ren.Shared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\dev\\EstagioRen\\Ren.Shared\\Ren.Shared.csproj",
+        "projectUniqueName": "c:\\dev\\EstagioRen\\Ren.Shared\\Ren.Shared.csproj",
         "projectName": "Ren.Shared",
-        "projectPath": "C:\\dev\\EstagioRen\\Ren.Shared\\Ren.Shared.csproj",
+        "projectPath": "c:\\dev\\EstagioRen\\Ren.Shared\\Ren.Shared.csproj",
         "packagesPath": "C:\\Users\\LUCAS\\.nuget\\packages\\",
-        "outputPath": "C:\\dev\\EstagioRen\\Ren.Shared\\obj\\",
+        "outputPath": "c:\\dev\\EstagioRen\\Ren.Shared\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
