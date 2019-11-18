@@ -7,6 +7,7 @@ namespace Ren.Tests.ValueObjects
     public class PasswordTests
     {
         [TestMethod]
+        [TestCategory("ValueObjects")]
         public void ShouldReturnInvalidWhenPasswordIsNull()
         {
             Password pass = new Password(null);
@@ -14,6 +15,7 @@ namespace Ren.Tests.ValueObjects
         }
 
         [TestMethod]
+        [TestCategory("ValueObjects")]
         public void ShouldReturnInvalidWhenPasswordLengthIsLessThenSix()
         {
             Password pass = new Password("123");
@@ -21,6 +23,7 @@ namespace Ren.Tests.ValueObjects
         }
 
         [TestMethod]
+        [TestCategory("ValueObjects")]
         public void ShouldReturnInvalidWhenPasswordLengthIsMoreThenTwenty()
         {
             Password pass = new Password("12345678912345678912345");
@@ -28,6 +31,7 @@ namespace Ren.Tests.ValueObjects
         }
 
         [TestMethod]
+        [TestCategory("ValueObjects")]
         public void ShouldReturnValidWhenPasswordIsValid()
         {
             Password pass = new Password("vAl1dP4s$");
@@ -35,6 +39,7 @@ namespace Ren.Tests.ValueObjects
         }
 
         [TestMethod]
+        [TestCategory("ValueObjects")]
         public void ShouldReturnInvalidWhenChangePasswordHasInvalidOldPassword()
         {
             Password pass = new Password("vAl1dP4s$");
@@ -43,6 +48,7 @@ namespace Ren.Tests.ValueObjects
         }
 
         [TestMethod]
+        [TestCategory("ValueObjects")]
         public void ShouldReturnInvalidWhenChangePasswordHasInvalidNewPassword()
         {
             Password pass = new Password("vAl1dP4s$");
@@ -51,6 +57,7 @@ namespace Ren.Tests.ValueObjects
         }
 
         [TestMethod]
+        [TestCategory("ValueObjects")]
         public void ShouldReturnValidWhenChangePasswordIsValid()
         {
             Password pass = new Password("vAl1dP4s$");
@@ -59,6 +66,7 @@ namespace Ren.Tests.ValueObjects
         }
 
         [TestMethod]
+        [TestCategory("ValueObjects")]
         public void ShouldReturnValidWhenPasswordIsEncrypted()
         {
             string passValue = "vAl1dP4s$";

@@ -7,6 +7,7 @@ namespace Ren.Tests.ValueObjects
     public class NameTests
     {
         [TestMethod]
+        [TestCategory("ValueObjects")]
         public void ShouldReturnInvalidWhenNameIsNull()
         {
             Name name = new Name(null, null);
@@ -14,6 +15,7 @@ namespace Ren.Tests.ValueObjects
         }
 
         [TestMethod]
+        [TestCategory("ValueObjects")]
         public void ShouldReturnInvalidWhenFirstNameIsNull()
         {
             Name name = new Name(null, "LastName");
@@ -21,6 +23,7 @@ namespace Ren.Tests.ValueObjects
         }
 
         [TestMethod]
+        [TestCategory("ValueObjects")]
         public void ShouldReturnInvalidWhenLastNameIsNull()
         {
             Name name = new Name("FirstName", null);
@@ -28,6 +31,7 @@ namespace Ren.Tests.ValueObjects
         }
 
         [TestMethod]
+        [TestCategory("ValueObjects")]
         public void ShouldReturnInvalidWhenNameLengthIsInvalid()
         {
             Name name = new Name("F", "L");
@@ -35,6 +39,7 @@ namespace Ren.Tests.ValueObjects
         }
 
         [TestMethod]
+        [TestCategory("ValueObjects")]
         public void ShouldReturnValidWhenNameIsValid()
         {
             Name name = new Name("FirstName", "LastName");

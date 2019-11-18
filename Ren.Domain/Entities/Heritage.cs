@@ -19,6 +19,8 @@ namespace Ren.Domain.Entities
             PurchaseDate = purchaseDate;
             Status = status;
             BarCode = barCode;
+
+            Validate();
         }
 
         public Heritage(Guid id, string description, DateTime purchaseDate, EHeritageStatus status, string barCode)
@@ -28,12 +30,15 @@ namespace Ren.Domain.Entities
             PurchaseDate = purchaseDate;
             Status = status;
             BarCode = barCode;
+
+            Validate();
         }
 
         private void Validate()
         {
             AddNotifications(new ValidationContract()
                 .Requires()
+                .IsNotNull(Description, "Description", MessagesUtil.InvalidProperty.Replace("{0}", "Descrição"))
                 .HasMinLen(Description, 2, "Description", MessagesUtil.StringMinLength)
             );
         }
