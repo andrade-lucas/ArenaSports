@@ -3065,6 +3065,7 @@
       "path": "system.collections/4.3.0",
       "files": [
         ".nupkg.metadata",
+        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -3589,6 +3590,7 @@
       "path": "system.diagnostics.debug/4.3.0",
       "files": [
         ".nupkg.metadata",
+        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -4008,6 +4010,7 @@
       "path": "system.globalization/4.3.0",
       "files": [
         ".nupkg.metadata",
+        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -4906,6 +4909,7 @@
       "path": "system.resources.resourcemanager/4.3.0",
       "files": [
         ".nupkg.metadata",
+        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -5081,6 +5085,7 @@
       "path": "system.runtime.extensions/4.3.0",
       "files": [
         ".nupkg.metadata",
+        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -5827,6 +5832,7 @@
       "path": "system.threading/4.3.0",
       "files": [
         ".nupkg.metadata",
+        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -6405,19 +6411,13 @@
     ]
   },
   "packageFolders": {
-<<<<<<< HEAD
     "C:\\Users\\LUCAS\\.nuget\\packages\\": {},
     "C:\\Microsoft\\Xamarin\\NuGet\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
-=======
-    "/home/lucas/.nuget/packages/": {},
-    "/usr/share/dotnet/sdk/NuGetFallbackFolder": {}
->>>>>>> refs/remotes/origin/master
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-<<<<<<< HEAD
       "projectUniqueName": "c:\\dev\\EstagioRen\\Ren.Tests\\Ren.Tests.csproj",
       "projectName": "Ren.Tests",
       "projectPath": "c:\\dev\\EstagioRen\\Ren.Tests\\Ren.Tests.csproj",
@@ -6432,30 +6432,17 @@
         "C:\\Users\\LUCAS\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
-=======
-      "projectUniqueName": "/home/lucas/dev/EstagioRen/Ren.Tests/Ren.Tests.csproj",
-      "projectName": "Ren.Tests",
-      "projectPath": "/home/lucas/dev/EstagioRen/Ren.Tests/Ren.Tests.csproj",
-      "packagesPath": "/home/lucas/.nuget/packages/",
-      "outputPath": "/home/lucas/dev/EstagioRen/Ren.Tests/obj/",
-      "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "/usr/share/dotnet/sdk/NuGetFallbackFolder"
-      ],
-      "configFilePaths": [
-        "/home/lucas/.nuget/NuGet/NuGet.Config"
->>>>>>> refs/remotes/origin/master
       ],
       "originalTargetFrameworks": [
         "netcoreapp2.2"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "netcoreapp2.2": {
           "projectReferences": {
-<<<<<<< HEAD
             "c:\\dev\\EstagioRen\\Ren.Domain\\Ren.Domain.csproj": {
               "projectPath": "c:\\dev\\EstagioRen\\Ren.Domain\\Ren.Domain.csproj"
             },
@@ -6464,16 +6451,6 @@
             },
             "c:\\dev\\EstagioRen\\Ren.Shared\\Ren.Shared.csproj": {
               "projectPath": "c:\\dev\\EstagioRen\\Ren.Shared\\Ren.Shared.csproj"
-=======
-            "/home/lucas/dev/EstagioRen/Ren.Domain/Ren.Domain.csproj": {
-              "projectPath": "/home/lucas/dev/EstagioRen/Ren.Domain/Ren.Domain.csproj"
-            },
-            "/home/lucas/dev/EstagioRen/Ren.Infra/Ren.Infra.csproj": {
-              "projectPath": "/home/lucas/dev/EstagioRen/Ren.Infra/Ren.Infra.csproj"
-            },
-            "/home/lucas/dev/EstagioRen/Ren.Shared/Ren.Shared.csproj": {
-              "projectPath": "/home/lucas/dev/EstagioRen/Ren.Shared/Ren.Shared.csproj"
->>>>>>> refs/remotes/origin/master
             }
           }
         }
@@ -6507,10 +6484,16 @@
           }
         },
         "imports": [
-          "net461"
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
         ],
         "assetTargetFallback": true,
-        "warn": true
+        "warn": true,
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
       }
     }
   }

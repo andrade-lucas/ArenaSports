@@ -87,7 +87,7 @@ namespace Ren.Infra.Repositories
 
         public GetHeritageByIdQuery GetById(Guid id)
         {
-            return _db.Connection().Query(
+            return _db.Connection().Query<GetHeritageByIdQuery>(
                 "spGetHeritageById",
                 new
                 {

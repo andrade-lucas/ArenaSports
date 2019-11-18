@@ -26,6 +26,7 @@
                             </div>
                         </div>
                         <div class="col-md-9">
+                            <input type="hidden" value="" formControlName="image">
                             <div class="form-group col-md-6 margin-bottom-10">
                                 <label for="FirstName">Nome</label>
                                 <input type="text"
@@ -62,7 +63,7 @@
                             </div>
                             <div class="form-group col-md-6">
                                 <label for="Image">Imagem</label>
-                                <input (change)="onImageSelected($event)" type="file" id="Image" formControlName="image"
+                                <input (change)="onImageSelected($event)" type="file" id="Image"
                                     class="form-control">
                             </div>
                             <div class="form-group col-md-3">

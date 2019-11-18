@@ -4,7 +4,7 @@
                 <div class="row">
                     <div class="col-md-6 text-left">
                         <h3>Ambiente Rensoftware</h3>
-                        <p><small><a [routerLink]="['/']">Início</a> > Patrimônios > Novo</small></p>
+                        <p><small><a [routerLink]="['/']">Início</a> > Patrimônios > Editar</small></p>
                     </div>
                     <div class="col-md-6 text-right">
                         <a [routerLink]="['/heritages']" class="btn btn-primary btn-new"><i class="fa fa-chevron-left"></i>
@@ -14,7 +14,7 @@
                 </div>
                 <div class="panel panel-headline">
                     <div class="panel-heading">
-                        <h3>Novo Patrimônio</h3>
+                        <h3>Editar Patrimônio</h3>
                     </div>
                     <div class="panel-body">
                         <app-loading *ngIf="busy"></app-loading>
@@ -36,9 +36,9 @@
                                 <div class="form-group col-md-6">
                                     <label for="Status">Status</label>
                                     <select name="Status" id="Status" class="form-control" formControlName="status">
-                                        <option ([selected])="form.controls.status" value="0">Indisponível</option>
-                                        <option ([selected])="form.controls.status" value="1">Disponível</option>
-                                        <option ([selected])="form.controls.status" value="2">Com Defeito</option>
+                                        <option [(selected)]="form.controls.status" value="0">Indisponível</option>
+                                        <option [(selected)]="form.controls.status" value="1">Disponível</option>
+                                        <option [(selected)]="form.controls.status" value="2">Com Defeito</option>
                                     </select>
                                 </div>
                                 <div class="form-group col-md-6">
@@ -49,7 +49,7 @@
     
                                 <div class="form-group text-right col-md-12">
                                     <button [disabled]="form.invalid" (click)="submit()"
-                                        class="btn btn-success">Cadastrar</button>
+                                        class="btn btn-success">Editar</button>
                                 </div>
                             </div>
                         </form>

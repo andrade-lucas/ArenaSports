@@ -204,26 +204,20 @@
     ]
   },
   "packageFolders": {
-<<<<<<< HEAD
     "C:\\Users\\LUCAS\\.nuget\\packages\\": {},
     "C:\\Microsoft\\Xamarin\\NuGet\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
-=======
-    "/home/lucas/.nuget/packages/": {},
-    "/usr/share/dotnet/sdk/NuGetFallbackFolder": {}
->>>>>>> refs/remotes/origin/master
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/lucas/dev/EstagioRen/Ren.Shared/Ren.Shared.csproj",
+      "projectUniqueName": "c:\\dev\\EstagioRen\\Ren.Shared\\Ren.Shared.csproj",
       "projectName": "Ren.Shared",
-      "projectPath": "/home/lucas/dev/EstagioRen/Ren.Shared/Ren.Shared.csproj",
-      "packagesPath": "/home/lucas/.nuget/packages/",
-      "outputPath": "/home/lucas/dev/EstagioRen/Ren.Shared/obj/",
+      "projectPath": "c:\\dev\\EstagioRen\\Ren.Shared\\Ren.Shared.csproj",
+      "packagesPath": "C:\\Users\\LUCAS\\.nuget\\packages\\",
+      "outputPath": "c:\\dev\\EstagioRen\\Ren.Shared\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-<<<<<<< HEAD
         "C:\\Microsoft\\Xamarin\\NuGet\\",
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
@@ -231,17 +225,12 @@
         "C:\\Users\\LUCAS\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
-=======
-        "/usr/share/dotnet/sdk/NuGetFallbackFolder"
-      ],
-      "configFilePaths": [
-        "/home/lucas/.nuget/NuGet/NuGet.Config"
->>>>>>> refs/remotes/origin/master
       ],
       "originalTargetFrameworks": [
         "netstandard2.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -270,10 +259,16 @@
           }
         },
         "imports": [
-          "net461"
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
         ],
         "assetTargetFallback": true,
-        "warn": true
+        "warn": true,
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
       }
     }
   }

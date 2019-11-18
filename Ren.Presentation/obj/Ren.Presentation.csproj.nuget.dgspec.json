@@ -1,7 +1,6 @@
 {
   "format": 1,
   "restore": {
-<<<<<<< HEAD
     "c:\\dev\\EstagioRen\\Ren.Presentation\\Ren.Presentation.csproj": {}
   },
   "projects": {
@@ -22,42 +21,19 @@
           "C:\\Users\\LUCAS\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
-=======
-    "/home/lucas/dev/EstagioRen/Ren.Presentation/Ren.Presentation.csproj": {}
-  },
-  "projects": {
-    "/home/lucas/dev/EstagioRen/Ren.Domain/Ren.Domain.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "/home/lucas/dev/EstagioRen/Ren.Domain/Ren.Domain.csproj",
-        "projectName": "Ren.Domain",
-        "projectPath": "/home/lucas/dev/EstagioRen/Ren.Domain/Ren.Domain.csproj",
-        "packagesPath": "/home/lucas/.nuget/packages/",
-        "outputPath": "/home/lucas/dev/EstagioRen/Ren.Domain/obj/",
-        "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "/usr/share/dotnet/sdk/NuGetFallbackFolder"
-        ],
-        "configFilePaths": [
-          "/home/lucas/.nuget/NuGet/NuGet.Config"
->>>>>>> refs/remotes/origin/master
         ],
         "originalTargetFrameworks": [
           "netstandard2.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netstandard2.0": {
             "projectReferences": {
-<<<<<<< HEAD
               "c:\\dev\\EstagioRen\\Ren.Shared\\Ren.Shared.csproj": {
                 "projectPath": "c:\\dev\\EstagioRen\\Ren.Shared\\Ren.Shared.csproj"
-=======
-              "/home/lucas/dev/EstagioRen/Ren.Shared/Ren.Shared.csproj": {
-                "projectPath": "/home/lucas/dev/EstagioRen/Ren.Shared/Ren.Shared.csproj"
->>>>>>> refs/remotes/origin/master
               }
             }
           }
@@ -83,14 +59,19 @@
             }
           },
           "imports": [
-            "net461"
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
           ],
           "assetTargetFallback": true,
-          "warn": true
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     },
-<<<<<<< HEAD
     "c:\\dev\\EstagioRen\\Ren.Infra\\Ren.Infra.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -108,39 +89,19 @@
           "C:\\Users\\LUCAS\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
-=======
-    "/home/lucas/dev/EstagioRen/Ren.Infra/Ren.Infra.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "/home/lucas/dev/EstagioRen/Ren.Infra/Ren.Infra.csproj",
-        "projectName": "Ren.Infra",
-        "projectPath": "/home/lucas/dev/EstagioRen/Ren.Infra/Ren.Infra.csproj",
-        "packagesPath": "/home/lucas/.nuget/packages/",
-        "outputPath": "/home/lucas/dev/EstagioRen/Ren.Infra/obj/",
-        "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "/usr/share/dotnet/sdk/NuGetFallbackFolder"
-        ],
-        "configFilePaths": [
-          "/home/lucas/.nuget/NuGet/NuGet.Config"
->>>>>>> refs/remotes/origin/master
         ],
         "originalTargetFrameworks": [
           "netstandard2.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netstandard2.0": {
             "projectReferences": {
-<<<<<<< HEAD
               "c:\\dev\\EstagioRen\\Ren.Domain\\Ren.Domain.csproj": {
                 "projectPath": "c:\\dev\\EstagioRen\\Ren.Domain\\Ren.Domain.csproj"
-=======
-              "/home/lucas/dev/EstagioRen/Ren.Domain/Ren.Domain.csproj": {
-                "projectPath": "/home/lucas/dev/EstagioRen/Ren.Domain/Ren.Domain.csproj"
->>>>>>> refs/remotes/origin/master
               }
             }
           }
@@ -170,14 +131,19 @@
             }
           },
           "imports": [
-            "net461"
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
           ],
           "assetTargetFallback": true,
-          "warn": true
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     },
-<<<<<<< HEAD
     "c:\\dev\\EstagioRen\\Ren.Presentation\\Ren.Presentation.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -195,33 +161,17 @@
           "C:\\Users\\LUCAS\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
-=======
-    "/home/lucas/dev/EstagioRen/Ren.Presentation/Ren.Presentation.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "/home/lucas/dev/EstagioRen/Ren.Presentation/Ren.Presentation.csproj",
-        "projectName": "Ren.Presentation",
-        "projectPath": "/home/lucas/dev/EstagioRen/Ren.Presentation/Ren.Presentation.csproj",
-        "packagesPath": "/home/lucas/.nuget/packages/",
-        "outputPath": "/home/lucas/dev/EstagioRen/Ren.Presentation/obj/",
-        "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "/usr/share/dotnet/sdk/NuGetFallbackFolder"
-        ],
-        "configFilePaths": [
-          "/home/lucas/.nuget/NuGet/NuGet.Config"
->>>>>>> refs/remotes/origin/master
         ],
         "originalTargetFrameworks": [
           "netcoreapp2.2"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp2.2": {
             "projectReferences": {
-<<<<<<< HEAD
               "c:\\dev\\EstagioRen\\Ren.Domain\\Ren.Domain.csproj": {
                 "projectPath": "c:\\dev\\EstagioRen\\Ren.Domain\\Ren.Domain.csproj"
               },
@@ -230,16 +180,6 @@
               },
               "c:\\dev\\EstagioRen\\Ren.Shared\\Ren.Shared.csproj": {
                 "projectPath": "c:\\dev\\EstagioRen\\Ren.Shared\\Ren.Shared.csproj"
-=======
-              "/home/lucas/dev/EstagioRen/Ren.Domain/Ren.Domain.csproj": {
-                "projectPath": "/home/lucas/dev/EstagioRen/Ren.Domain/Ren.Domain.csproj"
-              },
-              "/home/lucas/dev/EstagioRen/Ren.Infra/Ren.Infra.csproj": {
-                "projectPath": "/home/lucas/dev/EstagioRen/Ren.Infra/Ren.Infra.csproj"
-              },
-              "/home/lucas/dev/EstagioRen/Ren.Shared/Ren.Shared.csproj": {
-                "projectPath": "/home/lucas/dev/EstagioRen/Ren.Shared/Ren.Shared.csproj"
->>>>>>> refs/remotes/origin/master
               }
             }
           }
@@ -280,14 +220,19 @@
             }
           },
           "imports": [
-            "net461"
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
           ],
           "assetTargetFallback": true,
-          "warn": true
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     },
-<<<<<<< HEAD
     "c:\\dev\\EstagioRen\\Ren.Shared\\Ren.Shared.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -305,27 +250,12 @@
           "C:\\Users\\LUCAS\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
-=======
-    "/home/lucas/dev/EstagioRen/Ren.Shared/Ren.Shared.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "/home/lucas/dev/EstagioRen/Ren.Shared/Ren.Shared.csproj",
-        "projectName": "Ren.Shared",
-        "projectPath": "/home/lucas/dev/EstagioRen/Ren.Shared/Ren.Shared.csproj",
-        "packagesPath": "/home/lucas/.nuget/packages/",
-        "outputPath": "/home/lucas/dev/EstagioRen/Ren.Shared/obj/",
-        "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "/usr/share/dotnet/sdk/NuGetFallbackFolder"
-        ],
-        "configFilePaths": [
-          "/home/lucas/.nuget/NuGet/NuGet.Config"
->>>>>>> refs/remotes/origin/master
         ],
         "originalTargetFrameworks": [
           "netstandard2.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -354,10 +284,16 @@
             }
           },
           "imports": [
-            "net461"
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
           ],
           "assetTargetFallback": true,
-          "warn": true
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -59,3 +59,4 @@ C:\dev\EstagioRen\Ren.Presentation\obj\Debug\netcoreapp2.2\Ren.Presentation.Razo
 C:\dev\EstagioRen\Ren.Presentation\obj\Debug\netcoreapp2.2\Ren.Presentation.RazorTargetAssemblyInfo.cs
 C:\dev\EstagioRen\Ren.Presentation\obj\Debug\netcoreapp2.2\Ren.Presentation.Views.pdb
 C:\dev\EstagioRen\Ren.Presentation\obj\Debug\netcoreapp2.2\Ren.Presentation.csproj.CopyComplete
+C:\dev\EstagioRen\Ren.Presentation\obj\Debug\netcoreapp2.2\Ren.Presentation.csprojAssemblyReference.cache

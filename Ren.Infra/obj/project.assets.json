@@ -1725,19 +1725,13 @@
     ]
   },
   "packageFolders": {
-<<<<<<< HEAD
     "C:\\Users\\LUCAS\\.nuget\\packages\\": {},
     "C:\\Microsoft\\Xamarin\\NuGet\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
-=======
-    "/home/lucas/.nuget/packages/": {},
-    "/usr/share/dotnet/sdk/NuGetFallbackFolder": {}
->>>>>>> refs/remotes/origin/master
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-<<<<<<< HEAD
       "projectUniqueName": "c:\\dev\\EstagioRen\\Ren.Infra\\Ren.Infra.csproj",
       "projectName": "Ren.Infra",
       "projectPath": "c:\\dev\\EstagioRen\\Ren.Infra\\Ren.Infra.csproj",
@@ -1752,36 +1746,19 @@
         "C:\\Users\\LUCAS\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
-=======
-      "projectUniqueName": "/home/lucas/dev/EstagioRen/Ren.Infra/Ren.Infra.csproj",
-      "projectName": "Ren.Infra",
-      "projectPath": "/home/lucas/dev/EstagioRen/Ren.Infra/Ren.Infra.csproj",
-      "packagesPath": "/home/lucas/.nuget/packages/",
-      "outputPath": "/home/lucas/dev/EstagioRen/Ren.Infra/obj/",
-      "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "/usr/share/dotnet/sdk/NuGetFallbackFolder"
-      ],
-      "configFilePaths": [
-        "/home/lucas/.nuget/NuGet/NuGet.Config"
->>>>>>> refs/remotes/origin/master
       ],
       "originalTargetFrameworks": [
         "netstandard2.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "netstandard2.0": {
           "projectReferences": {
-<<<<<<< HEAD
             "c:\\dev\\EstagioRen\\Ren.Domain\\Ren.Domain.csproj": {
               "projectPath": "c:\\dev\\EstagioRen\\Ren.Domain\\Ren.Domain.csproj"
-=======
-            "/home/lucas/dev/EstagioRen/Ren.Domain/Ren.Domain.csproj": {
-              "projectPath": "/home/lucas/dev/EstagioRen/Ren.Domain/Ren.Domain.csproj"
->>>>>>> refs/remotes/origin/master
             }
           }
         }
@@ -1811,10 +1788,16 @@
           }
         },
         "imports": [
-          "net461"
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
         ],
         "assetTargetFallback": true,
-        "warn": true
+        "warn": true,
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
       }
     }
   }

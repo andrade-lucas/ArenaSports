@@ -9,6 +9,6 @@ namespace Ren.Domain.Queries.Heritages
         public string Description { get; set; }
         public DateTime PurchaseDate { get; set; }
         public EHeritageStatus Status { get; set; }
-        public string CodeBar { get; set; }
+        public string BarCode { get; set; }
     }
 }
