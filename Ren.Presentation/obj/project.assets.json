@@ -12245,23 +12245,26 @@
   },
   "packageFolders": {
     "C:\\Users\\LUCAS\\.nuget\\packages\\": {},
+    "C:\\Microsoft\\Xamarin\\NuGet\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\dev\\EstagioRen\\Ren.Presentation\\Ren.Presentation.csproj",
+      "projectUniqueName": "c:\\dev\\EstagioRen\\Ren.Presentation\\Ren.Presentation.csproj",
       "projectName": "Ren.Presentation",
-      "projectPath": "C:\\dev\\EstagioRen\\Ren.Presentation\\Ren.Presentation.csproj",
+      "projectPath": "c:\\dev\\EstagioRen\\Ren.Presentation\\Ren.Presentation.csproj",
       "packagesPath": "C:\\Users\\LUCAS\\.nuget\\packages\\",
-      "outputPath": "C:\\dev\\EstagioRen\\Ren.Presentation\\obj\\",
+      "outputPath": "c:\\dev\\EstagioRen\\Ren.Presentation\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
+        "C:\\Microsoft\\Xamarin\\NuGet\\",
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
         "C:\\Users\\LUCAS\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp2.2"
@@ -12273,14 +12276,14 @@
       "frameworks": {
         "netcoreapp2.2": {
           "projectReferences": {
-            "C:\\dev\\EstagioRen\\Ren.Domain\\Ren.Domain.csproj": {
-              "projectPath": "C:\\dev\\EstagioRen\\Ren.Domain\\Ren.Domain.csproj"
+            "c:\\dev\\EstagioRen\\Ren.Domain\\Ren.Domain.csproj": {
+              "projectPath": "c:\\dev\\EstagioRen\\Ren.Domain\\Ren.Domain.csproj"
             },
-            "C:\\dev\\EstagioRen\\Ren.Infra\\Ren.Infra.csproj": {
-              "projectPath": "C:\\dev\\EstagioRen\\Ren.Infra\\Ren.Infra.csproj"
+            "c:\\dev\\EstagioRen\\Ren.Infra\\Ren.Infra.csproj": {
+              "projectPath": "c:\\dev\\EstagioRen\\Ren.Infra\\Ren.Infra.csproj"
             },
-            "C:\\dev\\EstagioRen\\Ren.Shared\\Ren.Shared.csproj": {
-              "projectPath": "C:\\dev\\EstagioRen\\Ren.Shared\\Ren.Shared.csproj"
+            "c:\\dev\\EstagioRen\\Ren.Shared\\Ren.Shared.csproj": {
+              "projectPath": "c:\\dev\\EstagioRen\\Ren.Shared\\Ren.Shared.csproj"
             }
           }
         }
