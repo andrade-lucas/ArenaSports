@@ -15,3 +15,11 @@ C:\dev\EstagioRen\Ren.Shared\bin\Debug\netstandard2.0\Ren.Shared.deps.json
 C:\dev\EstagioRen\Ren.Shared\bin\Debug\netstandard2.0\Ren.Shared.dll
 C:\dev\EstagioRen\Ren.Shared\bin\Debug\netstandard2.0\Ren.Shared.pdb
 C:\dev\EstagioRen\Ren.Shared\obj\Debug\netstandard2.0\Ren.Shared.csprojAssemblyReference.cache
+c:\dev\ArenaSports\Ren.Shared\bin\Debug\netstandard2.0\Ren.Shared.deps.json
+c:\dev\ArenaSports\Ren.Shared\bin\Debug\netstandard2.0\Ren.Shared.dll
+c:\dev\ArenaSports\Ren.Shared\bin\Debug\netstandard2.0\Ren.Shared.pdb
+c:\dev\ArenaSports\Ren.Shared\obj\Debug\netstandard2.0\Ren.Shared.csprojAssemblyReference.cache
+c:\dev\ArenaSports\Ren.Shared\obj\Debug\netstandard2.0\Ren.Shared.AssemblyInfoInputs.cache
+c:\dev\ArenaSports\Ren.Shared\obj\Debug\netstandard2.0\Ren.Shared.AssemblyInfo.cs
+c:\dev\ArenaSports\Ren.Shared\obj\Debug\netstandard2.0\Ren.Shared.dll
+c:\dev\ArenaSports\Ren.Shared\obj\Debug\netstandard2.0\Ren.Shared.pdb

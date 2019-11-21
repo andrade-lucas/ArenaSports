@@ -14,9 +14,11 @@ import { UserProfilePageComponent } from './pages/account/user-profile-page/user
 import { HeritagesPageComponent } from './pages/Environment/heritages/heritages-page/heritages-page.component';
 import { CreateHeritagePageComponent } from './pages/Environment/heritages/create-heritage-page/create-heritage-page.component';
 import { EditHeritagePageComponent } from './pages/Environment/heritages/edit-heritage-page/edit-heritage-page.component';
+import { RegisterPageComponent } from './pages/account/register-page/register-page.component';
 
 const routes: Routes = [
   { path: 'account/login', component: LoginPageComponent },
+  { path: 'account/signup', component: RegisterPageComponent },
   {
     path: 'account',
     canActivate: [AuthService],

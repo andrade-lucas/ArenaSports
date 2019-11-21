@@ -4,7 +4,7 @@
             <div class="left">
                 <div class="content">
                     <div class="header">
-                        <div class="logo text-center"><img src="assets/img/rensoftware-logo.png" width="150" alt="Klorofil Logo"></div>
+                        <div class="logo text-center"><h1>Arena Sports</h1></div>
                         <p class="lead">Faça login na sua conta</p>
                     </div>
 
@@ -31,6 +31,7 @@
                         </div>
                         <button (click)="submit()" [disabled]="!form.valid"
                             class="btn btn-primary btn-lg btn-block">LOGIN</button>
+                        <a [routerLink]="['/account/signup']" class="btn btn-default btn-lg btn-block">REGISTRE-SE</a>
                         <div class="bottom">
                             <span class="helper-text"><i class="fa fa-lock"></i> <a [routerLink]>
                                     Esqueceu a
@@ -42,8 +43,8 @@
             <div class="right">
                 <div class="overlay"></div>
                 <div class="content text">
-                    <h1 class="heading">Ambiente Rensoftware</h1>
-                    <p>Ambiente de gestão interna Rensoftware</p>
+                    <h1 class="heading">Arena Sports</h1>
+                    <p>Ambiente de gestão de eventos de corrida e ciclismo</p>
                 </div>
             </div>
             <div class="clearfix"></div>

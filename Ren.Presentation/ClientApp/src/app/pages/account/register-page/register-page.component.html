@@ -1,9 +1,6 @@
 <div class="vertical-align-wrap">
     <div class="vertical-align-middle">
         <div class="auth-box lockscreen clearfix">
-            <div class="col-md-3">
-                <a [routerLink]="['/account/login']" class="btn btn-primary btn-block"><i class="fa fa-sign-in"></i> LOGIN</a>
-            </div>
             <div class="content">
                 <h1 class="sr-only">ClassRoom Space</h1>
                 <div class="user text-center">
@@ -17,7 +14,7 @@
                         <input [ngClass]="{'uk-form-danger': form.controls.lastName.invalid && !form.controls.lastName.pristine}" type="text" class="form-control" fromControlName="lastName" placeholder="Sobrenome...">
                     </div>
                     <div class="form-group col-md-6">
-                        <input [ngClass]="{'uk-form-danger': form.controls.document.invalid && !form.controls.document.pristine}" mask="###.###.###-##" type="text" class="form-control" formControlName="document" placeholder="CPF...">
+                        <input [ngClass]="{'uk-form-danger': form.controls.document.invalid && !form.controls.document.pristine}" mask="000.000.000-00" type="text" class="form-control" formControlName="document" placeholder="CPF...">
                     </div>
                     <div class="form-group col-md-6">
                         <input [ngClass]="{'uk-form-danger': form.controls.email.invalid && !form.controls.email.pristine}" type="email" class="form-control" formControlName="email" placeholder="E-mail...">
@@ -26,7 +23,7 @@
                         <input [ngClass]="{'uk-form-danger': form.controls.password.invalid && !form.controls.password.pristine}" type="password" class="form-control" formControlName="password" placeholder="Senha...">
                     </div>
                     <div class="form-group col-md-6">
-                        <input mask="(##) # ####-####" type="text" class="form-control" formControlName="phone" placeholder="Telefone...">
+                        <input mask="(00) 0 0000-0000" type="text" class="form-control" formControlName="phone" placeholder="Telefone...">
                     </div>
                     <div class="form-group col-md-12">
                         <input (change)="onImageSelected($event)" type="file" formControlName="image" class="form-control">

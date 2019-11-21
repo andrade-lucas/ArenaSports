@@ -211,11 +211,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\dev\\EstagioRen\\Ren.Shared\\Ren.Shared.csproj",
+      "projectUniqueName": "c:\\dev\\ArenaSports\\Ren.Shared\\Ren.Shared.csproj",
       "projectName": "Ren.Shared",
-      "projectPath": "c:\\dev\\EstagioRen\\Ren.Shared\\Ren.Shared.csproj",
+      "projectPath": "c:\\dev\\ArenaSports\\Ren.Shared\\Ren.Shared.csproj",
       "packagesPath": "C:\\Users\\LUCAS\\.nuget\\packages\\",
-      "outputPath": "c:\\dev\\EstagioRen\\Ren.Shared\\obj\\",
+      "outputPath": "c:\\dev\\ArenaSports\\Ren.Shared\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\",

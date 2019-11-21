@@ -3,8 +3,8 @@
         <div class="container-fluid">
             <div class="row">
                 <div class="col-md-6 text-left">
-                    <h3>Ambiente Rensoftware</h3>
-                    <p><small><a [routerLink]="['/']">Início</a> > Projetos > Editar</small></p>
+                    <h3>Arena sports</h3>
+                    <p><small><a [routerLink]="['/']">Início</a> > Eventos > Editar</small></p>
                 </div>
                 <div class="col-md-6 text-right">
                     <a [routerLink]="['/projects']" class="btn btn-primary btn-new"><i class="fa fa-chevron-left"></i>
@@ -14,7 +14,7 @@
             </div>
             <div class="panel panel-headline">
                 <div class="panel-heading">
-                    <h3>Editar Projeto</h3>
+                    <h3>Editar Evento</h3>
                 </div>
                 <div class="panel-body">
                     <app-loading *ngIf="busy"></app-loading>
@@ -54,7 +54,7 @@
 
                             <div class="form-group text-right col-md-12">
                                 <button [disabled]="form.invalid" (click)="submit()"
-                                    class="btn btn-success">Cadastrar</button>
+                                    class="btn btn-success">Confirmar</button>
                             </div>
                         </div>
                     </form>

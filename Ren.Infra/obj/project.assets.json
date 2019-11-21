@@ -1732,11 +1732,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\dev\\EstagioRen\\Ren.Infra\\Ren.Infra.csproj",
+      "projectUniqueName": "c:\\dev\\ArenaSports\\Ren.Infra\\Ren.Infra.csproj",
       "projectName": "Ren.Infra",
-      "projectPath": "c:\\dev\\EstagioRen\\Ren.Infra\\Ren.Infra.csproj",
+      "projectPath": "c:\\dev\\ArenaSports\\Ren.Infra\\Ren.Infra.csproj",
       "packagesPath": "C:\\Users\\LUCAS\\.nuget\\packages\\",
-      "outputPath": "c:\\dev\\EstagioRen\\Ren.Infra\\obj\\",
+      "outputPath": "c:\\dev\\ArenaSports\\Ren.Infra\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -1757,8 +1757,8 @@
       "frameworks": {
         "netstandard2.0": {
           "projectReferences": {
-            "c:\\dev\\EstagioRen\\Ren.Domain\\Ren.Domain.csproj": {
-              "projectPath": "c:\\dev\\EstagioRen\\Ren.Domain\\Ren.Domain.csproj"
+            "c:\\dev\\ArenaSports\\Ren.Domain\\Ren.Domain.csproj": {
+              "projectPath": "c:\\dev\\ArenaSports\\Ren.Domain\\Ren.Domain.csproj"
             }
           }
         }

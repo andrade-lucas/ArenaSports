@@ -4,6 +4,7 @@ using Ren.Domain.Commands.Inputs.Users;
 using Ren.Domain.Enums;
 using Ren.Domain.Handlers;
 using Ren.Domain.Repositories;
+using Ren.Tests.Mocks.Repositories;
 
 namespace Ren.Tests.Handlers
 {
@@ -11,6 +12,11 @@ namespace Ren.Tests.Handlers
     public class UserHandlerTests
     {
         private readonly IUserRepository _userRepository;
+
+        public UserHandlerTests()
+        {
+            _userRepository = new UserRepository();
+        }
 
         [TestMethod]
         [TestCategory("Handlers")]
@@ -67,7 +73,34 @@ namespace Ren.Tests.Handlers
         [TestCategory("Handlers")]
         public void ShouldReturnInvalidWhenDocumentIsInvalid()
         {
-            Assert.Fail();
+            var command = new CreateUserCommand();
+            command.FirstName = "FirstName";
+            command.LastName = "LastName";
+            command.Document = "1234";
+            command.Email = "valid.email@example.com";
+            command.Password = "password";
+            command.Phone = "99999999999";
+            command.Image = "";
+            var handler = new UserHandler(_userRepository);
+            handler.Handle(command);
+            Assert.AreNotEqual(true, handler.Valid);
+        }
+
+        [TestMethod]
+        [TestCategory("Handlers")]
+        public void ShouldReturnValidWhenCreateCommandIsValid()
+        {
+            var command = new CreateUserCommand();
+            command.FirstName = "FirstName";
+            command.LastName = "LastName";
+            command.Document = "87384428092";
+            command.Email = "valid.email@example.com";
+            command.Password = "password";
+            command.Phone = "99999999999";
+            command.Image = "";
+            var handler = new UserHandler(_userRepository);
+            handler.Handle(command);
+            Assert.AreEqual(true, handler.Valid);
         }
     }
 }

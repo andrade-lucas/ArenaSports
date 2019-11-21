@@ -12360,11 +12360,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\dev\\EstagioRen\\Ren.Presentation\\Ren.Presentation.csproj",
+      "projectUniqueName": "c:\\dev\\ArenaSports\\Ren.Presentation\\Ren.Presentation.csproj",
       "projectName": "Ren.Presentation",
-      "projectPath": "c:\\dev\\EstagioRen\\Ren.Presentation\\Ren.Presentation.csproj",
+      "projectPath": "c:\\dev\\ArenaSports\\Ren.Presentation\\Ren.Presentation.csproj",
       "packagesPath": "C:\\Users\\LUCAS\\.nuget\\packages\\",
-      "outputPath": "c:\\dev\\EstagioRen\\Ren.Presentation\\obj\\",
+      "outputPath": "c:\\dev\\ArenaSports\\Ren.Presentation\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -12385,14 +12385,14 @@
       "frameworks": {
         "netcoreapp2.2": {
           "projectReferences": {
-            "c:\\dev\\EstagioRen\\Ren.Domain\\Ren.Domain.csproj": {
-              "projectPath": "c:\\dev\\EstagioRen\\Ren.Domain\\Ren.Domain.csproj"
+            "c:\\dev\\ArenaSports\\Ren.Domain\\Ren.Domain.csproj": {
+              "projectPath": "c:\\dev\\ArenaSports\\Ren.Domain\\Ren.Domain.csproj"
             },
-            "c:\\dev\\EstagioRen\\Ren.Infra\\Ren.Infra.csproj": {
-              "projectPath": "c:\\dev\\EstagioRen\\Ren.Infra\\Ren.Infra.csproj"
+            "c:\\dev\\ArenaSports\\Ren.Infra\\Ren.Infra.csproj": {
+              "projectPath": "c:\\dev\\ArenaSports\\Ren.Infra\\Ren.Infra.csproj"
             },
-            "c:\\dev\\EstagioRen\\Ren.Shared\\Ren.Shared.csproj": {
-              "projectPath": "c:\\dev\\EstagioRen\\Ren.Shared\\Ren.Shared.csproj"
+            "c:\\dev\\ArenaSports\\Ren.Shared\\Ren.Shared.csproj": {
+              "projectPath": "c:\\dev\\ArenaSports\\Ren.Shared\\Ren.Shared.csproj"
             }
           }
         }
