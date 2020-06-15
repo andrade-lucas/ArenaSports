@@ -21,14 +21,15 @@ C:\dev\EstagioRen\Ren.Domain\bin\Debug\netstandard2.0\Ren.Domain.pdb
 C:\dev\EstagioRen\Ren.Domain\bin\Debug\netstandard2.0\Ren.Shared.dll
 C:\dev\EstagioRen\Ren.Domain\bin\Debug\netstandard2.0\Ren.Shared.pdb
 C:\dev\EstagioRen\Ren.Domain\obj\Debug\netstandard2.0\Ren.Domain.csproj.CopyComplete
-c:\dev\ArenaSports\Ren.Domain\bin\Debug\netstandard2.0\Ren.Domain.deps.json
-c:\dev\ArenaSports\Ren.Domain\bin\Debug\netstandard2.0\Ren.Domain.dll
-c:\dev\ArenaSports\Ren.Domain\bin\Debug\netstandard2.0\Ren.Domain.pdb
-c:\dev\ArenaSports\Ren.Domain\bin\Debug\netstandard2.0\Ren.Shared.dll
-c:\dev\ArenaSports\Ren.Domain\bin\Debug\netstandard2.0\Ren.Shared.pdb
-c:\dev\ArenaSports\Ren.Domain\obj\Debug\netstandard2.0\Ren.Domain.csprojAssemblyReference.cache
-c:\dev\ArenaSports\Ren.Domain\obj\Debug\netstandard2.0\Ren.Domain.AssemblyInfoInputs.cache
-c:\dev\ArenaSports\Ren.Domain\obj\Debug\netstandard2.0\Ren.Domain.AssemblyInfo.cs
-c:\dev\ArenaSports\Ren.Domain\obj\Debug\netstandard2.0\Ren.Domain.csproj.CopyComplete
-c:\dev\ArenaSports\Ren.Domain\obj\Debug\netstandard2.0\Ren.Domain.dll
-c:\dev\ArenaSports\Ren.Domain\obj\Debug\netstandard2.0\Ren.Domain.pdb
+C:\Users\lucas\OneDrive\Área de Trabalho\ArenaSports\Ren.Domain\bin\Debug\netstandard2.0\Ren.Domain.deps.json
+C:\Users\lucas\OneDrive\Área de Trabalho\ArenaSports\Ren.Domain\bin\Debug\netstandard2.0\Ren.Domain.dll
+C:\Users\lucas\OneDrive\Área de Trabalho\ArenaSports\Ren.Domain\bin\Debug\netstandard2.0\Ren.Domain.pdb
+C:\Users\lucas\OneDrive\Área de Trabalho\ArenaSports\Ren.Domain\bin\Debug\netstandard2.0\Ren.Shared.dll
+C:\Users\lucas\OneDrive\Área de Trabalho\ArenaSports\Ren.Domain\bin\Debug\netstandard2.0\Ren.Shared.pdb
+C:\Users\lucas\OneDrive\Área de Trabalho\ArenaSports\Ren.Domain\obj\Debug\netstandard2.0\Ren.Domain.csprojAssemblyReference.cache
+C:\Users\lucas\OneDrive\Área de Trabalho\ArenaSports\Ren.Domain\obj\Debug\netstandard2.0\Ren.Domain.csproj.CoreCompileInputs.cache
+C:\Users\lucas\OneDrive\Área de Trabalho\ArenaSports\Ren.Domain\obj\Debug\netstandard2.0\Ren.Domain.AssemblyInfoInputs.cache
+C:\Users\lucas\OneDrive\Área de Trabalho\ArenaSports\Ren.Domain\obj\Debug\netstandard2.0\Ren.Domain.AssemblyInfo.cs
+C:\Users\lucas\OneDrive\Área de Trabalho\ArenaSports\Ren.Domain\obj\Debug\netstandard2.0\Ren.Domain.csproj.CopyComplete
+C:\Users\lucas\OneDrive\Área de Trabalho\ArenaSports\Ren.Domain\obj\Debug\netstandard2.0\Ren.Domain.dll
+C:\Users\lucas\OneDrive\Área de Trabalho\ArenaSports\Ren.Domain\obj\Debug\netstandard2.0\Ren.Domain.pdb

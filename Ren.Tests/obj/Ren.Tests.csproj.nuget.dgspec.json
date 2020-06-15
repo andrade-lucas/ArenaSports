@@ -1,26 +1,21 @@
 {
   "format": 1,
   "restore": {
-    "c:\\dev\\ArenaSports\\Ren.Tests\\Ren.Tests.csproj": {}
+    "C:\\Users\\lucas\\OneDrive\\Área de Trabalho\\ArenaSports\\Ren.Tests\\Ren.Tests.csproj": {}
   },
   "projects": {
-    "c:\\dev\\ArenaSports\\Ren.Domain\\Ren.Domain.csproj": {
+    "C:\\Users\\lucas\\OneDrive\\Área de Trabalho\\ArenaSports\\Ren.Domain\\Ren.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\dev\\ArenaSports\\Ren.Domain\\Ren.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\lucas\\OneDrive\\Área de Trabalho\\ArenaSports\\Ren.Domain\\Ren.Domain.csproj",
         "projectName": "Ren.Domain",
-        "projectPath": "c:\\dev\\ArenaSports\\Ren.Domain\\Ren.Domain.csproj",
-        "packagesPath": "C:\\Users\\LUCAS\\.nuget\\packages\\",
-        "outputPath": "c:\\dev\\ArenaSports\\Ren.Domain\\obj\\",
+        "projectPath": "C:\\Users\\lucas\\OneDrive\\Área de Trabalho\\ArenaSports\\Ren.Domain\\Ren.Domain.csproj",
+        "packagesPath": "C:\\Users\\lucas\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\lucas\\OneDrive\\Área de Trabalho\\ArenaSports\\Ren.Domain\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\LUCAS\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\lucas\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.0"
@@ -32,8 +27,8 @@
         "frameworks": {
           "netstandard2.0": {
             "projectReferences": {
-              "c:\\dev\\ArenaSports\\Ren.Shared\\Ren.Shared.csproj": {
-                "projectPath": "c:\\dev\\ArenaSports\\Ren.Shared\\Ren.Shared.csproj"
+              "C:\\Users\\lucas\\OneDrive\\Área de Trabalho\\ArenaSports\\Ren.Shared\\Ren.Shared.csproj": {
+                "projectPath": "C:\\Users\\lucas\\OneDrive\\Área de Trabalho\\ArenaSports\\Ren.Shared\\Ren.Shared.csproj"
               }
             }
           }
@@ -68,27 +63,22 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "c:\\dev\\ArenaSports\\Ren.Infra\\Ren.Infra.csproj": {
+    "C:\\Users\\lucas\\OneDrive\\Área de Trabalho\\ArenaSports\\Ren.Infra\\Ren.Infra.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\dev\\ArenaSports\\Ren.Infra\\Ren.Infra.csproj",
+        "projectUniqueName": "C:\\Users\\lucas\\OneDrive\\Área de Trabalho\\ArenaSports\\Ren.Infra\\Ren.Infra.csproj",
         "projectName": "Ren.Infra",
-        "projectPath": "c:\\dev\\ArenaSports\\Ren.Infra\\Ren.Infra.csproj",
-        "packagesPath": "C:\\Users\\LUCAS\\.nuget\\packages\\",
-        "outputPath": "c:\\dev\\ArenaSports\\Ren.Infra\\obj\\",
+        "projectPath": "C:\\Users\\lucas\\OneDrive\\Área de Trabalho\\ArenaSports\\Ren.Infra\\Ren.Infra.csproj",
+        "packagesPath": "C:\\Users\\lucas\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\lucas\\OneDrive\\Área de Trabalho\\ArenaSports\\Ren.Infra\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\LUCAS\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\lucas\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.0"
@@ -100,8 +90,8 @@
         "frameworks": {
           "netstandard2.0": {
             "projectReferences": {
-              "c:\\dev\\ArenaSports\\Ren.Domain\\Ren.Domain.csproj": {
-                "projectPath": "c:\\dev\\ArenaSports\\Ren.Domain\\Ren.Domain.csproj"
+              "C:\\Users\\lucas\\OneDrive\\Área de Trabalho\\ArenaSports\\Ren.Domain\\Ren.Domain.csproj": {
+                "projectPath": "C:\\Users\\lucas\\OneDrive\\Área de Trabalho\\ArenaSports\\Ren.Domain\\Ren.Domain.csproj"
               }
             }
           }
@@ -140,27 +130,22 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "c:\\dev\\ArenaSports\\Ren.Shared\\Ren.Shared.csproj": {
+    "C:\\Users\\lucas\\OneDrive\\Área de Trabalho\\ArenaSports\\Ren.Shared\\Ren.Shared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\dev\\ArenaSports\\Ren.Shared\\Ren.Shared.csproj",
+        "projectUniqueName": "C:\\Users\\lucas\\OneDrive\\Área de Trabalho\\ArenaSports\\Ren.Shared\\Ren.Shared.csproj",
         "projectName": "Ren.Shared",
-        "projectPath": "c:\\dev\\ArenaSports\\Ren.Shared\\Ren.Shared.csproj",
-        "packagesPath": "C:\\Users\\LUCAS\\.nuget\\packages\\",
-        "outputPath": "c:\\dev\\ArenaSports\\Ren.Shared\\obj\\",
+        "projectPath": "C:\\Users\\lucas\\OneDrive\\Área de Trabalho\\ArenaSports\\Ren.Shared\\Ren.Shared.csproj",
+        "packagesPath": "C:\\Users\\lucas\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\lucas\\OneDrive\\Área de Trabalho\\ArenaSports\\Ren.Shared\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\LUCAS\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\lucas\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.0"
@@ -204,27 +189,22 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "c:\\dev\\ArenaSports\\Ren.Tests\\Ren.Tests.csproj": {
+    "C:\\Users\\lucas\\OneDrive\\Área de Trabalho\\ArenaSports\\Ren.Tests\\Ren.Tests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\dev\\ArenaSports\\Ren.Tests\\Ren.Tests.csproj",
+        "projectUniqueName": "C:\\Users\\lucas\\OneDrive\\Área de Trabalho\\ArenaSports\\Ren.Tests\\Ren.Tests.csproj",
         "projectName": "Ren.Tests",
-        "projectPath": "c:\\dev\\ArenaSports\\Ren.Tests\\Ren.Tests.csproj",
-        "packagesPath": "C:\\Users\\LUCAS\\.nuget\\packages\\",
-        "outputPath": "c:\\dev\\ArenaSports\\Ren.Tests\\obj\\",
+        "projectPath": "C:\\Users\\lucas\\OneDrive\\Área de Trabalho\\ArenaSports\\Ren.Tests\\Ren.Tests.csproj",
+        "packagesPath": "C:\\Users\\lucas\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\lucas\\OneDrive\\Área de Trabalho\\ArenaSports\\Ren.Tests\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\LUCAS\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\lucas\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp2.2"
@@ -236,14 +216,14 @@
         "frameworks": {
           "netcoreapp2.2": {
             "projectReferences": {
-              "c:\\dev\\ArenaSports\\Ren.Domain\\Ren.Domain.csproj": {
-                "projectPath": "c:\\dev\\ArenaSports\\Ren.Domain\\Ren.Domain.csproj"
+              "C:\\Users\\lucas\\OneDrive\\Área de Trabalho\\ArenaSports\\Ren.Domain\\Ren.Domain.csproj": {
+                "projectPath": "C:\\Users\\lucas\\OneDrive\\Área de Trabalho\\ArenaSports\\Ren.Domain\\Ren.Domain.csproj"
               },
-              "c:\\dev\\ArenaSports\\Ren.Infra\\Ren.Infra.csproj": {
-                "projectPath": "c:\\dev\\ArenaSports\\Ren.Infra\\Ren.Infra.csproj"
+              "C:\\Users\\lucas\\OneDrive\\Área de Trabalho\\ArenaSports\\Ren.Infra\\Ren.Infra.csproj": {
+                "projectPath": "C:\\Users\\lucas\\OneDrive\\Área de Trabalho\\ArenaSports\\Ren.Infra\\Ren.Infra.csproj"
               },
-              "c:\\dev\\ArenaSports\\Ren.Shared\\Ren.Shared.csproj": {
-                "projectPath": "c:\\dev\\ArenaSports\\Ren.Shared\\Ren.Shared.csproj"
+              "C:\\Users\\lucas\\OneDrive\\Área de Trabalho\\ArenaSports\\Ren.Shared\\Ren.Shared.csproj": {
+                "projectPath": "C:\\Users\\lucas\\OneDrive\\Área de Trabalho\\ArenaSports\\Ren.Shared\\Ren.Shared.csproj"
               }
             }
           }
@@ -286,7 +266,7 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -34,8 +34,24 @@ namespace Ren.Tests.ValueObjects
         [TestCategory("ValueObjects")]
         public void ShouldReturnValidWhenDocumentIsValid()
         {
-            Document document = new Document("30393227022"); // Document gerenated by https://www.4devs.com.br/gerador_de_cpf
+            Document document = new Document("30393227022");
             Assert.AreEqual(true, document.Valid);
+        }
+
+        [TestMethod]
+        [TestCategory("ValueObjects")]
+        public void ShouldReturnInvalidWhenDocumentNumberIs()
+        {
+            Document document = new Document("00000000000");
+            Assert.AreNotEqual(true, document.Valid);
+        }
+
+        [TestMethod]
+        [TestCategory("ValueObjects")]
+        public void ShouldReturnInvalidWhenDocumentNumberIsZero()
+        {
+            Document document = new Document("00000000000");
+            Assert.AreNotEqual(true, document.Valid);
         }
     }
 }

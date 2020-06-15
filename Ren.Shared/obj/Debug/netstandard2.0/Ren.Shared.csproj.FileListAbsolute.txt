@@ -15,11 +15,20 @@ C:\dev\EstagioRen\Ren.Shared\bin\Debug\netstandard2.0\Ren.Shared.deps.json
 C:\dev\EstagioRen\Ren.Shared\bin\Debug\netstandard2.0\Ren.Shared.dll
 C:\dev\EstagioRen\Ren.Shared\bin\Debug\netstandard2.0\Ren.Shared.pdb
 C:\dev\EstagioRen\Ren.Shared\obj\Debug\netstandard2.0\Ren.Shared.csprojAssemblyReference.cache
-c:\dev\ArenaSports\Ren.Shared\bin\Debug\netstandard2.0\Ren.Shared.deps.json
-c:\dev\ArenaSports\Ren.Shared\bin\Debug\netstandard2.0\Ren.Shared.dll
-c:\dev\ArenaSports\Ren.Shared\bin\Debug\netstandard2.0\Ren.Shared.pdb
-c:\dev\ArenaSports\Ren.Shared\obj\Debug\netstandard2.0\Ren.Shared.csprojAssemblyReference.cache
-c:\dev\ArenaSports\Ren.Shared\obj\Debug\netstandard2.0\Ren.Shared.AssemblyInfoInputs.cache
-c:\dev\ArenaSports\Ren.Shared\obj\Debug\netstandard2.0\Ren.Shared.AssemblyInfo.cs
-c:\dev\ArenaSports\Ren.Shared\obj\Debug\netstandard2.0\Ren.Shared.dll
-c:\dev\ArenaSports\Ren.Shared\obj\Debug\netstandard2.0\Ren.Shared.pdb
+C:\dev\ArenaSports\Ren.Shared\bin\Debug\netstandard2.0\Ren.Shared.deps.json
+C:\dev\ArenaSports\Ren.Shared\bin\Debug\netstandard2.0\Ren.Shared.dll
+C:\dev\ArenaSports\Ren.Shared\bin\Debug\netstandard2.0\Ren.Shared.pdb
+C:\dev\ArenaSports\Ren.Shared\obj\Debug\netstandard2.0\Ren.Shared.csproj.CoreCompileInputs.cache
+C:\dev\ArenaSports\Ren.Shared\obj\Debug\netstandard2.0\Ren.Shared.AssemblyInfoInputs.cache
+C:\dev\ArenaSports\Ren.Shared\obj\Debug\netstandard2.0\Ren.Shared.AssemblyInfo.cs
+C:\dev\ArenaSports\Ren.Shared\obj\Debug\netstandard2.0\Ren.Shared.dll
+C:\dev\ArenaSports\Ren.Shared\obj\Debug\netstandard2.0\Ren.Shared.pdb
+C:\Users\lucas\OneDrive\Área de Trabalho\ArenaSports\Ren.Shared\bin\Debug\netstandard2.0\Ren.Shared.deps.json
+C:\Users\lucas\OneDrive\Área de Trabalho\ArenaSports\Ren.Shared\bin\Debug\netstandard2.0\Ren.Shared.dll
+C:\Users\lucas\OneDrive\Área de Trabalho\ArenaSports\Ren.Shared\bin\Debug\netstandard2.0\Ren.Shared.pdb
+C:\Users\lucas\OneDrive\Área de Trabalho\ArenaSports\Ren.Shared\obj\Debug\netstandard2.0\Ren.Shared.csprojAssemblyReference.cache
+C:\Users\lucas\OneDrive\Área de Trabalho\ArenaSports\Ren.Shared\obj\Debug\netstandard2.0\Ren.Shared.csproj.CoreCompileInputs.cache
+C:\Users\lucas\OneDrive\Área de Trabalho\ArenaSports\Ren.Shared\obj\Debug\netstandard2.0\Ren.Shared.AssemblyInfoInputs.cache
+C:\Users\lucas\OneDrive\Área de Trabalho\ArenaSports\Ren.Shared\obj\Debug\netstandard2.0\Ren.Shared.AssemblyInfo.cs
+C:\Users\lucas\OneDrive\Área de Trabalho\ArenaSports\Ren.Shared\obj\Debug\netstandard2.0\Ren.Shared.dll
+C:\Users\lucas\OneDrive\Área de Trabalho\ArenaSports\Ren.Shared\obj\Debug\netstandard2.0\Ren.Shared.pdb

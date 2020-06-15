@@ -25,16 +25,17 @@ C:\dev\EstagioRen\Ren.Infra\bin\Debug\netstandard2.0\Ren.Shared.dll
 C:\dev\EstagioRen\Ren.Infra\bin\Debug\netstandard2.0\Ren.Domain.pdb
 C:\dev\EstagioRen\Ren.Infra\bin\Debug\netstandard2.0\Ren.Shared.pdb
 C:\dev\EstagioRen\Ren.Infra\obj\Debug\netstandard2.0\Ren.Infra.csproj.CopyComplete
-c:\dev\ArenaSports\Ren.Infra\bin\Debug\netstandard2.0\Ren.Infra.deps.json
-c:\dev\ArenaSports\Ren.Infra\bin\Debug\netstandard2.0\Ren.Infra.dll
-c:\dev\ArenaSports\Ren.Infra\bin\Debug\netstandard2.0\Ren.Infra.pdb
-c:\dev\ArenaSports\Ren.Infra\bin\Debug\netstandard2.0\Ren.Domain.dll
-c:\dev\ArenaSports\Ren.Infra\bin\Debug\netstandard2.0\Ren.Shared.dll
-c:\dev\ArenaSports\Ren.Infra\bin\Debug\netstandard2.0\Ren.Domain.pdb
-c:\dev\ArenaSports\Ren.Infra\bin\Debug\netstandard2.0\Ren.Shared.pdb
-c:\dev\ArenaSports\Ren.Infra\obj\Debug\netstandard2.0\Ren.Infra.csprojAssemblyReference.cache
-c:\dev\ArenaSports\Ren.Infra\obj\Debug\netstandard2.0\Ren.Infra.AssemblyInfoInputs.cache
-c:\dev\ArenaSports\Ren.Infra\obj\Debug\netstandard2.0\Ren.Infra.AssemblyInfo.cs
-c:\dev\ArenaSports\Ren.Infra\obj\Debug\netstandard2.0\Ren.Infra.csproj.CopyComplete
-c:\dev\ArenaSports\Ren.Infra\obj\Debug\netstandard2.0\Ren.Infra.dll
-c:\dev\ArenaSports\Ren.Infra\obj\Debug\netstandard2.0\Ren.Infra.pdb
+C:\Users\lucas\OneDrive\Área de Trabalho\ArenaSports\Ren.Infra\bin\Debug\netstandard2.0\Ren.Infra.deps.json
+C:\Users\lucas\OneDrive\Área de Trabalho\ArenaSports\Ren.Infra\bin\Debug\netstandard2.0\Ren.Infra.dll
+C:\Users\lucas\OneDrive\Área de Trabalho\ArenaSports\Ren.Infra\bin\Debug\netstandard2.0\Ren.Infra.pdb
+C:\Users\lucas\OneDrive\Área de Trabalho\ArenaSports\Ren.Infra\bin\Debug\netstandard2.0\Ren.Domain.dll
+C:\Users\lucas\OneDrive\Área de Trabalho\ArenaSports\Ren.Infra\bin\Debug\netstandard2.0\Ren.Shared.dll
+C:\Users\lucas\OneDrive\Área de Trabalho\ArenaSports\Ren.Infra\bin\Debug\netstandard2.0\Ren.Domain.pdb
+C:\Users\lucas\OneDrive\Área de Trabalho\ArenaSports\Ren.Infra\bin\Debug\netstandard2.0\Ren.Shared.pdb
+C:\Users\lucas\OneDrive\Área de Trabalho\ArenaSports\Ren.Infra\obj\Debug\netstandard2.0\Ren.Infra.csprojAssemblyReference.cache
+C:\Users\lucas\OneDrive\Área de Trabalho\ArenaSports\Ren.Infra\obj\Debug\netstandard2.0\Ren.Infra.csproj.CoreCompileInputs.cache
+C:\Users\lucas\OneDrive\Área de Trabalho\ArenaSports\Ren.Infra\obj\Debug\netstandard2.0\Ren.Infra.AssemblyInfoInputs.cache
+C:\Users\lucas\OneDrive\Área de Trabalho\ArenaSports\Ren.Infra\obj\Debug\netstandard2.0\Ren.Infra.AssemblyInfo.cs
+C:\Users\lucas\OneDrive\Área de Trabalho\ArenaSports\Ren.Infra\obj\Debug\netstandard2.0\Ren.Infra.csproj.CopyComplete
+C:\Users\lucas\OneDrive\Área de Trabalho\ArenaSports\Ren.Infra\obj\Debug\netstandard2.0\Ren.Infra.dll
+C:\Users\lucas\OneDrive\Área de Trabalho\ArenaSports\Ren.Infra\obj\Debug\netstandard2.0\Ren.Infra.pdb

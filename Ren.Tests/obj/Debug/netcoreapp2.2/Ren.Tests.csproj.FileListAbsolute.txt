@@ -62,3 +62,27 @@ c:\dev\ArenaSports\Ren.Tests\obj\Debug\netcoreapp2.2\Ren.Tests.AssemblyInfo.cs
 c:\dev\ArenaSports\Ren.Tests\obj\Debug\netcoreapp2.2\Ren.Tests.csproj.CopyComplete
 c:\dev\ArenaSports\Ren.Tests\obj\Debug\netcoreapp2.2\Ren.Tests.dll
 c:\dev\ArenaSports\Ren.Tests\obj\Debug\netcoreapp2.2\Ren.Tests.pdb
+C:\dev\ArenaSports\Ren.Tests\obj\Debug\netcoreapp2.2\Ren.Tests.csproj.CoreCompileInputs.cache
+C:\dev\ArenaSports\Ren.Tests\obj\Debug\netcoreapp2.2\Ren.Tests.genruntimeconfig.cache
+C:\Users\lucas\OneDrive\Área de Trabalho\ArenaSports\Ren.Tests\bin\Debug\netcoreapp2.2\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\lucas\OneDrive\Área de Trabalho\ArenaSports\Ren.Tests\bin\Debug\netcoreapp2.2\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\lucas\OneDrive\Área de Trabalho\ArenaSports\Ren.Tests\bin\Debug\netcoreapp2.2\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\lucas\OneDrive\Área de Trabalho\ArenaSports\Ren.Tests\bin\Debug\netcoreapp2.2\Ren.Tests.deps.json
+C:\Users\lucas\OneDrive\Área de Trabalho\ArenaSports\Ren.Tests\bin\Debug\netcoreapp2.2\Ren.Tests.runtimeconfig.json
+C:\Users\lucas\OneDrive\Área de Trabalho\ArenaSports\Ren.Tests\bin\Debug\netcoreapp2.2\Ren.Tests.runtimeconfig.dev.json
+C:\Users\lucas\OneDrive\Área de Trabalho\ArenaSports\Ren.Tests\bin\Debug\netcoreapp2.2\Ren.Tests.dll
+C:\Users\lucas\OneDrive\Área de Trabalho\ArenaSports\Ren.Tests\bin\Debug\netcoreapp2.2\Ren.Tests.pdb
+C:\Users\lucas\OneDrive\Área de Trabalho\ArenaSports\Ren.Tests\bin\Debug\netcoreapp2.2\Ren.Domain.dll
+C:\Users\lucas\OneDrive\Área de Trabalho\ArenaSports\Ren.Tests\bin\Debug\netcoreapp2.2\Ren.Infra.dll
+C:\Users\lucas\OneDrive\Área de Trabalho\ArenaSports\Ren.Tests\bin\Debug\netcoreapp2.2\Ren.Shared.dll
+C:\Users\lucas\OneDrive\Área de Trabalho\ArenaSports\Ren.Tests\bin\Debug\netcoreapp2.2\Ren.Domain.pdb
+C:\Users\lucas\OneDrive\Área de Trabalho\ArenaSports\Ren.Tests\bin\Debug\netcoreapp2.2\Ren.Shared.pdb
+C:\Users\lucas\OneDrive\Área de Trabalho\ArenaSports\Ren.Tests\bin\Debug\netcoreapp2.2\Ren.Infra.pdb
+C:\Users\lucas\OneDrive\Área de Trabalho\ArenaSports\Ren.Tests\obj\Debug\netcoreapp2.2\Ren.Tests.csprojAssemblyReference.cache
+C:\Users\lucas\OneDrive\Área de Trabalho\ArenaSports\Ren.Tests\obj\Debug\netcoreapp2.2\Ren.Tests.csproj.CoreCompileInputs.cache
+C:\Users\lucas\OneDrive\Área de Trabalho\ArenaSports\Ren.Tests\obj\Debug\netcoreapp2.2\Ren.Tests.AssemblyInfoInputs.cache
+C:\Users\lucas\OneDrive\Área de Trabalho\ArenaSports\Ren.Tests\obj\Debug\netcoreapp2.2\Ren.Tests.AssemblyInfo.cs
+C:\Users\lucas\OneDrive\Área de Trabalho\ArenaSports\Ren.Tests\obj\Debug\netcoreapp2.2\Ren.Tests.csproj.CopyComplete
+C:\Users\lucas\OneDrive\Área de Trabalho\ArenaSports\Ren.Tests\obj\Debug\netcoreapp2.2\Ren.Tests.dll
+C:\Users\lucas\OneDrive\Área de Trabalho\ArenaSports\Ren.Tests\obj\Debug\netcoreapp2.2\Ren.Tests.pdb
+C:\Users\lucas\OneDrive\Área de Trabalho\ArenaSports\Ren.Tests\obj\Debug\netcoreapp2.2\Ren.Tests.genruntimeconfig.cache
