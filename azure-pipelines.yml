@@ -38,11 +38,11 @@ steps:
 
 # ...
 # do this after your tests have run
-- script: dotnet test .\Ren.Tests --logger trx --collect "Code coverage"
-- task: PublishTestResults@2
-  inputs:
-    testRunner: VSTest
-    testResultsFiles: '**/*.trx'
+# - script: dotnet test .\Ren.Tests --logger trx --collect "Code coverage"
+# - task: PublishTestResults@2
+#   inputs:
+#     testRunner: VSTest
+#     testResultsFiles: '**/*.trx'
 
 # - task: VSTest@2
 #   inputs:
